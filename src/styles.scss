@@ -1,1 +1,46 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Italiana&family=Nunito:wght@200;300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap');
+@import "primeicons/primeicons.css";
+@import "@coreui/coreui/scss/coreui";
+
+
+* {
+  box-sizing: border-box;
+  font-family: 'Croissant One', cursive;
+  font-family: 'Italiana', sans-serif;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Nunito', sans-serif;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+p{
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+::-webkit-scrollbar-track
+{
+	background-color: transparent;
+}
+
+::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: rgba(128, 128, 128, 0.589);
+}
+
