@@ -12,28 +12,28 @@ export class CarouselComponent {
 
   ngOnInit(): void {
     this.slides[0] = {
-      src: '../../../assets/carousel/banner (1).jpg'
+      src: '../../../assets/carousel/banner-1 (1).jpg'
     };
     this.slides[1] = {
-      src: '../../../assets/carousel/banner (2).jpg'
+      src: '../../../assets/carousel/banner-1 (2).jpg'
     };
     this.slides[2] = {
-      src: '../../../assets/carousel/banner (3).jpg'
+      src: '../../../assets/carousel/banner-1 (3).jpg'
     };
     this.slides[3] = {
-      src: '../../../assets/carousel/banner (4).jpg'
+      src: '../../../assets/carousel/banner-1 (4).jpg'
     };
     this.slides[4] = {
-      src: '../../../assets/carousel/banner (5).jpg'
+      src: '../../../assets/carousel/banner-1 (5).jpg'
     };
     this.slides[5] = {
-      src: '../../../assets/carousel/banner (6).jpg'
+      src: '../../../assets/carousel/banner-1 (6).jpg'
     };
     this.slides[6] = {
-      src: '../../../assets/carousel/banner (7).jpg'
+      src: '../../../assets/carousel/banner-1 (7).jpg'
     };
     this.slides[7] = {
-      src: '../../../assets/carousel/banner (8).jpg'
+      src: '../../../assets/carousel/banner-1 (8).jpg'
     };
   }
 }
