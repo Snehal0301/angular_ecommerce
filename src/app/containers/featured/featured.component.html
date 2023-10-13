@@ -2,19 +2,5 @@
   <p class="featured-para">Top Sale on this week</p>
   <p class="featured-title">Featured Products</p>
   <p class="featured-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui ea eveniet amet rerum fugiat nisi illo. Architecto, porro temporibus veritatis illo provident natus quis quibusdam, doloremque nihil laborum ipsum officiis.</p>
-  <div class="featured-products">
-    <div class="feature-product" *ngFor="let item of featured">
-      <div class="product-img-section">
-        <img [src]="item.src" alt="" class="feature-img">
-        <i class="pi pi-heart wishlist" (click)="handleClick()"></i>
-        <i class="pi pi-heart-fill wishlist" *ngIf="like" (click)="handleClick()"></i>
-        <i class="pi pi-shopping-cart cart" (click)="handleClick()"></i>
-        <i class="pi pi-cart-plus cart" *ngIf="like" (click)="handleClick()"></i>
-      </div>
-      <div class="product-section">
-        <p class="product-title">{{item.productName}}</p>
-        <p class="product-price">₹ {{item.productPrice}}</p>
-      </div>
-    </div>
-  </div>
+  <app-product-grid [data]="productList"></app-product-grid>
 </div>

@@ -6,9 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./featured.component.scss']
 })
 export class FeaturedComponent {
-  like:boolean = false;
 
-  featured:any=[
+  productList:any=[
     {
       src:'../../../assets/featured/mens-1.jpg',
       productName:"Product 1",
@@ -50,9 +49,5 @@ export class FeaturedComponent {
       productPrice:'799'
     },
   ]
-
-  handleClick = () => {
-    this.like = !this.like;
-  }
 
 }

@@ -14,11 +14,16 @@ import { AvatarModule } from 'primeng/avatar';
 import { DialogModule } from 'primeng/dialog';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { AutoCompleteModule } from 'primeng/autocomplete';
-import { CarouselComponent } from './containers/carousel/carousel.component';
+import { CarouselComponent } from './containers/hero/carousel.component';
 import { CarouselModule } from '@coreui/angular';
 import { CategoryComponent } from './containers/category/category.component';
 import { FeaturedComponent } from './containers/featured/featured.component';
 import { LatestComponent } from './containers/latest/latest.component';
+import { ProductGridComponent } from './components/product-grid/product-grid.component';
+import { TopbrandsComponent } from './containers/topbrands/topbrands.component';
+import { FooterComponent } from './containers/footer/footer.component';
+import { HomeComponent } from './pages/home/home.component';
+import { NotfoundComponent } from './pages/notfound/notfound.component';
 
 
 @NgModule({
@@ -28,7 +33,12 @@ import { LatestComponent } from './containers/latest/latest.component';
     CarouselComponent,
     CategoryComponent,
     FeaturedComponent,
-    LatestComponent
+    LatestComponent,
+    ProductGridComponent,
+    TopbrandsComponent,
+    FooterComponent,
+    HomeComponent,
+    NotfoundComponent
   ],
   imports: [
     BrowserModule,
@@ -42,7 +52,7 @@ import { LatestComponent } from './containers/latest/latest.component';
     ReactiveFormsModule,
     AutoCompleteModule,
     CarouselModule,
-    HttpClientModule
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

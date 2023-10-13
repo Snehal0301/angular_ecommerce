@@ -1,0 +1,22 @@
+.topbrands-section {
+  .topbrands-container {
+    .topbrands-title {
+      font-family: "Playfair Display", serif;
+      text-align: center;
+      font-size: 45px;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+
+    .topbrands-img-container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+
+      .topbrands-img {
+        border-radius: 8px;
+        margin-bottom: 20px;
+        cursor: pointer;
+      }
+    }
+  }
+}

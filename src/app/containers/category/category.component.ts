@@ -57,8 +57,8 @@ export class CategoryComponent {
       title:"Skincare",
     },
     {
-      src:'../../../assets/pet.jpg',
-      title:"Pet Store",
+      src:'../../../assets/watch_category.webp',
+      title:"Watch",
     }
   ]
 
