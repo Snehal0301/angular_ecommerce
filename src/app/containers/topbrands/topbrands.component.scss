@@ -10,7 +10,7 @@
 
     .topbrands-img-container {
       display: grid;
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: repeat(auto-fit, minmax(365px, 1fr));
 
       .topbrands-img {
         border-radius: 8px;

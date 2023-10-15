@@ -14,12 +14,10 @@ export class ProductGridComponent {
   }
 
   ngOnInit() {
-
-    // Initialize the formGroup using FormBuilder
-    console.log('data',this.data)
   }
   
   handleClick = () => {
+    console.log(this.data)
     this.like = !this.like;
   }
 }

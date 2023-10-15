@@ -1,11 +1,15 @@
 @import '../../../variables';
+
 .products-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 1fr 1fr;
+  // grid-template-columns: repeat(4, 1fr);
+  // grid-template-rows: 1fr 1fr;
+
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 20px;
 
   .product-grid {
-    width: 350px;
+    // width: 350px;
     margin-top: 20px;
 
     .product-img-section {
@@ -16,15 +20,18 @@
       .feature-img {
         width: 100%;
         border-radius: 8px;
-        height: 400px;
+        height: 550px;
         object-fit: cover;
-        transition: all 0.2s ease-in-out;  
-        cursor: pointer;  
+        transition: all 0.2s ease-in-out;
+        cursor: pointer;
+
         &:hover {
           transform: scale(1.1);
         }
       }
-      .cart, .wishlist {
+
+      .cart,
+      .wishlist {
         position: absolute;
         font-size: 15px;
         cursor: pointer;
@@ -37,11 +44,13 @@
         border-radius: 50%;
         color: $shades-red;
       }
-      .wishlist{
+
+      .wishlist {
         bottom: 20px;
         left: 20px;
       }
-      .cart{
+
+      .cart {
         bottom: 20px;
         right: 20px;
       }
