@@ -1,7 +1,7 @@
 <div class="products-grid">
   <div class="product-grid" *ngFor="let item of data">
     <div class="product-img-section">
-      <img [src]="item.images[0]" alt="item.name" class="feature-img">
+      <a routerLink='products/{{item.category}}/{{item.id}}'><img [src]="item.images[0]" alt="item.name" class="feature-img"></a>
       <i class="pi pi-heart wishlist" (click)="handleClick()"></i>
       <i class="pi pi-heart-fill wishlist" *ngIf="like" (click)="handleClick()"></i>
       <i class="pi pi-shopping-cart cart" (click)="handleClick()"></i>
@@ -10,6 +10,7 @@
     <div class="product-section">
       <p class="product-title">{{item.name}}</p>
       <p class="product-price">₹ {{item.price}}</p>
+      <star-rating [readOnly]="true" [step]="0.5" [showHalfStars]="true" [starType]="'svg'" [rating]="item.rating"></star-rating>
     </div>
   </div>
 </div>

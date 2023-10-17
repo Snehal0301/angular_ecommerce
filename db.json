@@ -32,7 +32,8 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50492935_001_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582172000&wid=1200&hei=1818"
       ],
       "sizes": ["S", "M", "L", "XL"],
-      "id": "107367bc76f2e"
+      "id": "107367bc76f2e",
+      "category": "mens"
     },
     {
       "name": "Water-repellent field jacket in stretch-cotton twill",
@@ -578,7 +579,8 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50493900_988_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818"
       ],
       "sizes": ["S", "M", "L", "XL"],
-      "id": "bdb87eb8626c7"
+      "id": "bdb87eb8626c7",
+      "category": "womens"
     },
     {
       "name": "Funnel-neck sweater in a wool blend",
@@ -1114,7 +1116,8 @@
         "https://static.patek.com/images/articles/gallery_thumbnail/300/5719_10G_010_3.jpg",
         "https://static.patek.com/images/articles/gallery_thumbnail/300/5719_10G_010_6.jpg"
       ],
-      "id": "0a8e05de1508b"
+      "id": "0a8e05de1508b",
+      "category": "watches"
     },
     {
       "name": "Patek 5740/1G Nautilus",
@@ -1575,7 +1578,8 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50496634_404_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696928599000&wid=1200&hei=1818"
       ],
       "sizes": ["S", "M", "L", "XL"],
-      "id": "55b0472e37efe"
+      "id": "55b0472e37efe",
+      "category": "mens"
     },
     {
       "name": "Nappa leather jacket with stand collar",
@@ -1591,7 +1595,8 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50486635_202_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582132000&wid=1200&hei=1818"
       ],
       "sizes": ["S", "M", "L", "XL"],
-      "id": "d0d675c3b3236"
+      "id": "d0d675c3b3236",
+      "category": "mens"
     },
     {
       "name": "Water-repellent padded jacket with 3D logo tape",
@@ -1607,7 +1612,8 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50464308_361_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696929755000&wid=1200&hei=1818"
       ],
       "sizes": ["S", "M", "L", "XL"],
-      "id": "76b37662b9442"
+      "id": "76b37662b9442",
+      "category": "mens"
     },
     {
       "name": "Three-in-one parka jacket with detachable inner",
@@ -1623,7 +1629,8 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50504510_001_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696929511000&wid=1200&hei=1818"
       ],
       "sizes": ["S", "M", "L", "XL"],
-      "id": "476ff49dae873"
+      "id": "476ff49dae873",
+      "category": "mens"
     },
     {
       "name": "Rollneck sweater in virgin wool",
@@ -1638,7 +1645,8 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50493846_260_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697031920000&wid=1200&hei=1818"
       ],
       "sizes": ["S", "M", "L", "XL"],
-      "id": "9f80cdd8c4335"
+      "id": "9f80cdd8c4335",
+      "category": "womens"
     },
     {
       "name": "Ribbed-knit cardigan with button front",
@@ -1653,7 +1661,8 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50486059_661_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696968940000&wid=1200&hei=1818"
       ],
       "sizes": ["S", "M", "L", "XL"],
-      "id": "3cb5147f64103"
+      "id": "3cb5147f64103",
+      "category": "womens"
     },
     {
       "name": "Alpaca-blend sweater with metallised fibres",
@@ -1668,7 +1677,8 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50493836_960_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953433000&wid=1200&hei=1818"
       ],
       "sizes": ["S", "M", "L", "XL"],
-      "id": "3e8d677d6214a"
+      "id": "3e8d677d6214a",
+      "category": "womens"
     },
     {
       "name": "Funnel-neck sweater in a wool blend",
@@ -1683,7 +1693,8 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50502274_001_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818"
       ],
       "sizes": ["S", "M", "L", "XL"],
-      "id": "01fef54ae6cf2"
+      "id": "01fef54ae6cf2",
+      "category": "womens"
     }
   ],
 
@@ -1701,7 +1712,8 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50489454_450_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697032275000&wid=1200&hei=1818"
       ],
       "sizes": ["S", "M", "L", "XL"],
-      "id": "9d375a11072e5"
+      "id": "9d375a11072e5",
+      "category": "womens"
     },
     {
       "name": "Funnel-neck sweater in a wool blend",
@@ -1716,7 +1728,8 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50502274_001_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818"
       ],
       "sizes": ["S", "M", "L", "XL"],
-      "id": "01fef54ae6cf2"
+      "id": "01fef54ae6cf2",
+      "category": "womens"
     },
     {
       "name": "Rollneck sweater with logo flag",
@@ -1731,7 +1744,8 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50500778_001_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818"
       ],
       "sizes": ["S", "M", "L", "XL"],
-      "id": "e7496eb61f76c"
+      "id": "e7496eb61f76c",
+      "category": "womens"
     },
     {
       "name": "Organic-cotton-blend sweater with logo badge",
@@ -1746,7 +1760,8 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50493730_534_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697032275000&wid=1200&hei=1818"
       ],
       "sizes": ["S", "M", "L", "XL"],
-      "id": "f4bc906fefa72"
+      "id": "f4bc906fefa72",
+      "category": "womens"
     },
     {
       "name": "Leather jacket with two-way zip",
@@ -1762,7 +1777,8 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50499425_001_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696938326000&wid=1200&hei=1818"
       ],
       "sizes": ["S", "M", "L", "XL"],
-      "id": "52958add53f22"
+      "id": "52958add53f22",
+      "category": "mens"
     },
     {
       "name": "Water-repellent field jacket in stretch-cotton twill",
@@ -1778,7 +1794,8 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50496842_404_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582172000&wid=1200&hei=1818"
       ],
       "sizes": ["S", "M", "L", "XL"],
-      "id": "332f801566d86"
+      "id": "332f801566d86",
+      "category": "mens"
     },
     {
       "name": "Leather jacket with two-way zip",
@@ -1794,7 +1811,8 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50499425_404_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696951021000&wid=1200&hei=1818"
       ],
       "sizes": ["S", "M", "L", "XL"],
-      "id": "38dc499675c47"
+      "id": "38dc499675c47",
+      "category": "mens"
     },
     {
       "name": "Water-repellent slim-fit jacket with logo print",
@@ -1810,7 +1828,8 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50468719_001_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696929516000&wid=1200&hei=1818"
       ],
       "sizes": ["S", "M", "L", "XL"],
-      "id": "edee18d44e859"
+      "id": "edee18d44e859",
+      "category": "mens"
     }
   ]
 }

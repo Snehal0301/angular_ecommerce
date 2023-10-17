@@ -9,6 +9,8 @@ export class MyApiService {
   private featureUrl = 'http://localhost:3000/featured'; // Replace with your API endpoint
   private latestUrl = 'http://localhost:3000/latest'; // Replace with your API endpoint
   private watchUrl = 'http://localhost:3000/watches'; // Replace with your API endpoint
+  private mensUrl = 'http://localhost:3000/mens'; // Replace with your API endpoint
+  private womensUrl = 'http://localhost:3000/womens'; // Replace with your API endpoint
 
   constructor(private http: HttpClient) {}
 
@@ -22,6 +24,14 @@ export class MyApiService {
   }
   getWatchData(): Observable<any> {
     const url = this.watchUrl;
+    return this.http.get(url);
+  }
+  getSingleMensProduct(id:string): Observable<any> {
+    const url = this.mensUrl + '/'+ id;
+    return this.http.get(url);
+  }
+  getSingleWomensProduct(id:string): Observable<any> {
+    const url = this.womensUrl + '/'+ id;
     return this.http.get(url);
   }
 }

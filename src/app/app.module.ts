@@ -24,6 +24,10 @@ import { TopbrandsComponent } from './containers/topbrands/topbrands.component';
 import { FooterComponent } from './containers/footer/footer.component';
 import { HomeComponent } from './pages/home/home.component';
 import { NotfoundComponent } from './pages/notfound/notfound.component';
+import { StarRatingModule } from 'angular-star-rating';
+import { SingleProductComponent } from './pages/single-product/single-product.component';
+import { ToastModule } from 'primeng/toast';
+import { MessageService } from 'primeng/api';
 
 
 @NgModule({
@@ -38,7 +42,8 @@ import { NotfoundComponent } from './pages/notfound/notfound.component';
     TopbrandsComponent,
     FooterComponent,
     HomeComponent,
-    NotfoundComponent
+    NotfoundComponent,
+    SingleProductComponent
   ],
   imports: [
     BrowserModule,
@@ -53,8 +58,11 @@ import { NotfoundComponent } from './pages/notfound/notfound.component';
     AutoCompleteModule,
     CarouselModule,
     HttpClientModule,
+    StarRatingModule.forRoot(),
+    ToastModule
+
   ],
-  providers: [],
+  providers: [MessageService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

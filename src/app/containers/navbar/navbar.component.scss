@@ -12,13 +12,13 @@
   .navbar-logo {
     flex: 3;
     padding: 20px;
-    cursor: pointer;
-
+    
     a {
       margin: 15px;
       font-size: 35px;
       font-family: 'Croissant One', cursive;
       color: $black-color;
+      cursor: pointer;
     }
   }
 

@@ -17,7 +17,6 @@ export class ProductGridComponent {
   }
   
   handleClick = () => {
-    console.log(this.data)
     this.like = !this.like;
   }
 }
