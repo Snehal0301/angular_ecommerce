@@ -10,7 +10,7 @@
     <div class="product-section">
       <p class="product-title">{{item.name}}</p>
       <p class="product-price">₹ {{item.price}}</p>
-      <star-rating [readOnly]="true" [step]="0.5" [showHalfStars]="true" [starType]="'svg'" [rating]="item.rating"></star-rating>
+      <star-rating [readOnly]="true" [getHalfStarVisible]="item.rating" [step]="0.5" [showHalfStars]="true" [starType]="'svg'" [rating]="item.rating"></star-rating>
     </div>
   </div>
 </div>

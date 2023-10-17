@@ -16,7 +16,9 @@ export class SingleProductComponent {
   singleProductData: any;
   toast: boolean = false;
   id: string | null;
-
+  isHalfStar: boolean;
+  
+  
   constructor(
     private apiService: MyApiService,
     private messageService: MessageService,
@@ -24,6 +26,7 @@ export class SingleProductComponent {
   ) {
     this.value = 1;
     this.id = '';
+    this.isHalfStar = false;
   }
 
   ngOnInit() {
