@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { MessageService } from 'primeng/api';
-import { MyApiService } from 'src/service/testapi.service';
+import { ApiService } from 'src/service/testapi.service';
 import { ActivatedRoute } from '@angular/router';
 
 @Component({
@@ -17,21 +17,24 @@ export class SingleProductComponent {
   toast: boolean = false;
   id: string | null;
   isHalfStar: boolean;
+  category:any;
   
   
   constructor(
-    private apiService: MyApiService,
+    private apiService: ApiService,
     private messageService: MessageService,
     private route: ActivatedRoute
   ) {
     this.value = 1;
     this.id = '';
     this.isHalfStar = false;
+    this.category = ''
   }
 
   ngOnInit() {
     const idParam = this.route.snapshot.paramMap.get('id');
     const catParam = this.route.snapshot.paramMap.get('category');
+    this.category = catParam;
 
     window.scrollTo(0, 0);
 

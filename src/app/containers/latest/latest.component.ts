@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { MyApiService } from 'src/service/testapi.service';
+import { ApiService } from 'src/service/testapi.service';
 
 @Component({
   selector: 'app-latest',
@@ -9,7 +9,7 @@ import { MyApiService } from 'src/service/testapi.service';
 export class LatestComponent {
   latestData: any;
 
-  constructor(private apiService: MyApiService) {
+  constructor(private apiService: ApiService) {
     this.latestData;
   }
 

@@ -5,12 +5,12 @@ import { Observable } from 'rxjs';
 @Injectable({
   providedIn: 'root',
 })
-export class MyApiService {
-  private featureUrl = 'http://localhost:3000/featured'; // Replace with your API endpoint
-  private latestUrl = 'http://localhost:3000/latest'; // Replace with your API endpoint
-  private watchUrl = 'http://localhost:3000/watches'; // Replace with your API endpoint
-  private mensUrl = 'http://localhost:3000/mens'; // Replace with your API endpoint
-  private womensUrl = 'http://localhost:3000/womens'; // Replace with your API endpoint
+export class ApiService {
+  private featureUrl = 'http://localhost:3000/featured';
+  private latestUrl = 'http://localhost:3000/latest';
+  private watchUrl = 'http://localhost:3000/watches';
+  private mensUrl = 'http://localhost:3000/mens';
+  private womensUrl = 'http://localhost:3000/womens';
 
   constructor(private http: HttpClient) {}
 
@@ -18,20 +18,44 @@ export class MyApiService {
     const url = this.featureUrl;
     return this.http.get(url);
   }
+
   getLatestData(): Observable<any> {
     const url = this.latestUrl;
     return this.http.get(url);
   }
+
   getWatchData(): Observable<any> {
     const url = this.watchUrl;
     return this.http.get(url);
   }
-  getSingleMensProduct(id:string): Observable<any> {
-    const url = this.mensUrl + '/'+ id;
+
+  getSingleMensProduct(id: string): Observable<any> {
+    const url = this.mensUrl + '/' + id;
     return this.http.get(url);
   }
-  getSingleWomensProduct(id:string): Observable<any> {
-    const url = this.womensUrl + '/'+ id;
+
+  getMensProduct(sort?: string, order?: string): Observable<any> {
+    let url = '';
+    if (sort || order) {
+      url = this.mensUrl + '?_sort=' + sort + '&_order=' + order;
+    } else {
+      url = this.mensUrl;
+    }
+    return this.http.get(url);
+  }
+
+  getSingleWomensProduct(id: string): Observable<any> {
+    const url = this.womensUrl + '/' + id;
+    return this.http.get(url);
+  }
+
+  getWomensProduct(sort?: string, order?: string): Observable<any> {
+    let url = '';
+    if (sort || order) {
+      url = this.womensUrl + '?_sort=' + sort + '&_order=' + order;
+    } else {
+      url = this.womensUrl;
+    }
     return this.http.get(url);
   }
 }

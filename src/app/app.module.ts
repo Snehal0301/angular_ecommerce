@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { ReactiveFormsModule } from '@angular/forms'; // Import ReactiveFormsModule
 import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -28,6 +29,9 @@ import { StarRatingModule } from 'angular-star-rating';
 import { SingleProductComponent } from './pages/single-product/single-product.component';
 import { ToastModule } from 'primeng/toast';
 import { MessageService } from 'primeng/api';
+import { ProductlistComponent } from './pages/productlist/productlist.component';
+import { SliderModule } from 'primeng/slider';
+import { BreadcrumbComponent } from './components/breadcrumb/breadcrumb.component';
 
 
 @NgModule({
@@ -43,10 +47,13 @@ import { MessageService } from 'primeng/api';
     FooterComponent,
     HomeComponent,
     NotfoundComponent,
-    SingleProductComponent
+    SingleProductComponent,
+    ProductlistComponent,
+    BreadcrumbComponent
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     ButtonModule,
@@ -59,8 +66,8 @@ import { MessageService } from 'primeng/api';
     CarouselModule,
     HttpClientModule,
     StarRatingModule.forRoot(),
-    ToastModule
-
+    ToastModule,
+    SliderModule
   ],
   providers: [MessageService],
   bootstrap: [AppComponent]
