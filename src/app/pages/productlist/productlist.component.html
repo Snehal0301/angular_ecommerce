@@ -80,11 +80,11 @@
           (click)="handleSort(2, 'phigh')">Price - High to Low</p>
         <p [ngClass]="{'sort-item': true, 'sort-item-active': _sort === 'rating' && _order === 'asc' }"
           (click)="handleSort(3, 'rlow')">Rating - Low to High</p>
-        <p [ngClass]="{'sort-item': true, 'sort-item-active': _sort === 'rating' && _order === 'asc' }"
+        <p [ngClass]="{'sort-item': true, 'sort-item-active': _sort === 'rating' && _order === 'desc' }"
           (click)="handleSort(4, 'rhigh')">Rating - High to Low</p>
       </div>
       <div class="sort-section-2">
-        <i [ngClass]="{'bx': true, 'bx-columns': true, 'grid-icons': true, 'grid-icons-active': layout === 3 }"
+        <i [ngClass]="{'bx': true, 'bx-carousel': true, 'grid-icons': true, 'grid-icons-active': layout === 3 }"
           (click)="handleLayout(3)"></i>
         <i [ngClass]="{'bx': true, 'bx-grid-alt': true, 'grid-icons': true, 'grid-icons-active': layout === 4 }"
           (click)="handleLayout(4)"></i>
