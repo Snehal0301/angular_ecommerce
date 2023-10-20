@@ -79,24 +79,22 @@ export class ProductGridComponent {
 
   renderToastState(item: any, type: string, state: string) {
     if (type === 'wishlist') {
-      if(state === 'add'){
-        this.addToWishlist(item)
-      }
-      else if (state === 'remove') {
-        this.deleteWishlist(item.id)
+      if (state === 'add') {
+        this.addToWishlist(item);
+      } else if (state === 'remove') {
+        this.deleteWishlist(item.id);
       }
     } else if (type === 'cart') {
-      if(state === 'add'){
-        this.addToCart(item)
-      }
-      else if (state === 'remove') {
-        this.deleteCart(item.id)
+      if (state === 'add') {
+        this.addToCart(item);
+      } else if (state === 'remove') {
+        this.deleteCart(item.id);
       }
     }
   }
 
-  addToWishlist(item:any){
-    this.wishlistService.addToWishlist(item).then((result)=>{
+  addToWishlist(item: any) {
+    this.wishlistService.addToWishlist(item).then((result) => {
       if (result) {
         this.messageService.clear();
         this.messageService.add({
@@ -116,7 +114,7 @@ export class ProductGridComponent {
     });
   }
 
-  deleteWishlist(id:string){
+  deleteWishlist(id: string) {
     this.wishlistService.deleteFromWishlist(id).then((result) => {
       if (result) {
         this.messageService.clear();
@@ -137,8 +135,8 @@ export class ProductGridComponent {
     });
   }
 
-  addToCart(item:any){
-    this.cartService.addToCart(item).then((result)=>{
+  addToCart(item: any) {
+    this.cartService.addToCart(item).then((result) => {
       if (result) {
         this.messageService.clear();
         this.messageService.add({
@@ -158,7 +156,7 @@ export class ProductGridComponent {
     });
   }
 
-  deleteCart(id:string){
+  deleteCart(id: string) {
     this.cartService.deleteFromCart(id).then((result) => {
       if (result) {
         this.messageService.clear();
@@ -178,5 +176,4 @@ export class ProductGridComponent {
       }
     });
   }
-
 }
