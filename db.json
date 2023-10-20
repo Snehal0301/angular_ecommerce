@@ -6,23 +6,15 @@
       "author": "typicode"
     }
   ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  },
-
+  "wishlist": [],
   "mens": [
     {
       "name": "Slim-fit biker jacket in water-repellent canvas",
       "price": 1499,
       "desc": "A regular-fit jacket with a water-repellent finish by BOSS Menswear. For our BETTER BOSS products, we always use at least 60% better raw materials. This product is made from at least 60% recycled polyamide. By using recycled polyamide, we aim to save resources by making use of existing plastic material. Recycled nylon is usually made from pre-consumer spinning or fabric waste and may also come from post-consumer industrial fishing nets. We only use raw materials with a verified chain of custody to ensure the use of certified recycled polyamide",
       "rating": 4,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50492935_001_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582172000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50492935_001_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582172000&wid=1200&hei=1818",
@@ -31,7 +23,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50492935_001_341?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582172000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50492935_001_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582172000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "107367bc76f2e",
       "category": "mens"
     },
@@ -40,6 +37,8 @@
       "price": 999,
       "desc": "A regular-fit jacket with a water-repellent finish by BOSS Menswear. For our BETTER BOSS products, we always use at least 60% better raw materials. This product is made from at least 60% recycled polyamide. By using recycled polyamide, we aim to save resources by making use of existing plastic material. Recycled nylon is usually made from pre-consumer spinning or fabric waste and may also come from post-consumer industrial fishing nets. We only use raw materials with a verified chain of custody to ensure the use of certified recycled polyamide",
       "rating": 4.2,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50496842_404_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582172000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50496842_404_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582172000&wid=1200&hei=1818",
@@ -48,7 +47,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50496842_404_341?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582172000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50496842_404_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582172000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "332f801566d86"
     },
     {
@@ -56,6 +60,8 @@
       "price": 2499,
       "desc": "A regular-fit jacket with a water-repellent finish by BOSS Menswear. For our BETTER BOSS products, we always use at least 60% better raw materials. This product is made from at least 60% recycled polyamide. By using recycled polyamide, we aim to save resources by making use of existing plastic material. Recycled nylon is usually made from pre-consumer spinning or fabric waste and may also come from post-consumer industrial fishing nets. We only use raw materials with a verified chain of custody to ensure the use of certified recycled polyamide",
       "rating": 4.4,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50496700_404_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582172000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50496700_404_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582172000&wid=1200&hei=1818",
@@ -64,7 +70,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50496700_404_341?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582172000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50496700_404_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582172000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "f18451a5b14f5"
     },
     {
@@ -72,6 +83,8 @@
       "price": 799,
       "desc": "A regular-fit jacket with a water-repellent finish by BOSS Menswear. For our BETTER BOSS products, we always use at least 60% better raw materials. This product is made from at least 60% recycled polyamide. By using recycled polyamide, we aim to save resources by making use of existing plastic material. Recycled nylon is usually made from pre-consumer spinning or fabric waste and may also come from post-consumer industrial fishing nets. We only use raw materials with a verified chain of custody to ensure the use of certified recycled polyamide",
       "rating": 3.7,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50496634_404_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696928599000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50496634_404_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696928599000&wid=1200&hei=1818",
@@ -80,7 +93,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50496634_404_341?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696928599000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50496634_404_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696928599000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "55b0472e37efe"
     },
     {
@@ -88,6 +106,8 @@
       "price": 3499,
       "desc": "A regular-fit jacket with a water-repellent finish by BOSS Menswear. For our BETTER BOSS products, we always use at least 60% better raw materials. This product is made from at least 60% recycled polyamide. By using recycled polyamide, we aim to save resources by making use of existing plastic material. Recycled nylon is usually made from pre-consumer spinning or fabric waste and may also come from post-consumer industrial fishing nets. We only use raw materials with a verified chain of custody to ensure the use of certified recycled polyamide",
       "rating": 4.5,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50505031_001_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697018751000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50505031_001_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697018751000&wid=1200&hei=1818",
@@ -96,7 +116,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50505031_001_341?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697018751000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50505031_001_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697018751000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "21097d0a7a731"
     },
     {
@@ -104,6 +129,8 @@
       "price": 799,
       "desc": "A regular-fit jacket with a water-repellent finish by BOSS Menswear. For our BETTER BOSS products, we always use at least 60% better raw materials. This product is made from at least 60% recycled polyamide. By using recycled polyamide, we aim to save resources by making use of existing plastic material. Recycled nylon is usually made from pre-consumer spinning or fabric waste and may also come from post-consumer industrial fishing nets. We only use raw materials with a verified chain of custody to ensure the use of certified recycled polyamide",
       "rating": 3.9,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50493643_001_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582172000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50493643_001_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582172000&wid=1200&hei=1818",
@@ -112,7 +139,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50493643_001_341?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582172000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50493643_001_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582172000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "b153fd8bd5fbf"
     },
     {
@@ -120,6 +152,8 @@
       "price": 1299,
       "desc": "A regular-fit jacket with a water-repellent finish by BOSS Menswear. For our BETTER BOSS products, we always use at least 60% better raw materials. This product is made from at least 60% recycled polyamide. By using recycled polyamide, we aim to save resources by making use of existing plastic material. Recycled nylon is usually made from pre-consumer spinning or fabric waste and may also come from post-consumer industrial fishing nets. We only use raw materials with a verified chain of custody to ensure the use of certified recycled polyamide",
       "rating": 4.1,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50510181_360_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696595645000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50510181_360_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696595645000&wid=1200&hei=1818",
@@ -128,7 +162,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50510181_360_341?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696595645000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50510181_360_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696595645000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "21ba9363c0b7c"
     },
     {
@@ -136,6 +175,8 @@
       "price": 999,
       "desc": "A regular-fit jacket with a water-repellent finish by BOSS Menswear. For our BETTER BOSS products, we always use at least 60% better raw materials. This product is made from at least 60% recycled polyamide. By using recycled polyamide, we aim to save resources by making use of existing plastic material. Recycled nylon is usually made from pre-consumer spinning or fabric waste and may also come from post-consumer industrial fishing nets. We only use raw materials with a verified chain of custody to ensure the use of certified recycled polyamide",
       "rating": 3.8,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50492935_280_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582159000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50492935_280_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582159000&wid=1200&hei=1818",
@@ -144,7 +185,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50492935_280_341?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582159000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50492935_280_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582159000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "7db7f7dabda29"
     },
     {
@@ -152,6 +198,8 @@
       "price": 1799,
       "desc": "A regular-fit jacket with a water-repellent finish by BOSS Menswear. For our BETTER BOSS products, we always use at least 60% better raw materials. This product is made from at least 60% recycled polyamide. By using recycled polyamide, we aim to save resources by making use of existing plastic material. Recycled nylon is usually made from pre-consumer spinning or fabric waste and may also come from post-consumer industrial fishing nets. We only use raw materials with a verified chain of custody to ensure the use of certified recycled polyamide",
       "rating": 4.3,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50510181_001_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696595712000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50510181_001_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696595712000&wid=1200&hei=1818",
@@ -160,7 +208,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50510181_001_341?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696595712000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50510181_001_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696595712000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "31ce16db86b8f"
     },
     {
@@ -168,6 +221,8 @@
       "price": 699,
       "desc": "A regular-fit jacket with a water-repellent finish by BOSS Menswear. For our BETTER BOSS products, we always use at least 60% better raw materials. This product is made from at least 60% recycled polyamide. By using recycled polyamide, we aim to save resources by making use of existing plastic material. Recycled nylon is usually made from pre-consumer spinning or fabric waste and may also come from post-consumer industrial fishing nets. We only use raw materials with a verified chain of custody to ensure the use of certified recycled polyamide",
       "rating": 3.6,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50492821_001_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582159000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50492821_001_340?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582159000&wid=1200&hei=1818",
@@ -176,7 +231,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50492821_001_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582159000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50492821_001_341?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582159000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "16c7c4b57c07"
     },
     {
@@ -184,6 +244,8 @@
       "price": 2999,
       "desc": "A regular-fit jacket with a water-repellent finish by BOSS Menswear. For our BETTER BOSS products, we always use at least 60% better raw materials. This product is made from at least 60% recycled polyamide. By using recycled polyamide, we aim to save resources by making use of existing plastic material. Recycled nylon is usually made from pre-consumer spinning or fabric waste and may also come from post-consumer industrial fishing nets. We only use raw materials with a verified chain of custody to ensure the use of certified recycled polyamide",
       "rating": 4.4,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50455293_002_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582159000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50455293_002_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582159000&wid=1200&hei=1818",
@@ -192,7 +254,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50455293_002_341?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582159000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50455293_002_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582159000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "910edd6c0e39"
     },
     {
@@ -200,6 +267,8 @@
       "price": 999,
       "desc": "A regular-fit jacket with a water-repellent finish by BOSS Menswear. For our BETTER BOSS products, we always use at least 60% better raw materials. This product is made from at least 60% recycled polyamide. By using recycled polyamide, we aim to save resources by making use of existing plastic material. Recycled nylon is usually made from pre-consumer spinning or fabric waste and may also come from post-consumer industrial fishing nets. We only use raw materials with a verified chain of custody to ensure the use of certified recycled polyamide",
       "rating": 3.5,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50468719_001_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696929516000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50468719_001_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696929516000&wid=1200&hei=1818",
@@ -208,7 +277,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50468719_001_341?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696929516000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50468719_001_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696929516000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "edee18d44e859"
     },
     {
@@ -216,6 +290,8 @@
       "price": 1399,
       "desc": "A regular-fit jacket with a water-repellent finish by BOSS Menswear. For our BETTER BOSS products, we always use at least 60% better raw materials. This product is made from at least 60% recycled polyamide. By using recycled polyamide, we aim to save resources by making use of existing plastic material. Recycled nylon is usually made from pre-consumer spinning or fabric waste and may also come from post-consumer industrial fishing nets. We only use raw materials with a verified chain of custody to ensure the use of certified recycled polyamide",
       "rating": 4.1,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50493935_001_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697031481000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50493935_001_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697031481000&wid=1200&hei=1818",
@@ -224,7 +300,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50493935_001_341?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697031481000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50493935_001_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697031481000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "47e4da760843"
     },
     {
@@ -232,6 +313,8 @@
       "price": 799,
       "desc": "A regular-fit jacket with a water-repellent finish by BOSS Menswear. For our BETTER BOSS products, we always use at least 60% better raw materials. This product is made from at least 60% recycled polyamide. By using recycled polyamide, we aim to save resources by making use of existing plastic material. Recycled nylon is usually made from pre-consumer spinning or fabric waste and may also come from post-consumer industrial fishing nets. We only use raw materials with a verified chain of custody to ensure the use of certified recycled polyamide",
       "rating": 3.7,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50498500_001_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697116112000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50498500_001_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697116112000&wid=1200&hei=1818",
@@ -240,7 +323,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50498500_001_341?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697116112000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50498500_001_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697116112000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "acdb020da32b7"
     },
     {
@@ -248,6 +336,8 @@
       "price": 2199,
       "desc": "A regular-fit jacket with a water-repellent finish by BOSS Menswear. For our BETTER BOSS products, we always use at least 60% better raw materials. This product is made from at least 60% recycled polyamide. By using recycled polyamide, we aim to save resources by making use of existing plastic material. Recycled nylon is usually made from pre-consumer spinning or fabric waste and may also come from post-consumer industrial fishing nets. We only use raw materials with a verified chain of custody to ensure the use of certified recycled polyamide",
       "rating": 4.2,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50499542_001_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697018743000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50499542_001_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697018743000&wid=1200&hei=1818",
@@ -256,7 +346,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50499542_001_341?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697018743000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50499542_001_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697018743000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "da250a62354f5"
     },
     {
@@ -264,6 +359,8 @@
       "price": 899,
       "desc": "A regular-fit jacket with a water-repellent finish by BOSS Menswear. For our BETTER BOSS products, we always use at least 60% better raw materials. This product is made from at least 60% recycled polyamide. By using recycled polyamide, we aim to save resources by making use of existing plastic material. Recycled nylon is usually made from pre-consumer spinning or fabric waste and may also come from post-consumer industrial fishing nets. We only use raw materials with a verified chain of custody to ensure the use of certified recycled polyamide",
       "rating": 3.8,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50511580_001_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696925714000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50511580_001_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696925714000&wid=1200&hei=1818",
@@ -272,7 +369,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50511580_001_341?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696925714000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50511580_001_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696925714000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "881c29fdc435b"
     },
     {
@@ -280,6 +382,8 @@
       "price": 3999,
       "desc": "A regular-fit jacket with a water-repellent finish by BOSS Menswear. For our BETTER BOSS products, we always use at least 60% better raw materials. This product is made from at least 60% recycled polyamide. By using recycled polyamide, we aim to save resources by making use of existing plastic material. Recycled nylon is usually made from pre-consumer spinning or fabric waste and may also come from post-consumer industrial fishing nets. We only use raw materials with a verified chain of custody to ensure the use of certified recycled polyamide",
       "rating": 4.5,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50493106_345_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582159000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50493106_345_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582159000&wid=1200&hei=1818",
@@ -288,7 +392,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50493106_345_341?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582159000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50493106_345_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582159000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "08669ab4bf202"
     },
     {
@@ -296,6 +405,8 @@
       "price": 799,
       "desc": "A regular-fit jacket with a water-repellent finish by BOSS Menswear. For our BETTER BOSS products, we always use at least 60% better raw materials. This product is made from at least 60% recycled polyamide. By using recycled polyamide, we aim to save resources by making use of existing plastic material. Recycled nylon is usually made from pre-consumer spinning or fabric waste and may also come from post-consumer industrial fishing nets. We only use raw materials with a verified chain of custody to ensure the use of certified recycled polyamide",
       "rating": 3.9,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50498511_001_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582148000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50498511_001_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582148000&wid=1200&hei=1818",
@@ -304,7 +415,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50498511_001_341?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582148000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50498511_001_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582148000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "345af76840083"
     },
     {
@@ -312,6 +428,8 @@
       "price": 1699,
       "desc": "A regular-fit jacket with a water-repellent finish by BOSS Menswear. For our BETTER BOSS products, we always use at least 60% better raw materials. This product is made from at least 60% recycled polyamide. By using recycled polyamide, we aim to save resources by making use of existing plastic material. Recycled nylon is usually made from pre-consumer spinning or fabric waste and may also come from post-consumer industrial fishing nets. We only use raw materials with a verified chain of custody to ensure the use of certified recycled polyamide",
       "rating": 4.3,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50499425_001_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696938326000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50499425_001_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696938326000&wid=1200&hei=1818",
@@ -320,7 +438,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50499425_001_341?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696938326000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50499425_001_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696938326000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "52958add53f22"
     },
     {
@@ -328,6 +451,8 @@
       "price": 1499,
       "desc": "A regular-fit jacket with a water-repellent finish by BOSS Menswear. For our BETTER BOSS products, we always use at least 60% better raw materials. This product is made from at least 60% recycled polyamide. By using recycled polyamide, we aim to save resources by making use of existing plastic material. Recycled nylon is usually made from pre-consumer spinning or fabric waste and may also come from post-consumer industrial fishing nets. We only use raw materials with a verified chain of custody to ensure the use of certified recycled polyamide",
       "rating": 4,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50499589_001_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697116112000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50499589_001_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697116112000&wid=1200&hei=1818",
@@ -336,7 +461,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50499589_001_341?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697116112000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50499589_001_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697116112000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "ec41b3151dfba"
     },
     {
@@ -344,6 +474,8 @@
       "price": 999,
       "desc": "A regular-fit jacket with a water-repellent finish by BOSS Menswear. For our BETTER BOSS products, we always use at least 60% better raw materials. This product is made from at least 60% recycled polyamide. By using recycled polyamide, we aim to save resources by making use of existing plastic material. Recycled nylon is usually made from pre-consumer spinning or fabric waste and may also come from post-consumer industrial fishing nets. We only use raw materials with a verified chain of custody to ensure the use of certified recycled polyamide",
       "rating": 4.2,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50486635_001_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582148000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50486635_001_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582148000&wid=1200&hei=1818",
@@ -352,7 +484,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50486635_001_341?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582148000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50486635_001_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582148000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "8e51f2610b29f"
     },
     {
@@ -360,6 +497,8 @@
       "price": 2499,
       "desc": "A regular-fit jacket with a water-repellent finish by BOSS Menswear. For our BETTER BOSS products, we always use at least 60% better raw materials. This product is made from at least 60% recycled polyamide. By using recycled polyamide, we aim to save resources by making use of existing plastic material. Recycled nylon is usually made from pre-consumer spinning or fabric waste and may also come from post-consumer industrial fishing nets. We only use raw materials with a verified chain of custody to ensure the use of certified recycled polyamide",
       "rating": 4.4,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50493382_001_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697031481000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50493382_001_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697031481000&wid=1200&hei=1818",
@@ -368,7 +507,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50493382_001_341?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697031481000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50493382_001_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697031481000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "0938b0d651811"
     },
     {
@@ -376,6 +520,8 @@
       "price": 799,
       "desc": "A regular-fit jacket with a water-repellent finish by BOSS Menswear. For our BETTER BOSS products, we always use at least 60% better raw materials. This product is made from at least 60% recycled polyamide. By using recycled polyamide, we aim to save resources by making use of existing plastic material. Recycled nylon is usually made from pre-consumer spinning or fabric waste and may also come from post-consumer industrial fishing nets. We only use raw materials with a verified chain of custody to ensure the use of certified recycled polyamide",
       "rating": 3.7,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50498066_001_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697031666000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50498066_001_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697031666000&wid=1200&hei=1818",
@@ -384,7 +530,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50498066_001_341?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697031666000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50498066_001_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697031666000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "0080030fd2041"
     },
     {
@@ -392,6 +543,8 @@
       "price": 3499,
       "desc": "A regular-fit jacket with a water-repellent finish by BOSS Menswear. For our BETTER BOSS products, we always use at least 60% better raw materials. This product is made from at least 60% recycled polyamide. By using recycled polyamide, we aim to save resources by making use of existing plastic material. Recycled nylon is usually made from pre-consumer spinning or fabric waste and may also come from post-consumer industrial fishing nets. We only use raw materials with a verified chain of custody to ensure the use of certified recycled polyamide",
       "rating": 4.5,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50504510_001_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696929511000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50504510_001_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696929511000&wid=1200&hei=1818",
@@ -400,7 +553,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50504510_001_341?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696929511000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50504510_001_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696929511000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "476ff49dae873"
     },
     {
@@ -408,6 +566,8 @@
       "price": 799,
       "desc": "A regular-fit jacket with a water-repellent finish by BOSS Menswear. For our BETTER BOSS products, we always use at least 60% better raw materials. This product is made from at least 60% recycled polyamide. By using recycled polyamide, we aim to save resources by making use of existing plastic material. Recycled nylon is usually made from pre-consumer spinning or fabric waste and may also come from post-consumer industrial fishing nets. We only use raw materials with a verified chain of custody to ensure the use of certified recycled polyamide",
       "rating": 3.9,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50464308_361_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696929755000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50464308_361_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696929755000&wid=1200&hei=1818",
@@ -416,7 +576,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50464308_361_341?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696929755000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50464308_361_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696929755000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "76b37662b9442"
     },
     {
@@ -424,6 +589,8 @@
       "price": 1299,
       "desc": "A regular-fit jacket with a water-repellent finish by BOSS Menswear. For our BETTER BOSS products, we always use at least 60% better raw materials. This product is made from at least 60% recycled polyamide. By using recycled polyamide, we aim to save resources by making use of existing plastic material. Recycled nylon is usually made from pre-consumer spinning or fabric waste and may also come from post-consumer industrial fishing nets. We only use raw materials with a verified chain of custody to ensure the use of certified recycled polyamide",
       "rating": 4.1,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50498184_205_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582132000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50498184_205_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582132000&wid=1200&hei=1818",
@@ -432,7 +599,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50498184_205_341?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582132000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50498184_205_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582132000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "081e56738598f"
     },
     {
@@ -440,6 +612,8 @@
       "price": 999,
       "desc": "A regular-fit jacket with a water-repellent finish by BOSS Menswear. For our BETTER BOSS products, we always use at least 60% better raw materials. This product is made from at least 60% recycled polyamide. By using recycled polyamide, we aim to save resources by making use of existing plastic material. Recycled nylon is usually made from pre-consumer spinning or fabric waste and may also come from post-consumer industrial fishing nets. We only use raw materials with a verified chain of custody to ensure the use of certified recycled polyamide",
       "rating": 3.8,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50499425_257_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697116112000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50499425_257_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697116112000&wid=1200&hei=1818",
@@ -448,7 +622,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50499425_257_341?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697116112000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50499425_257_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697116112000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "3911aa8f796b9"
     },
     {
@@ -456,6 +635,8 @@
       "price": 1799,
       "desc": "A regular-fit jacket with a water-repellent finish by BOSS Menswear. For our BETTER BOSS products, we always use at least 60% better raw materials. This product is made from at least 60% recycled polyamide. By using recycled polyamide, we aim to save resources by making use of existing plastic material. Recycled nylon is usually made from pre-consumer spinning or fabric waste and may also come from post-consumer industrial fishing nets. We only use raw materials with a verified chain of custody to ensure the use of certified recycled polyamide",
       "rating": 4.3,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50486635_202_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582132000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50486635_202_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582132000&wid=1200&hei=1818",
@@ -464,7 +645,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50486635_202_341?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582132000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50486635_202_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582132000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "d0d675c3b3236"
     },
     {
@@ -472,6 +658,8 @@
       "price": 699,
       "desc": "A regular-fit jacket with a water-repellent finish by BOSS Menswear. For our BETTER BOSS products, we always use at least 60% better raw materials. This product is made from at least 60% recycled polyamide. By using recycled polyamide, we aim to save resources by making use of existing plastic material. Recycled nylon is usually made from pre-consumer spinning or fabric waste and may also come from post-consumer industrial fishing nets. We only use raw materials with a verified chain of custody to ensure the use of certified recycled polyamide",
       "rating": 3.6,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50498608_404_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582132000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50498608_404_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582132000&wid=1200&hei=1818",
@@ -480,7 +668,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50498608_404_341?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582132000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50498608_404_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582132000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "2330a795ee181"
     },
     {
@@ -488,6 +681,8 @@
       "price": 2999,
       "desc": "A regular-fit jacket with a water-repellent finish by BOSS Menswear. For our BETTER BOSS products, we always use at least 60% better raw materials. This product is made from at least 60% recycled polyamide. By using recycled polyamide, we aim to save resources by making use of existing plastic material. Recycled nylon is usually made from pre-consumer spinning or fabric waste and may also come from post-consumer industrial fishing nets. We only use raw materials with a verified chain of custody to ensure the use of certified recycled polyamide",
       "rating": 4.4,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50499425_404_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696951021000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50499425_404_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696951021000&wid=1200&hei=1818",
@@ -496,7 +691,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50499425_404_341?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696951021000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50499425_404_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696951021000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "38dc499675c47"
     },
     {
@@ -504,6 +704,8 @@
       "price": 999,
       "desc": "A regular-fit jacket with a water-repellent finish by BOSS Menswear. For our BETTER BOSS products, we always use at least 60% better raw materials. This product is made from at least 60% recycled polyamide. By using recycled polyamide, we aim to save resources by making use of existing plastic material. Recycled nylon is usually made from pre-consumer spinning or fabric waste and may also come from post-consumer industrial fishing nets. We only use raw materials with a verified chain of custody to ensure the use of certified recycled polyamide",
       "rating": 3.5,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50464300_260_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696581610000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50464300_260_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696581610000&wid=1200&hei=1818",
@@ -512,7 +714,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50464300_260_341?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696581610000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50464300_260_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696581610000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "1e79fa0b2a33e"
     },
     {
@@ -520,6 +727,8 @@
       "price": 1399,
       "desc": "A regular-fit jacket with a water-repellent finish by BOSS Menswear. For our BETTER BOSS products, we always use at least 60% better raw materials. This product is made from at least 60% recycled polyamide. By using recycled polyamide, we aim to save resources by making use of existing plastic material. Recycled nylon is usually made from pre-consumer spinning or fabric waste and may also come from post-consumer industrial fishing nets. We only use raw materials with a verified chain of custody to ensure the use of certified recycled polyamide",
       "rating": 4.1,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50497379_260_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697031481000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50497379_260_340?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697031481000&wid=1200&hei=1818",
@@ -528,7 +737,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50497379_260_341?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697031481000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50497379_260_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697031481000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "0581564649ed1"
     },
     {
@@ -536,6 +750,8 @@
       "price": 799,
       "desc": "A regular-fit jacket with a water-repellent finish by BOSS Menswear. For our BETTER BOSS products, we always use at least 60% better raw materials. This product is made from at least 60% recycled polyamide. By using recycled polyamide, we aim to save resources by making use of existing plastic material. Recycled nylon is usually made from pre-consumer spinning or fabric waste and may also come from post-consumer industrial fishing nets. We only use raw materials with a verified chain of custody to ensure the use of certified recycled polyamide",
       "rating": 3.7,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50464308_260_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697116092000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50464308_260_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697116092000&wid=1200&hei=1818",
@@ -544,7 +760,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50464308_260_341?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697116092000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50464308_260_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697116092000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "12884812e1d34"
     },
     {
@@ -552,6 +773,8 @@
       "price": 2199,
       "desc": "A regular-fit jacket with a water-repellent finish by BOSS Menswear. For our BETTER BOSS products, we always use at least 60% better raw materials. This product is made from at least 60% recycled polyamide. By using recycled polyamide, we aim to save resources by making use of existing plastic material. Recycled nylon is usually made from pre-consumer spinning or fabric waste and may also come from post-consumer industrial fishing nets. We only use raw materials with a verified chain of custody to ensure the use of certified recycled polyamide",
       "rating": 4.2,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50497527_260_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1695307670000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50497527_260_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1695307670000&wid=1200&hei=1818",
@@ -560,17 +783,23 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50497527_260_341?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1695307670000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50497527_260_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1695307670000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "7a0af6da07c61"
     }
   ],
-
   "womens": [
     {
       "name": "Virgin-wool crew-neck sweater with block stripes",
       "price": 999,
       "desc": "A mock-neck sweater with cropped sleeves and a block stripe by BOSS Womenswear. For our RESPONSIBLE products we always use at least 60% more sustainable raw materials. This product is made with responsibly sourced and certified wool. For us, responsibly sourced means mulesing free, and meeting the standards of the Five Freedoms of animal welfare.",
       "rating": 4.3,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50493900_988_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50493900_988_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
@@ -578,7 +807,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50493900_988_340?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50493900_988_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "bdb87eb8626c7",
       "category": "womens"
     },
@@ -587,6 +821,8 @@
       "price": 1299,
       "desc": "A mock-neck sweater with cropped sleeves and a block stripe by BOSS Womenswear. For our RESPONSIBLE products we always use at least 60% more sustainable raw materials. This product is made with responsibly sourced and certified wool. For us, responsibly sourced means mulesing free, and meeting the standards of the Five Freedoms of animal welfare.",
       "rating": 4,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50502274_001_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50502274_001_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
@@ -594,7 +830,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50502274_001_340?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50502274_001_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "01fef54ae6cf2"
     },
     {
@@ -602,6 +843,8 @@
       "price": 799,
       "desc": "A mock-neck sweater with cropped sleeves and a block stripe by BOSS Womenswear. For our RESPONSIBLE products we always use at least 60% more sustainable raw materials. This product is made with responsibly sourced and certified wool. For us, responsibly sourced means mulesing free, and meeting the standards of the Five Freedoms of animal welfare.",
       "rating": 4.1,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50500778_001_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50500778_001_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
@@ -609,7 +852,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50500778_001_340?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50500778_001_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "e7496eb61f76c"
     },
     {
@@ -617,6 +865,8 @@
       "price": 2499,
       "desc": "A mock-neck sweater with cropped sleeves and a block stripe by BOSS Womenswear. For our RESPONSIBLE products we always use at least 60% more sustainable raw materials. This product is made with responsibly sourced and certified wool. For us, responsibly sourced means mulesing free, and meeting the standards of the Five Freedoms of animal welfare.",
       "rating": 4.5,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50500773_001_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50500773_001_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
@@ -624,7 +874,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50500773_001_340?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50500773_001_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "e01f7e0d512d2"
     },
     {
@@ -632,6 +887,8 @@
       "price": 1199,
       "desc": "A mock-neck sweater with cropped sleeves and a block stripe by BOSS Womenswear. For our RESPONSIBLE products we always use at least 60% more sustainable raw materials. This product is made with responsibly sourced and certified wool. For us, responsibly sourced means mulesing free, and meeting the standards of the Five Freedoms of animal welfare.",
       "rating": 4.2,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50502244_001_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50502244_001_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
@@ -639,7 +896,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50502244_001_340?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50502244_001_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "81a11b0dee104"
     },
     {
@@ -647,6 +909,8 @@
       "price": 3999,
       "desc": "A mock-neck sweater with cropped sleeves and a block stripe by BOSS Womenswear. For our RESPONSIBLE products we always use at least 60% more sustainable raw materials. This product is made with responsibly sourced and certified wool. For us, responsibly sourced means mulesing free, and meeting the standards of the Five Freedoms of animal welfare.",
       "rating": 4.4,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50478315_383_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50478315_383_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
@@ -654,7 +918,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50478315_383_340?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50478315_383_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "8a3e97d701845"
     },
     {
@@ -662,6 +931,8 @@
       "price": 799,
       "desc": "A mock-neck sweater with cropped sleeves and a block stripe by BOSS Womenswear. For our RESPONSIBLE products we always use at least 60% more sustainable raw materials. This product is made with responsibly sourced and certified wool. For us, responsibly sourced means mulesing free, and meeting the standards of the Five Freedoms of animal welfare.",
       "rating": 3.9,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50478290_309_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50478290_309_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
@@ -669,7 +940,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50478290_309_340?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50478290_309_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "1f019c293c2a3"
     },
     {
@@ -677,6 +953,8 @@
       "price": 1999,
       "desc": "A mock-neck sweater with cropped sleeves and a block stripe by BOSS Womenswear. For our RESPONSIBLE products we always use at least 60% more sustainable raw materials. This product is made with responsibly sourced and certified wool. For us, responsibly sourced means mulesing free, and meeting the standards of the Five Freedoms of animal welfare.",
       "rating": 4.3,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50478296_309_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50478296_309_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
@@ -684,7 +962,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50478296_309_340?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50478296_309_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "b41f3c4240fa4"
     },
     {
@@ -692,6 +975,8 @@
       "price": 999,
       "desc": "A mock-neck sweater with cropped sleeves and a block stripe by BOSS Womenswear. For our RESPONSIBLE products we always use at least 60% more sustainable raw materials. This product is made with responsibly sourced and certified wool. For us, responsibly sourced means mulesing free, and meeting the standards of the Five Freedoms of animal welfare.",
       "rating": 3.8,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50504562_041_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50504562_041_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
@@ -699,7 +984,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50504562_041_340?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50504562_041_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "b6c7c83bb27be"
     },
     {
@@ -707,6 +997,8 @@
       "price": 1499,
       "desc": "A mock-neck sweater with cropped sleeves and a block stripe by BOSS Womenswear. For our RESPONSIBLE products we always use at least 60% more sustainable raw materials. This product is made with responsibly sourced and certified wool. For us, responsibly sourced means mulesing free, and meeting the standards of the Five Freedoms of animal welfare.",
       "rating": 4.1,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50489454_040_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50489454_040_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
@@ -714,7 +1006,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50489454_040_340?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50489454_040_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "7115c2e79a6fb"
     },
     {
@@ -722,13 +1019,20 @@
       "price": 1299,
       "desc": "A mock-neck sweater with cropped sleeves and a block stripe by BOSS Womenswear. For our RESPONSIBLE products we always use at least 60% more sustainable raw materials. This product is made with responsibly sourced and certified wool. For us, responsibly sourced means mulesing free, and meeting the standards of the Five Freedoms of animal welfare.",
       "rating": 4,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50500342_040_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50500342_040_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50500342_040_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50500342_040_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "40b1110ec6f04"
     },
     {
@@ -736,6 +1040,8 @@
       "price": 999,
       "desc": "A mock-neck sweater with cropped sleeves and a block stripe by BOSS Womenswear. For our RESPONSIBLE products we always use at least 60% more sustainable raw materials. This product is made with responsibly sourced and certified wool. For us, responsibly sourced means mulesing free, and meeting the standards of the Five Freedoms of animal welfare.",
       "rating": 3.7,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50478315_040_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50478315_040_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
@@ -743,7 +1049,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50478315_040_340?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50478315_040_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "2a75ac37a2ce3"
     },
     {
@@ -751,13 +1062,20 @@
       "price": 2999,
       "desc": "A mock-neck sweater with cropped sleeves and a block stripe by BOSS Womenswear. For our RESPONSIBLE products we always use at least 60% more sustainable raw materials. This product is made with responsibly sourced and certified wool. For us, responsibly sourced means mulesing free, and meeting the standards of the Five Freedoms of animal welfare.",
       "rating": 4.4,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50500597_118_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953894000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50500597_118_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953894000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50500597_118_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953894000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50500597_118_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953894000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "2b5bf6833efda"
     },
     {
@@ -765,6 +1083,8 @@
       "price": 799,
       "desc": "A mock-neck sweater with cropped sleeves and a block stripe by BOSS Womenswear. For our RESPONSIBLE products we always use at least 60% more sustainable raw materials. This product is made with responsibly sourced and certified wool. For us, responsibly sourced means mulesing free, and meeting the standards of the Five Freedoms of animal welfare.",
       "rating": 3.6,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50500776_110_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953536000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50500776_110_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953536000&wid=1200&hei=1818",
@@ -772,7 +1092,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50500776_110_340?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953536000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50500776_110_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953536000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "b64f376ec2da8"
     },
     {
@@ -780,6 +1105,8 @@
       "price": 1799,
       "desc": "A mock-neck sweater with cropped sleeves and a block stripe by BOSS Womenswear. For our RESPONSIBLE products we always use at least 60% more sustainable raw materials. This product is made with responsibly sourced and certified wool. For us, responsibly sourced means mulesing free, and meeting the standards of the Five Freedoms of animal welfare.",
       "rating": 4.2,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50493904_118_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953536000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50493904_118_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953536000&wid=1200&hei=1818",
@@ -787,7 +1114,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50493904_118_340?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953536000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50493904_118_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953536000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "c17628b8c54fe"
     },
     {
@@ -795,6 +1127,8 @@
       "price": 899,
       "desc": "A mock-neck sweater with cropped sleeves and a block stripe by BOSS Womenswear. For our RESPONSIBLE products we always use at least 60% more sustainable raw materials. This product is made with responsibly sourced and certified wool. For us, responsibly sourced means mulesing free, and meeting the standards of the Five Freedoms of animal welfare.",
       "rating": 3.5,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50493851_118_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697032748000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50493851_118_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697032748000&wid=1200&hei=1818",
@@ -802,7 +1136,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50493851_118_340?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697032748000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50493851_118_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697032748000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "c271356a90222"
     },
     {
@@ -810,6 +1149,8 @@
       "price": 3299,
       "desc": "A mock-neck sweater with cropped sleeves and a block stripe by BOSS Womenswear. For our RESPONSIBLE products we always use at least 60% more sustainable raw materials. This product is made with responsibly sourced and certified wool. For us, responsibly sourced means mulesing free, and meeting the standards of the Five Freedoms of animal welfare.",
       "rating": 4.5,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50486059_661_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696968940000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50486059_661_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696968940000&wid=1200&hei=1818",
@@ -817,7 +1158,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50486059_661_340?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696968940000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50486059_661_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696968940000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "3cb5147f64103"
     },
     {
@@ -825,6 +1171,8 @@
       "price": 699,
       "desc": "A mock-neck sweater with cropped sleeves and a block stripe by BOSS Womenswear. For our RESPONSIBLE products we always use at least 60% more sustainable raw materials. This product is made with responsibly sourced and certified wool. For us, responsibly sourced means mulesing free, and meeting the standards of the Five Freedoms of animal welfare.",
       "rating": 3.7,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50493845_674_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953514000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50493845_674_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953514000&wid=1200&hei=1818",
@@ -832,7 +1180,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50493845_674_340?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953514000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50493845_674_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953514000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "1cbdfbc4f34b7"
     },
     {
@@ -840,6 +1193,8 @@
       "price": 1699,
       "desc": "A mock-neck sweater with cropped sleeves and a block stripe by BOSS Womenswear. For our RESPONSIBLE products we always use at least 60% more sustainable raw materials. This product is made with responsibly sourced and certified wool. For us, responsibly sourced means mulesing free, and meeting the standards of the Five Freedoms of animal welfare.",
       "rating": 4.3,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50500811_663_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953514000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50500811_663_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953514000&wid=1200&hei=1818",
@@ -847,7 +1202,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50500811_663_340?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953514000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50500811_663_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953514000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "89c8035381f9d"
     },
     {
@@ -855,6 +1215,8 @@
       "price": 899,
       "desc": "A mock-neck sweater with cropped sleeves and a block stripe by BOSS Womenswear. For our RESPONSIBLE products we always use at least 60% more sustainable raw materials. This product is made with responsibly sourced and certified wool. For us, responsibly sourced means mulesing free, and meeting the standards of the Five Freedoms of animal welfare.",
       "rating": 3.6,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50493844_674_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953476000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50493844_674_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953476000&wid=1200&hei=1818",
@@ -862,7 +1224,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50493844_674_340?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953476000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50493844_674_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953476000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "f73668c487b59"
     },
     {
@@ -870,13 +1237,20 @@
       "price": 999,
       "desc": "A mock-neck sweater with cropped sleeves and a block stripe by BOSS Womenswear. For our RESPONSIBLE products we always use at least 60% more sustainable raw materials. This product is made with responsibly sourced and certified wool. For us, responsibly sourced means mulesing free, and meeting the standards of the Five Freedoms of animal welfare.",
       "rating": 4.3,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50500597_680_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953499000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50500597_680_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953499000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50500597_680_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953499000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50500597_680_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953499000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "347d4a95063c8"
     },
     {
@@ -884,6 +1258,8 @@
       "price": 1299,
       "desc": "A mock-neck sweater with cropped sleeves and a block stripe by BOSS Womenswear. For our RESPONSIBLE products we always use at least 60% more sustainable raw materials. This product is made with responsibly sourced and certified wool. For us, responsibly sourced means mulesing free, and meeting the standards of the Five Freedoms of animal welfare.",
       "rating": 4,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50493730_534_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697032275000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50493730_534_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697032275000&wid=1200&hei=1818",
@@ -891,7 +1267,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50493730_534_340?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697032275000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50493730_534_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697032275000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "f4bc906fefa72"
     },
     {
@@ -899,6 +1280,8 @@
       "price": 799,
       "desc": "A mock-neck sweater with cropped sleeves and a block stripe by BOSS Womenswear. For our RESPONSIBLE products we always use at least 60% more sustainable raw materials. This product is made with responsibly sourced and certified wool. For us, responsibly sourced means mulesing free, and meeting the standards of the Five Freedoms of animal welfare.",
       "rating": 4.1,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50493736_534_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953499000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50493736_534_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953499000&wid=1200&hei=1818",
@@ -906,7 +1289,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50493736_534_340?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953499000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50493736_534_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953499000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "9dd48cba2a6c3"
     },
     {
@@ -914,13 +1302,20 @@
       "price": 2499,
       "desc": "A mock-neck sweater with cropped sleeves and a block stripe by BOSS Womenswear. For our RESPONSIBLE products we always use at least 60% more sustainable raw materials. This product is made with responsibly sourced and certified wool. For us, responsibly sourced means mulesing free, and meeting the standards of the Five Freedoms of animal welfare.",
       "rating": 4.5,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50500809_551_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953499000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50500809_551_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953499000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50500809_551_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953499000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50500809_551_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953499000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "90f10df3324b6"
     },
     {
@@ -928,6 +1323,8 @@
       "price": 1199,
       "desc": "A mock-neck sweater with cropped sleeves and a block stripe by BOSS Womenswear. For our RESPONSIBLE products we always use at least 60% more sustainable raw materials. This product is made with responsibly sourced and certified wool. For us, responsibly sourced means mulesing free, and meeting the standards of the Five Freedoms of animal welfare.",
       "rating": 4.2,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50494140_968_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953433000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50494140_968_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953433000&wid=1200&hei=1818",
@@ -935,7 +1332,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50494140_968_340?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953433000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50494140_968_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953433000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "05458a10c01bd"
     },
     {
@@ -943,6 +1345,8 @@
       "price": 3999,
       "desc": "A mock-neck sweater with cropped sleeves and a block stripe by BOSS Womenswear. For our RESPONSIBLE products we always use at least 60% more sustainable raw materials. This product is made with responsibly sourced and certified wool. For us, responsibly sourced means mulesing free, and meeting the standards of the Five Freedoms of animal welfare.",
       "rating": 4.4,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50489454_450_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697032275000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50489454_450_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697032275000&wid=1200&hei=1818",
@@ -950,7 +1354,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50489454_450_340?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697032275000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50489454_450_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697032275000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "9d375a11072e5"
     },
     {
@@ -958,6 +1367,8 @@
       "price": 799,
       "desc": "A mock-neck sweater with cropped sleeves and a block stripe by BOSS Womenswear. For our RESPONSIBLE products we always use at least 60% more sustainable raw materials. This product is made with responsibly sourced and certified wool. For us, responsibly sourced means mulesing free, and meeting the standards of the Five Freedoms of animal welfare.",
       "rating": 3.9,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50493844_498_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953433000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50493844_498_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953433000&wid=1200&hei=1818",
@@ -965,7 +1376,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50493844_498_340?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953433000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50493844_498_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953433000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "ad6faa6a3a6ce"
     },
     {
@@ -973,6 +1389,8 @@
       "price": 1999,
       "desc": "A mock-neck sweater with cropped sleeves and a block stripe by BOSS Womenswear. For our RESPONSIBLE products we always use at least 60% more sustainable raw materials. This product is made with responsibly sourced and certified wool. For us, responsibly sourced means mulesing free, and meeting the standards of the Five Freedoms of animal welfare.",
       "rating": 4.3,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50497500_463_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697032275000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50497500_463_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697032275000&wid=1200&hei=1818",
@@ -980,7 +1398,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50497500_463_340?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697032275000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50497500_463_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697032275000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "84bee369cc162"
     },
     {
@@ -988,13 +1411,20 @@
       "price": 999,
       "desc": "A mock-neck sweater with cropped sleeves and a block stripe by BOSS Womenswear. For our RESPONSIBLE products we always use at least 60% more sustainable raw materials. This product is made with responsibly sourced and certified wool. For us, responsibly sourced means mulesing free, and meeting the standards of the Five Freedoms of animal welfare.",
       "rating": 3.8,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50500597_220_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953433000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50500597_220_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953433000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50500597_220_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953433000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50500597_220_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953433000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "0482ce5aa7272"
     },
     {
@@ -1002,6 +1432,8 @@
       "price": 1499,
       "desc": "A mock-neck sweater with cropped sleeves and a block stripe by BOSS Womenswear. For our RESPONSIBLE products we always use at least 60% more sustainable raw materials. This product is made with responsibly sourced and certified wool. For us, responsibly sourced means mulesing free, and meeting the standards of the Five Freedoms of animal welfare.",
       "rating": 4.1,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50493836_960_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953433000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50493836_960_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953433000&wid=1200&hei=1818",
@@ -1009,7 +1441,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50493836_960_340?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953433000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50493836_960_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953433000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "3e8d677d6214a"
     },
     {
@@ -1017,6 +1454,8 @@
       "price": 1299,
       "desc": "A mock-neck sweater with cropped sleeves and a block stripe by BOSS Womenswear. For our RESPONSIBLE products we always use at least 60% more sustainable raw materials. This product is made with responsibly sourced and certified wool. For us, responsibly sourced means mulesing free, and meeting the standards of the Five Freedoms of animal welfare.",
       "rating": 4,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50501575_260_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953433000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50501575_260_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953433000&wid=1200&hei=1818",
@@ -1024,7 +1463,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50501575_260_340?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953433000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50501575_260_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953433000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "4d6f8aeec07d8"
     },
     {
@@ -1032,6 +1476,8 @@
       "price": 999,
       "desc": "A mock-neck sweater with cropped sleeves and a block stripe by BOSS Womenswear. For our RESPONSIBLE products we always use at least 60% more sustainable raw materials. This product is made with responsibly sourced and certified wool. For us, responsibly sourced means mulesing free, and meeting the standards of the Five Freedoms of animal welfare.",
       "rating": 3.7,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50493846_260_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697031920000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50493846_260_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697031920000&wid=1200&hei=1818",
@@ -1039,7 +1485,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50493846_260_340?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697031920000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50493846_260_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697031920000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "9f80cdd8c4335"
     },
     {
@@ -1047,6 +1498,8 @@
       "price": 2999,
       "desc": "A mock-neck sweater with cropped sleeves and a block stripe by BOSS Womenswear. For our RESPONSIBLE products we always use at least 60% more sustainable raw materials. This product is made with responsibly sourced and certified wool. For us, responsibly sourced means mulesing free, and meeting the standards of the Five Freedoms of animal welfare.",
       "rating": 4.4,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50504562_118_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953407000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50504562_118_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953407000&wid=1200&hei=1818",
@@ -1054,7 +1507,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50504562_118_340?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953407000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50504562_118_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953407000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "4626c92993ce9"
     },
     {
@@ -1062,6 +1520,8 @@
       "price": 799,
       "desc": "A mock-neck sweater with cropped sleeves and a block stripe by BOSS Womenswear. For our RESPONSIBLE products we always use at least 60% more sustainable raw materials. This product is made with responsibly sourced and certified wool. For us, responsibly sourced means mulesing free, and meeting the standards of the Five Freedoms of animal welfare.",
       "rating": 3.6,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50493853_118_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696952408000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50493853_118_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696952408000&wid=1200&hei=1818",
@@ -1069,7 +1529,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50493853_118_340?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696952408000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50493853_118_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696952408000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "5cdb030afad67"
     },
     {
@@ -1077,6 +1542,8 @@
       "price": 1799,
       "desc": "A mock-neck sweater with cropped sleeves and a block stripe by BOSS Womenswear. For our RESPONSIBLE products we always use at least 60% more sustainable raw materials. This product is made with responsibly sourced and certified wool. For us, responsibly sourced means mulesing free, and meeting the standards of the Five Freedoms of animal welfare.",
       "rating": 4.2,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50493904_260_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50493904_260_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
@@ -1084,7 +1551,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50493904_260_340?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50493904_260_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "e3fbf9f20c7d7"
     },
     {
@@ -1092,6 +1564,8 @@
       "price": 899,
       "desc": "A mock-neck sweater with cropped sleeves and a block stripe by BOSS Womenswear. For our RESPONSIBLE products we always use at least 60% more sustainable raw materials. This product is made with responsibly sourced and certified wool. For us, responsibly sourced means mulesing free, and meeting the standards of the Five Freedoms of animal welfare.",
       "rating": 3.5,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50496472_988_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50496472_988_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
@@ -1099,17 +1573,23 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50496472_988_340?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50496472_988_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "43a2dbf904fd5"
     }
   ],
-
   "watches": [
     {
       "name": "Patek 5719/10G Nautilus",
       "desc": "With the rounded octagonal shape of its bezel, the ingenious porthole construction of its case, and its horizontally embossed dial, the Nautilus has epitomized the elegant sports watch since 1976. Forty years later, it comprises a splendid collection of models for men and women. In steel, rose gold, white gold or two-tone combinations they accompany the most active lifestyles with incomparable class",
       "price": 1299,
       "rating": 3.8,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://static.patek.com/images/articles/gallery_thumbnail/300/5719_10G_010_2.jpg",
         "https://static.patek.com/images/articles/face_white/220/5719_10G_010.jpg",
@@ -1124,6 +1604,8 @@
       "desc": "With the rounded octagonal shape of its bezel, the ingenious porthole construction of its case, and its horizontally embossed dial, the Nautilus has epitomized the elegant sports watch since 1976. Forty years later, it comprises a splendid collection of models for men and women. In steel, rose gold, white gold or two-tone combinations they accompany the most active lifestyles with incomparable class",
       "price": 3765,
       "rating": 4.2,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://static.patek.com/images/articles/gallery_thumbnail/300/5740_1G_001_8.jpg",
         "https://static.patek.com/images/articles/face_white/220/5740_1G_001_1.jpg",
@@ -1137,6 +1619,8 @@
       "desc": "With the rounded octagonal shape of its bezel, the ingenious porthole construction of its case, and its horizontally embossed dial, the Nautilus has epitomized the elegant sports watch since 1976. Forty years later, it comprises a splendid collection of models for men and women. In steel, rose gold, white gold or two-tone combinations they accompany the most active lifestyles with incomparable class",
       "price": 5421,
       "rating": 4,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://static.patek.com/images/articles/gallery_thumbnail/300/5990_1R_001_8.jpg",
         "https://static.patek.com/images/articles/face_white/220/5990_1R_001_1.jpg",
@@ -1150,6 +1634,8 @@
       "desc": "With the rounded octagonal shape of its bezel, the ingenious porthole construction of its case, and its horizontally embossed dial, the Nautilus has epitomized the elegant sports watch since 1976. Forty years later, it comprises a splendid collection of models for men and women. In steel, rose gold, white gold or two-tone combinations they accompany the most active lifestyles with incomparable class",
       "price": 7654,
       "rating": 4.3,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://static.patek.com/images/articles/gallery_thumbnail/300/5990_1A_011_8.jpg",
         "https://static.patek.com/images/articles/face_white/220/5990_1A_011_1.jpg",
@@ -1163,6 +1649,8 @@
       "desc": "With the rounded octagonal shape of its bezel, the ingenious porthole construction of its case, and its horizontally embossed dial, the Nautilus has epitomized the elegant sports watch since 1976. Forty years later, it comprises a splendid collection of models for men and women. In steel, rose gold, white gold or two-tone combinations they accompany the most active lifestyles with incomparable class",
       "price": 9999,
       "rating": 3.6,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://static.patek.com/images/articles/gallery_thumbnail/300/5980_1R_001_1.jpg",
         "https://static.patek.com/images/articles/face_white/220/5980_1R_001.jpg",
@@ -1176,6 +1664,8 @@
       "desc": "With the rounded octagonal shape of its bezel, the ingenious porthole construction of its case, and its horizontally embossed dial, the Nautilus has epitomized the elegant sports watch since 1976. Forty years later, it comprises a splendid collection of models for men and women. In steel, rose gold, white gold or two-tone combinations they accompany the most active lifestyles with incomparable class",
       "price": 2899,
       "rating": 4.1,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://static.patek.com/images/articles/gallery_thumbnail/300/5980_1AR_001_1.jpg",
         "https://static.patek.com/images/articles/face_white/220/5980_1AR_001.jpg",
@@ -1189,6 +1679,8 @@
       "desc": "With the rounded octagonal shape of its bezel, the ingenious porthole construction of its case, and its horizontally embossed dial, the Nautilus has epitomized the elegant sports watch since 1976. Forty years later, it comprises a splendid collection of models for men and women. In steel, rose gold, white gold or two-tone combinations they accompany the most active lifestyles with incomparable class",
       "price": 4876,
       "rating": 4.4,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://static.patek.com/images/articles/gallery_thumbnail/300/5980R_001_1.jpg",
         "https://static.patek.com/images/articles/face_white/220/5980R_001.jpg",
@@ -1202,6 +1694,8 @@
       "desc": "With the rounded octagonal shape of its bezel, the ingenious porthole construction of its case, and its horizontally embossed dial, the Nautilus has epitomized the elegant sports watch since 1976. Forty years later, it comprises a splendid collection of models for men and women. In steel, rose gold, white gold or two-tone combinations they accompany the most active lifestyles with incomparable class",
       "price": 6732,
       "rating": 3.7,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://static.patek.com/images/articles/gallery_thumbnail/300/5726_1A_014_9.jpg",
         "https://static.patek.com/images/articles/face_white/220/5726_1A_014_1.jpg",
@@ -1215,6 +1709,8 @@
       "desc": "With the rounded octagonal shape of its bezel, the ingenious porthole construction of its case, and its horizontally embossed dial, the Nautilus has epitomized the elegant sports watch since 1976. Forty years later, it comprises a splendid collection of models for men and women. In steel, rose gold, white gold or two-tone combinations they accompany the most active lifestyles with incomparable class",
       "price": 1899,
       "rating": 4.3,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://static.patek.com/images/articles/gallery_thumbnail/300/5726A_001_8.jpg",
         "https://static.patek.com/images/articles/face_white/220/5726A_001.jpg",
@@ -1228,6 +1724,8 @@
       "desc": "With the rounded octagonal shape of its bezel, the ingenious porthole construction of its case, and its horizontally embossed dial, the Nautilus has epitomized the elegant sports watch since 1976. Forty years later, it comprises a splendid collection of models for men and women. In steel, rose gold, white gold or two-tone combinations they accompany the most active lifestyles with incomparable class",
       "price": 5456,
       "rating": 4.2,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://static.patek.com/images/articles/gallery_thumbnail/300/5712_1R_001_8.jpg",
         "https://static.patek.com/images/articles/face_white/220/5712_1R_001_1.jpg",
@@ -1241,6 +1739,8 @@
       "desc": "With the rounded octagonal shape of its bezel, the ingenious porthole construction of its case, and its horizontally embossed dial, the Nautilus has epitomized the elegant sports watch since 1976. Forty years later, it comprises a splendid collection of models for men and women. In steel, rose gold, white gold or two-tone combinations they accompany the most active lifestyles with incomparable class",
       "price": 2789,
       "rating": 4,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://static.patek.com/images/articles/gallery_thumbnail/300/5712_1A_001_9.jpg",
         "https://static.patek.com/images/articles/face_white/220/5712_1A_001_1.jpg",
@@ -1254,6 +1754,8 @@
       "desc": "With the rounded octagonal shape of its bezel, the ingenious porthole construction of its case, and its horizontally embossed dial, the Nautilus has epitomized the elegant sports watch since 1976. Forty years later, it comprises a splendid collection of models for men and women. In steel, rose gold, white gold or two-tone combinations they accompany the most active lifestyles with incomparable class",
       "price": 6347,
       "rating": 3.9,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://static.patek.com/images/articles/gallery_thumbnail/300/5712R_001_1.jpg",
         "https://static.patek.com/images/articles/face_white/220/5712R_001_1.jpg",
@@ -1267,6 +1769,8 @@
       "desc": "With the rounded octagonal shape of its bezel, the ingenious porthole construction of its case, and its horizontally embossed dial, the Nautilus has epitomized the elegant sports watch since 1976. Forty years later, it comprises a splendid collection of models for men and women. In steel, rose gold, white gold or two-tone combinations they accompany the most active lifestyles with incomparable class",
       "price": 3999,
       "rating": 3.8,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://static.patek.com/images/articles/gallery_thumbnail/300/5712G_001_1.jpg",
         "https://static.patek.com/images/articles/face_white/220/5712G_001_1.jpg",
@@ -1280,6 +1784,8 @@
       "desc": "With the rounded octagonal shape of its bezel, the ingenious porthole construction of its case, and its horizontally embossed dial, the Nautilus has epitomized the elegant sports watch since 1976. Forty years later, it comprises a splendid collection of models for men and women. In steel, rose gold, white gold or two-tone combinations they accompany the most active lifestyles with incomparable class",
       "price": 7645,
       "rating": 4.1,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://static.patek.com/images/articles/gallery_thumbnail/300/5811_1G_001_8.jpg",
         "https://static.patek.com/images/articles/face_white/220/5811_1G_001_1.jpg",
@@ -1293,6 +1799,8 @@
       "desc": "With the rounded octagonal shape of its bezel, the ingenious porthole construction of its case, and its horizontally embossed dial, the Nautilus has epitomized the elegant sports watch since 1976. Forty years later, it comprises a splendid collection of models for men and women. In steel, rose gold, white gold or two-tone combinations they accompany the most active lifestyles with incomparable class",
       "price": 8922,
       "rating": 4.4,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://static.patek.com/images/articles/gallery_thumbnail/300/7118_1450R_001_8.jpg",
         "https://static.patek.com/images/articles/face_white/220/7118_1450R_001_1.jpg",
@@ -1306,6 +1814,8 @@
       "desc": "With the rounded octagonal shape of its bezel, the ingenious porthole construction of its case, and its horizontally embossed dial, the Nautilus has epitomized the elegant sports watch since 1976. Forty years later, it comprises a splendid collection of models for men and women. In steel, rose gold, white gold or two-tone combinations they accompany the most active lifestyles with incomparable class",
       "price": 4321,
       "rating": 4.5,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://static.patek.com/images/articles/gallery_thumbnail/300/7118_1450G_001_8.jpg",
         "https://static.patek.com/images/articles/face_white/220/7118_1450G_001_001.jpg",
@@ -1319,6 +1829,8 @@
       "desc": "With the rounded octagonal shape of its bezel, the ingenious porthole construction of its case, and its horizontally embossed dial, the Nautilus has epitomized the elegant sports watch since 1976. Forty years later, it comprises a splendid collection of models for men and women. In steel, rose gold, white gold or two-tone combinations they accompany the most active lifestyles with incomparable class",
       "price": 5678,
       "rating": 3.7,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://static.patek.com/images/articles/gallery_thumbnail/300/7118_1300R_001_8.jpg",
         "https://static.patek.com/images/articles/face_white/220/7118_1300R_001_1.jpg",
@@ -1332,6 +1844,8 @@
       "desc": "With the rounded octagonal shape of its bezel, the ingenious porthole construction of its case, and its horizontally embossed dial, the Nautilus has epitomized the elegant sports watch since 1976. Forty years later, it comprises a splendid collection of models for men and women. In steel, rose gold, white gold or two-tone combinations they accompany the most active lifestyles with incomparable class",
       "price": 1776,
       "rating": 3.6,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://static.patek.com/images/articles/gallery_thumbnail/300/7118_1200R_010_1.jpg",
         "https://static.patek.com/images/articles/face_white/220/7118_1200R_010_010.jpg",
@@ -1345,6 +1859,8 @@
       "desc": "With the rounded octagonal shape of its bezel, the ingenious porthole construction of its case, and its horizontally embossed dial, the Nautilus has epitomized the elegant sports watch since 1976. Forty years later, it comprises a splendid collection of models for men and women. In steel, rose gold, white gold or two-tone combinations they accompany the most active lifestyles with incomparable class",
       "price": 8650,
       "rating": 4,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://static.patek.com/images/articles/gallery_thumbnail/300/7118_1200R_001_1.jpg",
         "https://static.patek.com/images/articles/face_white/220/7118_1200R_001_001.jpg",
@@ -1358,6 +1874,8 @@
       "desc": "With the rounded octagonal shape of its bezel, the ingenious porthole construction of its case, and its horizontally embossed dial, the Nautilus has epitomized the elegant sports watch since 1976. Forty years later, it comprises a splendid collection of models for men and women. In steel, rose gold, white gold or two-tone combinations they accompany the most active lifestyles with incomparable class",
       "price": 2244,
       "rating": 4.3,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://static.patek.com/images/articles/gallery_thumbnail/300/7118_1200A_011_9.jpg",
         "https://static.patek.com/images/articles/face_white/220/7118_1200A_011_1.jpg",
@@ -1371,6 +1889,8 @@
       "desc": "With the rounded octagonal shape of its bezel, the ingenious porthole construction of its case, and its horizontally embossed dial, the Nautilus has epitomized the elegant sports watch since 1976. Forty years later, it comprises a splendid collection of models for men and women. In steel, rose gold, white gold or two-tone combinations they accompany the most active lifestyles with incomparable class",
       "price": 1299,
       "rating": 3.8,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://static.patek.com/images/articles/gallery_thumbnail/300/7118_1200A_010_9.jpg",
         "https://static.patek.com/images/articles/face_white/220/7118_1200A_010_1.jpg",
@@ -1384,6 +1904,8 @@
       "desc": "With the rounded octagonal shape of its bezel, the ingenious porthole construction of its case, and its horizontally embossed dial, the Nautilus has epitomized the elegant sports watch since 1976. Forty years later, it comprises a splendid collection of models for men and women. In steel, rose gold, white gold or two-tone combinations they accompany the most active lifestyles with incomparable class",
       "price": 3765,
       "rating": 4.2,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://static.patek.com/images/articles/gallery_thumbnail/300/7118_1200A_001_9.jpg",
         "https://static.patek.com/images/articles/face_white/220/7118_1200A_001_1.jpg",
@@ -1397,6 +1919,8 @@
       "desc": "With the rounded octagonal shape of its bezel, the ingenious porthole construction of its case, and its horizontally embossed dial, the Nautilus has epitomized the elegant sports watch since 1976. Forty years later, it comprises a splendid collection of models for men and women. In steel, rose gold, white gold or two-tone combinations they accompany the most active lifestyles with incomparable class",
       "price": 5421,
       "rating": 4,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://static.patek.com/images/articles/gallery_thumbnail/300/7118_1R_010_8.jpg",
         "https://static.patek.com/images/articles/face_white/220/7118_1R_010_1.jpg",
@@ -1410,6 +1934,8 @@
       "desc": "With the rounded octagonal shape of its bezel, the ingenious porthole construction of its case, and its horizontally embossed dial, the Nautilus has epitomized the elegant sports watch since 1976. Forty years later, it comprises a splendid collection of models for men and women. In steel, rose gold, white gold or two-tone combinations they accompany the most active lifestyles with incomparable class",
       "price": 7654,
       "rating": 4.3,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://static.patek.com/images/articles/gallery_thumbnail/300/7118_1R_001_8.jpg",
         "https://static.patek.com/images/articles/face_white/220/7118_1R_001_1.jpg",
@@ -1423,6 +1949,8 @@
       "desc": "With the rounded octagonal shape of its bezel, the ingenious porthole construction of its case, and its horizontally embossed dial, the Nautilus has epitomized the elegant sports watch since 1976. Forty years later, it comprises a splendid collection of models for men and women. In steel, rose gold, white gold or two-tone combinations they accompany the most active lifestyles with incomparable class",
       "price": 9999,
       "rating": 3.6,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://static.patek.com/images/articles/gallery_thumbnail/300/7118_1A_011_1.jpg",
         "https://static.patek.com/images/articles/face_white/220/7118_1A_011.jpg",
@@ -1436,6 +1964,8 @@
       "desc": "With the rounded octagonal shape of its bezel, the ingenious porthole construction of its case, and its horizontally embossed dial, the Nautilus has epitomized the elegant sports watch since 1976. Forty years later, it comprises a splendid collection of models for men and women. In steel, rose gold, white gold or two-tone combinations they accompany the most active lifestyles with incomparable class",
       "price": 2899,
       "rating": 4.1,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://static.patek.com/videos/articles/7118_1A_010/PatekPhilippe_7118_1A_010_500.jpg",
         "https://static.patek.com/images/articles/face_white/220/7118_1A_010.jpg",
@@ -1449,6 +1979,8 @@
       "desc": "With the rounded octagonal shape of its bezel, the ingenious porthole construction of its case, and its horizontally embossed dial, the Nautilus has epitomized the elegant sports watch since 1976. Forty years later, it comprises a splendid collection of models for men and women. In steel, rose gold, white gold or two-tone combinations they accompany the most active lifestyles with incomparable class",
       "price": 4876,
       "rating": 4.4,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://static.patek.com/videos/articles/7118_1A_001/PatekPhilippe_7118_1A_001_500.jpg",
         "https://static.patek.com/images/articles/face_white/220/7118_1A_001.jpg",
@@ -1462,6 +1994,8 @@
       "desc": "With the rounded octagonal shape of its bezel, the ingenious porthole construction of its case, and its horizontally embossed dial, the Nautilus has epitomized the elegant sports watch since 1976. Forty years later, it comprises a splendid collection of models for men and women. In steel, rose gold, white gold or two-tone combinations they accompany the most active lifestyles with incomparable class",
       "price": 6732,
       "rating": 3.7,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://static.patek.com/images/articles/gallery_thumbnail/300/5261R_001_8.jpg",
         "https://static.patek.com/images/articles/face_white/220/5261R_001_1.jpg",
@@ -1475,6 +2009,8 @@
       "desc": "With the rounded octagonal shape of its bezel, the ingenious porthole construction of its case, and its horizontally embossed dial, the Nautilus has epitomized the elegant sports watch since 1976. Forty years later, it comprises a splendid collection of models for men and women. In steel, rose gold, white gold or two-tone combinations they accompany the most active lifestyles with incomparable class",
       "price": 1899,
       "rating": 4.3,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://static.patek.com/images/articles/gallery_thumbnail/300/7968_300R_001_8.jpg",
         "https://static.patek.com/images/articles/face_white/220/7968_300R_001_1.jpg",
@@ -1488,6 +2024,8 @@
       "desc": "With the rounded octagonal shape of its bezel, the ingenious porthole construction of its case, and its horizontally embossed dial, the Nautilus has epitomized the elegant sports watch since 1976. Forty years later, it comprises a splendid collection of models for men and women. In steel, rose gold, white gold or two-tone combinations they accompany the most active lifestyles with incomparable class",
       "price": 5456,
       "rating": 4.2,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://static.patek.com/images/articles/gallery_thumbnail/300/5062_450R_001_1.jpg",
         "https://static.patek.com/images/articles/face_white/220/5062_450R_001_1.jpg",
@@ -1501,6 +2039,8 @@
       "desc": "With the rounded octagonal shape of its bezel, the ingenious porthole construction of its case, and its horizontally embossed dial, the Nautilus has epitomized the elegant sports watch since 1976. Forty years later, it comprises a splendid collection of models for men and women. In steel, rose gold, white gold or two-tone combinations they accompany the most active lifestyles with incomparable class",
       "price": 2789,
       "rating": 4,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://static.patek.com/videos/articles/5072R_001/PatekPhilippe_5072R_001_500.jpg",
         "https://static.patek.com/images/articles/face_white/220/5072R_001_1.jpg",
@@ -1514,6 +2054,8 @@
       "desc": "With the rounded octagonal shape of its bezel, the ingenious porthole construction of its case, and its horizontally embossed dial, the Nautilus has epitomized the elegant sports watch since 1976. Forty years later, it comprises a splendid collection of models for men and women. In steel, rose gold, white gold or two-tone combinations they accompany the most active lifestyles with incomparable class",
       "price": 6347,
       "rating": 3.9,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://static.patek.com/images/articles/gallery_thumbnail/300/5268_200R_010_8.jpg",
         "https://static.patek.com/images/articles/face_white/220/5268_200R_010_1.jpg",
@@ -1527,6 +2069,8 @@
       "desc": "With the rounded octagonal shape of its bezel, the ingenious porthole construction of its case, and its horizontally embossed dial, the Nautilus has epitomized the elegant sports watch since 1976. Forty years later, it comprises a splendid collection of models for men and women. In steel, rose gold, white gold or two-tone combinations they accompany the most active lifestyles with incomparable class",
       "price": 3999,
       "rating": 3.8,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://static.patek.com/videos/articles/5269_200R_001/PP_Aquanaut_2104_Anim_CAL245_03_500.jpg",
         "https://static.patek.com/images/articles/face_white/220/5269_200R_001_1.jpg",
@@ -1540,6 +2084,8 @@
       "desc": "With the rounded octagonal shape of its bezel, the ingenious porthole construction of its case, and its horizontally embossed dial, the Nautilus has epitomized the elegant sports watch since 1976. Forty years later, it comprises a splendid collection of models for men and women. In steel, rose gold, white gold or two-tone combinations they accompany the most active lifestyles with incomparable class",
       "price": 7645,
       "rating": 4.1,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://static.patek.com/images/articles/gallery_thumbnail/300/5267_200A_011_8.jpg",
         "https://static.patek.com/images/articles/face_white/220/5267_200A_011_1.jpg",
@@ -1553,6 +2099,8 @@
       "desc": "With the rounded octagonal shape of its bezel, the ingenious porthole construction of its case, and its horizontally embossed dial, the Nautilus has epitomized the elegant sports watch since 1976. Forty years later, it comprises a splendid collection of models for men and women. In steel, rose gold, white gold or two-tone combinations they accompany the most active lifestyles with incomparable class",
       "price": 8922,
       "rating": 4.4,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://static.patek.com/images/articles/gallery_thumbnail/300/5267_200A_010_8.jpg",
         "https://static.patek.com/images/articles/face_white/220/5267_200A_010_1.jpg",
@@ -1562,13 +2110,14 @@
       "id": "cc6f6807326be"
     }
   ],
-
   "featured": [
     {
       "name": "Regular-fit softshell jacket in water-repellent stretch fabric",
       "price": 799,
       "desc": "A regular-fit jacket with a water-repellent finish by BOSS Menswear. For our BETTER BOSS products, we always use at least 60% better raw materials. This product is made from at least 60% recycled polyamide. By using recycled polyamide, we aim to save resources by making use of existing plastic material. Recycled nylon is usually made from pre-consumer spinning or fabric waste and may also come from post-consumer industrial fishing nets. We only use raw materials with a verified chain of custody to ensure the use of certified recycled polyamide",
       "rating": 3.7,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50496634_404_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696928599000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50496634_404_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696928599000&wid=1200&hei=1818",
@@ -1577,7 +2126,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50496634_404_341?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696928599000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50496634_404_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696928599000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "55b0472e37efe",
       "category": "mens"
     },
@@ -1586,6 +2140,8 @@
       "price": 1799,
       "desc": "A regular-fit jacket with a water-repellent finish by BOSS Menswear. For our BETTER BOSS products, we always use at least 60% better raw materials. This product is made from at least 60% recycled polyamide. By using recycled polyamide, we aim to save resources by making use of existing plastic material. Recycled nylon is usually made from pre-consumer spinning or fabric waste and may also come from post-consumer industrial fishing nets. We only use raw materials with a verified chain of custody to ensure the use of certified recycled polyamide",
       "rating": 4.3,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50486635_202_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582132000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50486635_202_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582132000&wid=1200&hei=1818",
@@ -1594,7 +2150,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50486635_202_341?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582132000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50486635_202_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582132000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "d0d675c3b3236",
       "category": "mens"
     },
@@ -1603,6 +2164,8 @@
       "price": 799,
       "desc": "A regular-fit jacket with a water-repellent finish by BOSS Menswear. For our BETTER BOSS products, we always use at least 60% better raw materials. This product is made from at least 60% recycled polyamide. By using recycled polyamide, we aim to save resources by making use of existing plastic material. Recycled nylon is usually made from pre-consumer spinning or fabric waste and may also come from post-consumer industrial fishing nets. We only use raw materials with a verified chain of custody to ensure the use of certified recycled polyamide",
       "rating": 3.9,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50464308_361_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696929755000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50464308_361_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696929755000&wid=1200&hei=1818",
@@ -1611,7 +2174,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50464308_361_341?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696929755000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50464308_361_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696929755000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "76b37662b9442",
       "category": "mens"
     },
@@ -1620,6 +2188,8 @@
       "price": 3499,
       "desc": "A regular-fit jacket with a water-repellent finish by BOSS Menswear. For our BETTER BOSS products, we always use at least 60% better raw materials. This product is made from at least 60% recycled polyamide. By using recycled polyamide, we aim to save resources by making use of existing plastic material. Recycled nylon is usually made from pre-consumer spinning or fabric waste and may also come from post-consumer industrial fishing nets. We only use raw materials with a verified chain of custody to ensure the use of certified recycled polyamide",
       "rating": 4.5,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50504510_001_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696929511000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50504510_001_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696929511000&wid=1200&hei=1818",
@@ -1628,7 +2198,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50504510_001_341?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696929511000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50504510_001_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696929511000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "476ff49dae873",
       "category": "mens"
     },
@@ -1637,6 +2212,8 @@
       "price": 999,
       "desc": "A mock-neck sweater with cropped sleeves and a block stripe by BOSS Womenswear. For our RESPONSIBLE products we always use at least 60% more sustainable raw materials. This product is made with responsibly sourced and certified wool. For us, responsibly sourced means mulesing free, and meeting the standards of the Five Freedoms of animal welfare.",
       "rating": 3.7,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50493846_260_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697031920000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50493846_260_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697031920000&wid=1200&hei=1818",
@@ -1644,7 +2221,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50493846_260_340?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697031920000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50493846_260_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697031920000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "9f80cdd8c4335",
       "category": "womens"
     },
@@ -1653,6 +2235,8 @@
       "price": 3299,
       "desc": "A mock-neck sweater with cropped sleeves and a block stripe by BOSS Womenswear. For our RESPONSIBLE products we always use at least 60% more sustainable raw materials. This product is made with responsibly sourced and certified wool. For us, responsibly sourced means mulesing free, and meeting the standards of the Five Freedoms of animal welfare.",
       "rating": 4.5,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50486059_661_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696968940000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50486059_661_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696968940000&wid=1200&hei=1818",
@@ -1660,7 +2244,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50486059_661_340?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696968940000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50486059_661_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696968940000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "3cb5147f64103",
       "category": "womens"
     },
@@ -1669,6 +2258,8 @@
       "price": 1499,
       "desc": "A mock-neck sweater with cropped sleeves and a block stripe by BOSS Womenswear. For our RESPONSIBLE products we always use at least 60% more sustainable raw materials. This product is made with responsibly sourced and certified wool. For us, responsibly sourced means mulesing free, and meeting the standards of the Five Freedoms of animal welfare.",
       "rating": 4.1,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50493836_960_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953433000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50493836_960_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953433000&wid=1200&hei=1818",
@@ -1676,7 +2267,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50493836_960_340?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953433000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50493836_960_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953433000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "3e8d677d6214a",
       "category": "womens"
     },
@@ -1685,6 +2281,8 @@
       "price": 1299,
       "desc": "A mock-neck sweater with cropped sleeves and a block stripe by BOSS Womenswear. For our RESPONSIBLE products we always use at least 60% more sustainable raw materials. This product is made with responsibly sourced and certified wool. For us, responsibly sourced means mulesing free, and meeting the standards of the Five Freedoms of animal welfare.",
       "rating": 4,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50502274_001_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50502274_001_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
@@ -1692,18 +2290,24 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50502274_001_340?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50502274_001_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "01fef54ae6cf2",
       "category": "womens"
     }
   ],
-
   "latest": [
     {
       "name": "Crew-neck sweater with alpaca and responsible wool",
       "price": 3999,
       "desc": "A mock-neck sweater with cropped sleeves and a block stripe by BOSS Womenswear. For our RESPONSIBLE products we always use at least 60% more sustainable raw materials. This product is made with responsibly sourced and certified wool. For us, responsibly sourced means mulesing free, and meeting the standards of the Five Freedoms of animal welfare.",
       "rating": 4.4,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50489454_450_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697032275000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50489454_450_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697032275000&wid=1200&hei=1818",
@@ -1711,7 +2315,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50489454_450_340?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697032275000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50489454_450_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697032275000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "9d375a11072e5",
       "category": "womens"
     },
@@ -1720,6 +2329,8 @@
       "price": 1299,
       "desc": "A mock-neck sweater with cropped sleeves and a block stripe by BOSS Womenswear. For our RESPONSIBLE products we always use at least 60% more sustainable raw materials. This product is made with responsibly sourced and certified wool. For us, responsibly sourced means mulesing free, and meeting the standards of the Five Freedoms of animal welfare.",
       "rating": 4,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50502274_001_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50502274_001_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
@@ -1727,7 +2338,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50502274_001_340?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50502274_001_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "01fef54ae6cf2",
       "category": "womens"
     },
@@ -1736,6 +2352,8 @@
       "price": 799,
       "desc": "A mock-neck sweater with cropped sleeves and a block stripe by BOSS Womenswear. For our RESPONSIBLE products we always use at least 60% more sustainable raw materials. This product is made with responsibly sourced and certified wool. For us, responsibly sourced means mulesing free, and meeting the standards of the Five Freedoms of animal welfare.",
       "rating": 4.1,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50500778_001_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50500778_001_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
@@ -1743,7 +2361,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50500778_001_340?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50500778_001_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "e7496eb61f76c",
       "category": "womens"
     },
@@ -1752,6 +2375,8 @@
       "price": 1299,
       "desc": "A mock-neck sweater with cropped sleeves and a block stripe by BOSS Womenswear. For our RESPONSIBLE products we always use at least 60% more sustainable raw materials. This product is made with responsibly sourced and certified wool. For us, responsibly sourced means mulesing free, and meeting the standards of the Five Freedoms of animal welfare.",
       "rating": 4,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50493730_534_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697032275000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50493730_534_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697032275000&wid=1200&hei=1818",
@@ -1759,7 +2384,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50493730_534_340?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697032275000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50493730_534_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697032275000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "f4bc906fefa72",
       "category": "womens"
     },
@@ -1768,6 +2398,8 @@
       "price": 1699,
       "desc": "A regular-fit jacket with a water-repellent finish by BOSS Menswear. For our BETTER BOSS products, we always use at least 60% better raw materials. This product is made from at least 60% recycled polyamide. By using recycled polyamide, we aim to save resources by making use of existing plastic material. Recycled nylon is usually made from pre-consumer spinning or fabric waste and may also come from post-consumer industrial fishing nets. We only use raw materials with a verified chain of custody to ensure the use of certified recycled polyamide",
       "rating": 4.3,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50499425_001_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696938326000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50499425_001_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696938326000&wid=1200&hei=1818",
@@ -1776,7 +2408,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50499425_001_341?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696938326000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50499425_001_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696938326000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "52958add53f22",
       "category": "mens"
     },
@@ -1785,6 +2422,8 @@
       "price": 999,
       "desc": "A regular-fit jacket with a water-repellent finish by BOSS Menswear. For our BETTER BOSS products, we always use at least 60% better raw materials. This product is made from at least 60% recycled polyamide. By using recycled polyamide, we aim to save resources by making use of existing plastic material. Recycled nylon is usually made from pre-consumer spinning or fabric waste and may also come from post-consumer industrial fishing nets. We only use raw materials with a verified chain of custody to ensure the use of certified recycled polyamide",
       "rating": 4.2,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50496842_404_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582172000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50496842_404_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582172000&wid=1200&hei=1818",
@@ -1793,7 +2432,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50496842_404_341?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582172000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50496842_404_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582172000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "332f801566d86",
       "category": "mens"
     },
@@ -1802,6 +2446,8 @@
       "price": 2999,
       "desc": "A regular-fit jacket with a water-repellent finish by BOSS Menswear. For our BETTER BOSS products, we always use at least 60% better raw materials. This product is made from at least 60% recycled polyamide. By using recycled polyamide, we aim to save resources by making use of existing plastic material. Recycled nylon is usually made from pre-consumer spinning or fabric waste and may also come from post-consumer industrial fishing nets. We only use raw materials with a verified chain of custody to ensure the use of certified recycled polyamide",
       "rating": 4.4,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50499425_404_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696951021000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50499425_404_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696951021000&wid=1200&hei=1818",
@@ -1810,7 +2456,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50499425_404_341?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696951021000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50499425_404_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696951021000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "38dc499675c47",
       "category": "mens"
     },
@@ -1819,6 +2470,8 @@
       "price": 999,
       "desc": "A regular-fit jacket with a water-repellent finish by BOSS Menswear. For our BETTER BOSS products, we always use at least 60% better raw materials. This product is made from at least 60% recycled polyamide. By using recycled polyamide, we aim to save resources by making use of existing plastic material. Recycled nylon is usually made from pre-consumer spinning or fabric waste and may also come from post-consumer industrial fishing nets. We only use raw materials with a verified chain of custody to ensure the use of certified recycled polyamide",
       "rating": 3.5,
+      "isWishlisted": false,
+      "isAddtoCart": false,
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50468719_001_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696929516000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50468719_001_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696929516000&wid=1200&hei=1818",
@@ -1827,7 +2480,12 @@
         "https://images.hugoboss.com/is/image/boss/hbeu50468719_001_341?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696929516000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50468719_001_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696929516000&wid=1200&hei=1818"
       ],
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "id": "edee18d44e859",
       "category": "mens"
     }

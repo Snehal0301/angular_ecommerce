@@ -34,12 +34,20 @@
     </div>
   </div>
   <div class="navbar-profile desktopOptions">
-    <p-avatar icon="pi pi-heart" pBadge value="4" severity="success" styleClass="mr-2" [style]="styleBadge"
-      shape="circle"></p-avatar>
+    <div class="wishlist-wrapper">
+      <p-avatar icon="pi pi-heart" pBadge value="4" severity="success" styleClass="mr-2" [style]="styleBadge"
+        shape="circle"></p-avatar>
+      <span *ngIf="wishlist.length">{{wishlist.length}}</span>
+    </div>
+
     <p-avatar icon="pi pi-user" pBadge value="4" severity="success" styleClass="mr-2" [style]="styleBadge"
-      shape="circle" ></p-avatar>
-    <p-avatar icon="pi pi-cart-plus" pBadge value="4" severity="success" styleClass="mr-2" [style]="styleBadge"
-      shape="circle" (click)="openCart()"></p-avatar>
+      shape="circle"></p-avatar>
+    <div class="wishlist-wrapper">
+
+      <p-avatar icon="pi pi-cart-plus" pBadge value="4" severity="success" styleClass="mr-2" [style]="styleBadge"
+        shape="circle" (click)="openCart()"></p-avatar>
+      <span>2</span>
+    </div>
   </div>
   <div class="navbar-profile mobileOptions">
     <p-avatar icon="pi pi-bars" pBadge value="4" severity="success" styleClass="mr-2" [style]="styleBadge"

@@ -32,6 +32,8 @@ import { MessageService } from 'primeng/api';
 import { ProductlistComponent } from './pages/productlist/productlist.component';
 import { SliderModule } from 'primeng/slider';
 import { BreadcrumbComponent } from './components/breadcrumb/breadcrumb.component';
+import { CheckboxModule } from 'primeng/checkbox';
+import { WishlistService } from 'src/service/wishlist.service';
 
 
 @NgModule({
@@ -67,9 +69,10 @@ import { BreadcrumbComponent } from './components/breadcrumb/breadcrumb.componen
     HttpClientModule,
     StarRatingModule.forRoot(),
     ToastModule,
-    SliderModule
+    SliderModule,
+    CheckboxModule,
   ],
-  providers: [MessageService],
+  providers: [MessageService, WishlistService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

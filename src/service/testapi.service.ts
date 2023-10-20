@@ -11,6 +11,7 @@ export class ApiService {
   private watchUrl = 'http://localhost:3000/watches';
   private mensUrl = 'http://localhost:3000/mens';
   private womensUrl = 'http://localhost:3000/womens';
+  private wishlistUrl = 'http://localhost:3000/wishlist';
 
   constructor(private http: HttpClient) {}
 
@@ -58,4 +59,28 @@ export class ApiService {
     }
     return this.http.get(url);
   }
+  postWishlist(item:any): Observable<any> {
+    return this.http.post(this.wishlistUrl, item);
+  }
+  getWishlist(): Observable<any> {
+    return this.http.get(this.wishlistUrl);
+  }
+  deleteWishlist(id:any): Observable<any> {
+    let url = this.wishlistUrl + `/${id}`;
+    return this.http.delete(url, { observe: 'response' });
+  }
+
+
+  // postWishlist(data:any){
+  //   this.http.post(this.wishlistUrl, data).subscribe(
+  //     (response) => {
+  //       console.log('POST request successful', response);
+  //       // Handle the response here if needed
+  //     },
+  //     (error) => {
+  //       console.error('POST request failed', error);
+  //       // Handle the error here if needed
+  //     }
+  //   );
+  // }
 }

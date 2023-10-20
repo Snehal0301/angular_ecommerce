@@ -137,6 +137,23 @@
     justify-content: flex-end;
     gap: 20px;
     padding-right: 35px;
+    .wishlist-wrapper{
+      position: relative;
+      span{
+        position: absolute;
+        top: -5px;
+        right: 0;
+        background-color: $black-color;
+        color: $nav-background;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        font-size: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
   }
 
   .mobileOptions {

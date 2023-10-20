@@ -1,5 +1,7 @@
 import { Component, HostListener } from '@angular/core';
 import { FormBuilder, FormGroup, FormControl } from '@angular/forms';
+import { ApiService } from 'src/service/testapi.service';
+import { WishlistService } from 'src/service/wishlist.service';
 interface AutoCompleteCompleteEvent {
   originalEvent: Event;
   query: string;
@@ -30,31 +32,32 @@ export class NavbarComponent {
 
   constructor(
     private fb: FormBuilder,
+    private apiService: ApiService,
+    private wishlistService: WishlistService
   ) {}
 
-  data:any;
+  wishlist:any;
 
   ngOnInit() {
 
-    // Initialize the formGroup using FormBuilder
     this.formGroup = this.fb.group({
       selectedCountry: new FormControl<object | null>(null),
     });
+
+    this.wishlistService.wishlist$.subscribe((data) => {
+      this.wishlist = data;
+    });
+
+    // this.apiService.getWishlist().subscribe(
+    //   (response) => {
+    //     this.wishlist = response;
+    //   },
+    //   (error) => {
+    //     console.error('Error:', error);
+    //   }
+    // );
   }
 
-  filterCountry(event: AutoCompleteCompleteEvent) {
-    let filtered: any[] = [];
-    let query = event.query;
-
-    for (let i = 0; i < (this.countries as any[]).length; i++) {
-      let country = (this.countries as any[])[i];
-      if (country.name.toLowerCase().indexOf(query.toLowerCase()) == 0) {
-        filtered.push(country);
-      }
-    }
-
-    this.filteredCountries = filtered;
-  }
 
 
   @HostListener('window:scroll', [])

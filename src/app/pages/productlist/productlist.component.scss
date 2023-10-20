@@ -56,6 +56,7 @@
           justify-content: space-between;
           border-radius: 8px;
           cursor: pointer;
+          font-size: 14px;
 
           span {
 
@@ -94,9 +95,8 @@
         .filter {
           display: flex;
           gap: 10px;
-          align-items: center;
-
-          input[type='checkbox'] {
+          margin-bottom: 5px;
+          .input-checkbox{
             cursor: pointer;
           }
         }
@@ -126,28 +126,36 @@
         .sort-item {
           cursor: pointer;
         }
-        .sort-item-active{
+
+        .sort-item-active {
           color: $clear-color;
         }
       }
-      .sort-section-2{
+
+      .sort-section-2 {
         display: flex;
+        align-items: center;
         gap: 10px;
 
-        .grid-icons{
+        .grid-icons {
           cursor: pointer;
           font-size: 25px;
           color: $grey-breadcrumb;
         }
-        .grid-icons-active{
-          color: $clear-color;
 
+        .grid-list-icons {
+          font-size: 33px;
+          padding-bottom: 3px;
+        }
+
+        .grid-icons-active {
+          color: $clear-color;
         }
       }
     }
 
-    .productlist-container-items {
-      display: flex;
-    }
+    // .productlist-container-items {
+    //   display: flex;
+    // }
   }
 }

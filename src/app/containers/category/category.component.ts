@@ -31,34 +31,42 @@ export class CategoryComponent {
     {
       src:'../../../assets/glasses-category-img-1.jpg',
       title:"Women's Wear",
+      link:"/products/womens"
     },
     {
       src:'../../../assets/glasses-category-img-2.jpg',
-      title:"Men's Wear"
+      title:"Men's Wear",
+      link:"/products/mens"
     },
     {
       src:'../../../assets/retail-black-friday-small-banner-1-opt.jpg',
       title:'Shoes',
+      link:"/products/mens"
     },
     {
       src:'../../../assets/retail-black-friday-small-banner-2-opt.jpg',
       title:"Gadget's",
+      link:"/products/womens"
     },
     {
       src:'../../../assets/retail-black-friday-small-banner-4-opt.jpg',
       title:"Kid's",
+      link:"/products/womens"
     },
     {
       src:'../../../assets/baner-flat-fashion-7.jpg',
       title:"Bag's",
+      link:"/products/watches"
     },
     {
       src:'../../../assets/skincare.png',
       title:"Skincare",
+      link:"/products/mens"
     },
     {
       src:'../../../assets/watch_category.webp',
       title:"Watch",
+      link:"/products/watches"
     }
   ]
 
