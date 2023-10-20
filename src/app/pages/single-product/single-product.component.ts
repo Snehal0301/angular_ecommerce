@@ -2,12 +2,13 @@ import { Component } from '@angular/core';
 import { MessageService } from 'primeng/api';
 import { ApiService } from 'src/service/testapi.service';
 import { ActivatedRoute } from '@angular/router';
+import { CommonService } from 'src/service/common.service';
 
 @Component({
   selector: 'app-single-product',
   templateUrl: './single-product.component.html',
   styleUrls: ['./single-product.component.scss'],
-  providers: [MessageService],
+  // providers: [MessageService],
 })
 export class SingleProductComponent {
   value: number;
@@ -21,8 +22,9 @@ export class SingleProductComponent {
 
   constructor(
     private apiService: ApiService,
-    private messageService: MessageService,
-    private route: ActivatedRoute
+    // private messageService: MessageService,
+    private route: ActivatedRoute,
+    private commonService: CommonService
   ) {
     this.value = 1;
     this.id = '';
@@ -88,18 +90,18 @@ export class SingleProductComponent {
         this.value++;
       }
     } else if (type === 'cart') {
-      this.messageService.clear();
-      this.messageService.add({
-        key: 'tc',
-        severity: 'success',
-        summary: 'Success',
-        detail: 'Added to cart',
-      });
+      console.log(this.singleProductData);
+      if (this.singleProductData.isAddtoCart) {
+        this.commonService.removeList(this.singleProductData, type);
+      } else {
+        this.commonService.addToList(this.singleProductData, type);
+      }
+      // this.messageService.clear();
       // this.messageService.add({
       //   key: 'tc',
-      //   severity: 'error',
-      //   summary: 'Error',
-      //   detail: 'Could not add product to cart',
+      //   severity: 'success',
+      //   summary: 'Success',
+      //   detail: 'Added to cart',
       // });
     } else return;
   }

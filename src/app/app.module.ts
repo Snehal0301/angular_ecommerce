@@ -34,6 +34,7 @@ import { SliderModule } from 'primeng/slider';
 import { BreadcrumbComponent } from './components/breadcrumb/breadcrumb.component';
 import { CheckboxModule } from 'primeng/checkbox';
 import { WishlistService } from 'src/service/wishlist.service';
+import { CommonService } from 'src/service/common.service';
 
 
 @NgModule({
@@ -72,7 +73,7 @@ import { WishlistService } from 'src/service/wishlist.service';
     SliderModule,
     CheckboxModule,
   ],
-  providers: [MessageService, WishlistService],
+  providers: [MessageService, WishlistService, CommonService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

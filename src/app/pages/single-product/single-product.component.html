@@ -28,8 +28,14 @@
         <div class="qty">{{value}}</div>
         <button class="qty-controls" (click)="handleFunction('qty','+')">+</button>
       </div>
-      <button class="singleProduct-cart" (click)="handleFunction('wishlist')">Wishlist</button>
-      <button class="singleProduct-cart" (click)="handleFunction('cart')">Add to Cart</button>
+      <button class="singleProduct-cart" (click)="handleFunction('wishlist')">
+        <span *ngIf="!singleProductData.isWishlisted">Wishlist</span>
+        <span *ngIf="singleProductData.isWishlisted">Wishlisted</span>
+      </button>
+      <button class="singleProduct-cart" (click)="handleFunction('cart')">
+        <span *ngIf="!singleProductData.isAddtoCart">Add to Cart</span>
+        <span *ngIf="singleProductData.isAddtoCart">Added to Cart</span>
+      </button>
     </div>
     <div class="singleProduct-productDesc">
       <p class="product-details">
