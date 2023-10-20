@@ -46,7 +46,7 @@
 
       <p-avatar icon="pi pi-cart-plus" pBadge value="4" severity="success" styleClass="mr-2" [style]="styleBadge"
         shape="circle" (click)="openCart()"></p-avatar>
-      <span>2</span>
+      <span *ngIf="cart.length">{{cart.length}}</span>
     </div>
   </div>
   <div class="navbar-profile mobileOptions">

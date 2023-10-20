@@ -134,10 +134,21 @@
           color: $shades-red;
           cursor: pointer;
           transition: all 0.1s ease-in-out;
-          &:hover{
-            background-color: $shades-red;
-            color: white;
+          span{
+            font-size: 14px;
           }
+        }
+        .add-to-cart-active{
+          display: flex;
+          align-items: center;
+          gap: 5px;
+          padding: 6px;
+          border: 1px solid $shades-red;
+          background-color: $shades-red;
+          border-radius: 8px;
+          color: $nav-background;
+          cursor: pointer;
+          transition: all 0.1s ease-in-out;
           span{
             font-size: 14px;
           }

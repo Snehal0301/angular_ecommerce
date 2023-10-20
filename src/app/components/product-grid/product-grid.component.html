@@ -1,16 +1,18 @@
 <div class="products-grid" *ngIf="gridlayout === 'grid'">
   <div class="product-grid" *ngFor="let item of data">
     <div class="product-img-section">
-      <a [routerLink]="location !== 'productlist' ? 'products/' + item.category + '/' + item.id : item.id"><img [src]="item.images[0]" alt="item.name" class="feature-img"></a>
+      <a [routerLink]="location !== 'productlist' ? 'products/' + item.category + '/' + item.id : item.id"><img
+          [src]="item.images[0]" alt="item.name" class="feature-img"></a>
       <i class="pi pi-heart wishlist" *ngIf="!item.isWishlisted" (click)="handleFunction('wishlist', item)"></i>
       <i class="pi pi-heart-fill wishlist" *ngIf="item.isWishlisted" (click)="handleFunction('wishlist', item)"></i>
-      <!-- <i class="pi pi-shopping-cart cart" (click)="handleFunction('cart', item)"></i>
-      <i class="pi pi-cart-plus cart" *ngIf="!wishlistState" (click)="handleFunction('cart', item)"></i> -->
+      <i class="pi pi-shopping-cart cart" *ngIf="!item.isAddtoCart" (click)="handleFunction('cart', item)"></i>
+      <i class="pi pi-cart-plus cart" *ngIf="item.isAddtoCart" (click)="handleFunction('cart', item)"></i>
     </div>
     <div class="product-section">
       <p class="product-title">{{item.name}}</p>
-      <p class="product-price" (click)="handleClick()">₹ {{item.price}}</p>
-      <star-rating [readOnly]="true" [getHalfStarVisible]="item.rating" [step]="0.5" [showHalfStars]="true" [starType]="'svg'" [rating]="item.rating"></star-rating>
+      <p class="product-price">₹ {{item.price}}</p>
+      <star-rating [readOnly]="true" [getHalfStarVisible]="item.rating" [step]="0.5" [showHalfStars]="true"
+        [starType]="'svg'" [rating]="item.rating"></star-rating>
     </div>
   </div>
 </div>
@@ -22,17 +24,34 @@
     </div>
     <div class="liststyle-section-1">
       <div class="wrapper-1">
-        <a [routerLink]="location !== 'productlist' ? 'products/' + item.category + '/' + item.id : item.id"><div class="liststyle-title">{{item.name}}</div></a>
+        <a [routerLink]="location !== 'productlist' ? 'products/' + item.category + '/' + item.id : item.id">
+          <div class="liststyle-title">{{item.name}}</div>
+        </a>
         <div class="liststyle-price">₹ {{item.price}}</div>
         <div class="liststyle-rating"><span>{{item.rating}}</span>
-          <star-rating [readOnly]="true" [getHalfStarVisible]="item.rating" [step]="0.5" [showHalfStars]="true" [starType]="'svg'" [rating]="item.rating"></star-rating>
+          <star-rating [readOnly]="true" [getHalfStarVisible]="item.rating" [step]="0.5" [showHalfStars]="true"
+            [starType]="'svg'" [rating]="item.rating"></star-rating>
         </div>
         <div class="liststyle-desc">{{item.desc}}</div>
       </div>
       <div class="wrapper-2">
-        <!-- <div class="add-to-cart" (click)="handleFunction('wishlist', item)"><span>Wishlist</span> <i class="pi pi-heart wishlist"></i></div>
-        <div class="add-to-cart" (click)="handleFunction('cart', item)"><span>Add to cart</span> <i class="pi pi-shopping-cart cart"></i></div> -->
+        <div [ngClass]="{'add-to-cart-active': item.isWishlisted, 'add-to-cart': !item.isWishlisted}"
+          (click)="handleFunction('wishlist', item)">
+          <span *ngIf="!item.isWishlisted">Wishlist</span>
+          <span *ngIf="item.isWishlisted">Wishlisted</span>
+          <i class="pi pi-heart wishlist" *ngIf="!item.isWishlisted"></i>
+          <i class="pi pi-heart-fill wishlist" *ngIf="item.isWishlisted"></i>
+        </div>
+        <div [ngClass]="{'add-to-cart-active': item.isAddtoCart, 'add-to-cart': !item.isAddtoCart}"
+          (click)="handleFunction('cart', item)">
+          <span *ngIf="!item.isAddtoCart">Add to cart</span>
+          <span *ngIf="item.isAddtoCart">Added to cart</span>
+          <i class="pi pi-shopping-cart cart" *ngIf="!item.isAddtoCart"></i>
+          <i class="pi pi-cart-plus cart" *ngIf="item.isAddtoCart"></i>
+        </div>
       </div>
     </div>
   </div>
 </div>
+
+<p-toast position="top-center" key="tc"></p-toast>

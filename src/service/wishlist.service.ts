@@ -6,8 +6,10 @@ import { ApiService } from './testapi.service';
 export class WishlistService {
   private wishlistSubject = new BehaviorSubject<any[]>([]);
   wishlist$: Observable<any[]> = this.wishlistSubject.asObservable();
-
+  returnValue: boolean;
+  
   constructor(private apiService: ApiService) {
+    this.returnValue = false;
     this.fetchWishlistData();
   }
 
@@ -22,30 +24,37 @@ export class WishlistService {
     );
   }
 
-  addToWishlist(item: any) {
-    this.apiService.postWishlist(item).subscribe(
-      (response) => {
-        const updatedWishlist = this.wishlistSubject.value.concat(item);
-        this.wishlistSubject.next(updatedWishlist);
-        console.log('Added wishlist', response);
-      },
-      (error) => {
-        console.error('Error:', error);
-      }
-    );
+  addToWishlist(item: any):Promise<boolean> {
+    return new Promise((resolve,reject)=>{
+      this.apiService.postWishlist(item).subscribe(
+        (response) => {
+          const updatedWishlist = this.wishlistSubject.value.concat(item);
+          this.wishlistSubject.next(updatedWishlist);
+          console.log('Added wishlist', response);
+          resolve(true);
+        },
+        (error) => {
+          console.error('Error:', error);
+          resolve(false);
+        }
+      );
+    })
   }
   
-  deleteFromWishlist(id: any) {
-    this.apiService.deleteWishlist(id).subscribe(
-      (response) => {
-        const updatedWishlist = this.wishlistSubject.value.filter((item) => item.id !== id);
-        this.wishlistSubject.next(updatedWishlist);
-        console.log('Deleted wishlist item', response);
-      },
-      (error) => {
-        console.error('Error:', error);
-      }
-    );
+  deleteFromWishlist(id: any): Promise<boolean> {
+    return new Promise((resolve, reject) => {
+      this.apiService.deleteWishlist(id).subscribe(
+        (response) => {
+          const updatedWishlist = this.wishlistSubject.value.filter((item) => item.id !== id);
+          this.wishlistSubject.next(updatedWishlist);
+          console.log('Deleted wishlist item', response);
+          resolve(true);
+        },
+        (error) => {
+          console.error('Error:', error);
+          resolve(false);
+        }
+      );
+    });
   }
-  
 }

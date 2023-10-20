@@ -17,9 +17,8 @@ export class SingleProductComponent {
   toast: boolean = false;
   id: string | null;
   isHalfStar: boolean;
-  category:any;
-  
-  
+  category: any;
+
   constructor(
     private apiService: ApiService,
     private messageService: MessageService,
@@ -28,7 +27,7 @@ export class SingleProductComponent {
     this.value = 1;
     this.id = '';
     this.isHalfStar = false;
-    this.category = ''
+    this.category = '';
   }
 
   ngOnInit() {
@@ -38,9 +37,9 @@ export class SingleProductComponent {
 
     window.scrollTo(0, 0);
 
-    if(idParam!==null){
+    if (idParam !== null) {
       this.id = idParam;
-      if(catParam === 'mens'){
+      if (catParam === 'mens') {
         this.apiService.getSingleMensProduct(this.id).subscribe(
           (data) => {
             this.singleProductData = data;
@@ -50,7 +49,7 @@ export class SingleProductComponent {
             console.error('Error:', error);
           }
         );
-      }else if(catParam === 'womens'){
+      } else if (catParam === 'womens') {
         this.apiService.getSingleWomensProduct(this.id).subscribe(
           (data) => {
             this.singleProductData = data;

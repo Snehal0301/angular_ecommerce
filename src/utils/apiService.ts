@@ -13,6 +13,20 @@ export const getAllProductsApi = (
   return new Observable();
 };
 
+export const updateProduct = (
+  category: string,
+  apiService: ApiService,
+  id:string,
+  updatedData: any
+): Observable<any> => {
+  if (category === 'mens') {
+    return apiService.updateMensProduct(id, updatedData);
+  }else if(category === 'womens'){
+    return apiService.updateWomensProduct(id, updatedData);
+  }
+  return new Observable();
+};
+
 export const sortPriceApi = (
   order: string,
   category: string,

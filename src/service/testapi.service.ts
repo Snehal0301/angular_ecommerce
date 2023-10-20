@@ -12,6 +12,7 @@ export class ApiService {
   private mensUrl = 'http://localhost:3000/mens';
   private womensUrl = 'http://localhost:3000/womens';
   private wishlistUrl = 'http://localhost:3000/wishlist';
+  private cartUrl = 'http://localhost:3000/cart';
 
   constructor(private http: HttpClient) {}
 
@@ -30,11 +31,12 @@ export class ApiService {
     return this.http.get(url);
   }
 
+  // MENS PRODUCT START
   getSingleMensProduct(id: string): Observable<any> {
     const url = this.mensUrl + '/' + id;
     return this.http.get(url);
   }
-
+  
   getMensProduct(sort?: string, order?: string): Observable<any> {
     let url = '';
     if (sort || order) {
@@ -44,12 +46,14 @@ export class ApiService {
     }
     return this.http.get(url);
   }
-
-  getSingleWomensProduct(id: string): Observable<any> {
-    const url = this.womensUrl + '/' + id;
-    return this.http.get(url);
+  
+  updateMensProduct(id: string, updateData: any): Observable<any> {
+    let url = this.mensUrl + '/' + id;
+    return this.http.patch(url, updateData);
   }
+  // MENS PRODUCT END
 
+  // WOMENS PRODUCT START
   getWomensProduct(sort?: string, order?: string): Observable<any> {
     let url = '';
     if (sort || order) {
@@ -59,28 +63,45 @@ export class ApiService {
     }
     return this.http.get(url);
   }
-  postWishlist(item:any): Observable<any> {
+  
+  getSingleWomensProduct(id: string): Observable<any> {
+    const url = this.womensUrl + '/' + id;
+    return this.http.get(url);
+  }
+
+  updateWomensProduct(id: string, updateData: any): Observable<any> {
+    let url = this.womensUrl + '/' + id;
+    return this.http.patch(url, updateData);
+  }
+  // WOMENS PRODUCT END
+  
+  // WISHLIST START
+  postWishlist(item: any): Observable<any> {
     return this.http.post(this.wishlistUrl, item);
   }
+  
   getWishlist(): Observable<any> {
     return this.http.get(this.wishlistUrl);
   }
-  deleteWishlist(id:any): Observable<any> {
+  
+  deleteWishlist(id: any): Observable<any> {
     let url = this.wishlistUrl + `/${id}`;
     return this.http.delete(url, { observe: 'response' });
   }
+  // WISHLIST END
 
-
-  // postWishlist(data:any){
-  //   this.http.post(this.wishlistUrl, data).subscribe(
-  //     (response) => {
-  //       console.log('POST request successful', response);
-  //       // Handle the response here if needed
-  //     },
-  //     (error) => {
-  //       console.error('POST request failed', error);
-  //       // Handle the error here if needed
-  //     }
-  //   );
-  // }
+  // CART START
+  postCart(item: any): Observable<any> {
+    return this.http.post(this.cartUrl, item);
+  }
+  
+  getCart(): Observable<any> {
+    return this.http.get(this.cartUrl);
+  }
+  
+  deleteCart(id: any): Observable<any> {
+    let url = this.cartUrl + `/${id}`;
+    return this.http.delete(url, { observe: 'response' });
+  }
+  // CART END
 }

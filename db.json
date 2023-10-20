@@ -7,6 +7,7 @@
     }
   ],
   "wishlist": [],
+  "cart": [],
   "mens": [
     {
       "name": "Slim-fit biker jacket in water-repellent canvas",
@@ -15,6 +16,7 @@
       "rating": 4,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "mens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50492935_001_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582172000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50492935_001_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582172000&wid=1200&hei=1818",
@@ -29,8 +31,7 @@
         "L",
         "XL"
       ],
-      "id": "107367bc76f2e",
-      "category": "mens"
+      "id": "107367bc76f2e"
     },
     {
       "name": "Water-repellent field jacket in stretch-cotton twill",
@@ -39,6 +40,7 @@
       "rating": 4.2,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "mens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50496842_404_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582172000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50496842_404_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582172000&wid=1200&hei=1818",
@@ -62,6 +64,7 @@
       "rating": 4.4,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "mens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50496700_404_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582172000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50496700_404_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582172000&wid=1200&hei=1818",
@@ -85,6 +88,7 @@
       "rating": 3.7,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "mens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50496634_404_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696928599000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50496634_404_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696928599000&wid=1200&hei=1818",
@@ -108,6 +112,7 @@
       "rating": 4.5,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "mens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50505031_001_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697018751000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50505031_001_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697018751000&wid=1200&hei=1818",
@@ -131,6 +136,7 @@
       "rating": 3.9,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "mens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50493643_001_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582172000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50493643_001_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582172000&wid=1200&hei=1818",
@@ -154,6 +160,7 @@
       "rating": 4.1,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "mens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50510181_360_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696595645000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50510181_360_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696595645000&wid=1200&hei=1818",
@@ -177,6 +184,7 @@
       "rating": 3.8,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "mens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50492935_280_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582159000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50492935_280_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582159000&wid=1200&hei=1818",
@@ -200,6 +208,7 @@
       "rating": 4.3,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "mens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50510181_001_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696595712000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50510181_001_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696595712000&wid=1200&hei=1818",
@@ -223,6 +232,7 @@
       "rating": 3.6,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "mens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50492821_001_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582159000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50492821_001_340?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582159000&wid=1200&hei=1818",
@@ -246,6 +256,7 @@
       "rating": 4.4,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "mens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50455293_002_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582159000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50455293_002_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582159000&wid=1200&hei=1818",
@@ -269,6 +280,7 @@
       "rating": 3.5,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "mens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50468719_001_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696929516000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50468719_001_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696929516000&wid=1200&hei=1818",
@@ -292,6 +304,7 @@
       "rating": 4.1,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "mens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50493935_001_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697031481000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50493935_001_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697031481000&wid=1200&hei=1818",
@@ -315,6 +328,7 @@
       "rating": 3.7,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "mens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50498500_001_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697116112000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50498500_001_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697116112000&wid=1200&hei=1818",
@@ -338,6 +352,7 @@
       "rating": 4.2,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "mens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50499542_001_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697018743000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50499542_001_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697018743000&wid=1200&hei=1818",
@@ -361,6 +376,7 @@
       "rating": 3.8,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "mens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50511580_001_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696925714000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50511580_001_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696925714000&wid=1200&hei=1818",
@@ -384,6 +400,7 @@
       "rating": 4.5,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "mens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50493106_345_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582159000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50493106_345_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582159000&wid=1200&hei=1818",
@@ -407,6 +424,7 @@
       "rating": 3.9,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "mens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50498511_001_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582148000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50498511_001_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582148000&wid=1200&hei=1818",
@@ -430,6 +448,7 @@
       "rating": 4.3,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "mens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50499425_001_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696938326000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50499425_001_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696938326000&wid=1200&hei=1818",
@@ -453,6 +472,7 @@
       "rating": 4,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "mens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50499589_001_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697116112000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50499589_001_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697116112000&wid=1200&hei=1818",
@@ -476,6 +496,7 @@
       "rating": 4.2,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "mens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50486635_001_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582148000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50486635_001_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582148000&wid=1200&hei=1818",
@@ -499,6 +520,7 @@
       "rating": 4.4,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "mens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50493382_001_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697031481000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50493382_001_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697031481000&wid=1200&hei=1818",
@@ -522,6 +544,7 @@
       "rating": 3.7,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "mens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50498066_001_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697031666000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50498066_001_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697031666000&wid=1200&hei=1818",
@@ -545,6 +568,7 @@
       "rating": 4.5,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "mens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50504510_001_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696929511000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50504510_001_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696929511000&wid=1200&hei=1818",
@@ -568,6 +592,7 @@
       "rating": 3.9,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "mens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50464308_361_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696929755000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50464308_361_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696929755000&wid=1200&hei=1818",
@@ -591,6 +616,7 @@
       "rating": 4.1,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "mens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50498184_205_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582132000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50498184_205_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582132000&wid=1200&hei=1818",
@@ -614,6 +640,7 @@
       "rating": 3.8,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "mens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50499425_257_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697116112000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50499425_257_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697116112000&wid=1200&hei=1818",
@@ -637,6 +664,7 @@
       "rating": 4.3,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "mens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50486635_202_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582132000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50486635_202_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582132000&wid=1200&hei=1818",
@@ -660,6 +688,7 @@
       "rating": 3.6,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "mens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50498608_404_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582132000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50498608_404_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582132000&wid=1200&hei=1818",
@@ -683,6 +712,7 @@
       "rating": 4.4,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "mens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50499425_404_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696951021000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50499425_404_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696951021000&wid=1200&hei=1818",
@@ -706,6 +736,7 @@
       "rating": 3.5,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "mens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50464300_260_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696581610000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50464300_260_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696581610000&wid=1200&hei=1818",
@@ -729,6 +760,7 @@
       "rating": 4.1,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "mens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50497379_260_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697031481000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50497379_260_340?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697031481000&wid=1200&hei=1818",
@@ -752,6 +784,7 @@
       "rating": 3.7,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "mens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50464308_260_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697116092000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50464308_260_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697116092000&wid=1200&hei=1818",
@@ -775,6 +808,7 @@
       "rating": 4.2,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "mens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50497527_260_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1695307670000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50497527_260_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1695307670000&wid=1200&hei=1818",
@@ -800,6 +834,7 @@
       "rating": 4.3,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "womens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50493900_988_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50493900_988_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
@@ -813,8 +848,7 @@
         "L",
         "XL"
       ],
-      "id": "bdb87eb8626c7",
-      "category": "womens"
+      "id": "bdb87eb8626c7"
     },
     {
       "name": "Funnel-neck sweater in a wool blend",
@@ -823,6 +857,7 @@
       "rating": 4,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "womens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50502274_001_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50502274_001_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
@@ -845,6 +880,7 @@
       "rating": 4.1,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "womens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50500778_001_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50500778_001_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
@@ -867,6 +903,7 @@
       "rating": 4.5,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "womens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50500773_001_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50500773_001_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
@@ -889,6 +926,7 @@
       "rating": 4.2,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "womens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50502244_001_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50502244_001_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
@@ -911,6 +949,7 @@
       "rating": 4.4,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "womens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50478315_383_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50478315_383_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
@@ -933,6 +972,7 @@
       "rating": 3.9,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "womens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50478290_309_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50478290_309_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
@@ -955,6 +995,7 @@
       "rating": 4.3,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "womens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50478296_309_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50478296_309_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
@@ -977,6 +1018,7 @@
       "rating": 3.8,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "womens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50504562_041_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50504562_041_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
@@ -999,6 +1041,7 @@
       "rating": 4.1,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "womens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50489454_040_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50489454_040_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
@@ -1021,6 +1064,7 @@
       "rating": 4,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "womens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50500342_040_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50500342_040_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
@@ -1042,6 +1086,7 @@
       "rating": 3.7,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "womens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50478315_040_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50478315_040_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
@@ -1064,6 +1109,7 @@
       "rating": 4.4,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "womens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50500597_118_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953894000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50500597_118_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953894000&wid=1200&hei=1818",
@@ -1085,6 +1131,7 @@
       "rating": 3.6,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "womens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50500776_110_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953536000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50500776_110_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953536000&wid=1200&hei=1818",
@@ -1107,6 +1154,7 @@
       "rating": 4.2,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "womens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50493904_118_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953536000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50493904_118_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953536000&wid=1200&hei=1818",
@@ -1129,6 +1177,7 @@
       "rating": 3.5,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "womens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50493851_118_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697032748000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50493851_118_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697032748000&wid=1200&hei=1818",
@@ -1151,6 +1200,7 @@
       "rating": 4.5,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "womens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50486059_661_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696968940000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50486059_661_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696968940000&wid=1200&hei=1818",
@@ -1173,6 +1223,7 @@
       "rating": 3.7,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "womens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50493845_674_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953514000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50493845_674_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953514000&wid=1200&hei=1818",
@@ -1195,6 +1246,7 @@
       "rating": 4.3,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "womens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50500811_663_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953514000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50500811_663_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953514000&wid=1200&hei=1818",
@@ -1217,6 +1269,7 @@
       "rating": 3.6,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "womens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50493844_674_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953476000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50493844_674_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953476000&wid=1200&hei=1818",
@@ -1239,6 +1292,7 @@
       "rating": 4.3,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "womens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50500597_680_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953499000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50500597_680_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953499000&wid=1200&hei=1818",
@@ -1260,6 +1314,7 @@
       "rating": 4,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "womens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50493730_534_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697032275000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50493730_534_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697032275000&wid=1200&hei=1818",
@@ -1282,6 +1337,7 @@
       "rating": 4.1,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "womens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50493736_534_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953499000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50493736_534_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953499000&wid=1200&hei=1818",
@@ -1304,6 +1360,7 @@
       "rating": 4.5,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "womens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50500809_551_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953499000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50500809_551_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953499000&wid=1200&hei=1818",
@@ -1325,6 +1382,7 @@
       "rating": 4.2,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "womens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50494140_968_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953433000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50494140_968_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953433000&wid=1200&hei=1818",
@@ -1347,6 +1405,7 @@
       "rating": 4.4,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "womens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50489454_450_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697032275000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50489454_450_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697032275000&wid=1200&hei=1818",
@@ -1369,6 +1428,7 @@
       "rating": 3.9,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "womens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50493844_498_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953433000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50493844_498_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953433000&wid=1200&hei=1818",
@@ -1391,6 +1451,7 @@
       "rating": 4.3,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "womens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50497500_463_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697032275000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50497500_463_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697032275000&wid=1200&hei=1818",
@@ -1413,6 +1474,7 @@
       "rating": 3.8,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "womens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50500597_220_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953433000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50500597_220_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953433000&wid=1200&hei=1818",
@@ -1434,6 +1496,7 @@
       "rating": 4.1,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "womens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50493836_960_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953433000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50493836_960_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953433000&wid=1200&hei=1818",
@@ -1456,6 +1519,7 @@
       "rating": 4,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "womens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50501575_260_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953433000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50501575_260_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953433000&wid=1200&hei=1818",
@@ -1476,8 +1540,9 @@
       "price": 999,
       "desc": "A mock-neck sweater with cropped sleeves and a block stripe by BOSS Womenswear. For our RESPONSIBLE products we always use at least 60% more sustainable raw materials. This product is made with responsibly sourced and certified wool. For us, responsibly sourced means mulesing free, and meeting the standards of the Five Freedoms of animal welfare.",
       "rating": 3.7,
-      "isWishlisted": false,
+      "isWishlisted": true,
       "isAddtoCart": false,
+      "category": "womens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50493846_260_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697031920000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50493846_260_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1697031920000&wid=1200&hei=1818",
@@ -1500,6 +1565,7 @@
       "rating": 4.4,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "womens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50504562_118_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953407000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50504562_118_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953407000&wid=1200&hei=1818",
@@ -1522,6 +1588,7 @@
       "rating": 3.6,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "womens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50493853_118_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696952408000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50493853_118_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696952408000&wid=1200&hei=1818",
@@ -1544,6 +1611,7 @@
       "rating": 4.2,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "womens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50493904_260_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50493904_260_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
@@ -1566,6 +1634,7 @@
       "rating": 3.5,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "womens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50496472_988_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
         "https://images.hugoboss.com/is/image/boss/hbeu50496472_988_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
@@ -1590,14 +1659,14 @@
       "rating": 3.8,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "watches",
       "images": [
         "https://static.patek.com/images/articles/gallery_thumbnail/300/5719_10G_010_2.jpg",
         "https://static.patek.com/images/articles/face_white/220/5719_10G_010.jpg",
         "https://static.patek.com/images/articles/gallery_thumbnail/300/5719_10G_010_3.jpg",
         "https://static.patek.com/images/articles/gallery_thumbnail/300/5719_10G_010_6.jpg"
       ],
-      "id": "0a8e05de1508b",
-      "category": "watches"
+      "id": "0a8e05de1508b"
     },
     {
       "name": "Patek 5740/1G Nautilus",
@@ -1606,6 +1675,7 @@
       "rating": 4.2,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "watches",
       "images": [
         "https://static.patek.com/images/articles/gallery_thumbnail/300/5740_1G_001_8.jpg",
         "https://static.patek.com/images/articles/face_white/220/5740_1G_001_1.jpg",
@@ -1621,6 +1691,7 @@
       "rating": 4,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "watches",
       "images": [
         "https://static.patek.com/images/articles/gallery_thumbnail/300/5990_1R_001_8.jpg",
         "https://static.patek.com/images/articles/face_white/220/5990_1R_001_1.jpg",
@@ -1636,6 +1707,7 @@
       "rating": 4.3,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "watches",
       "images": [
         "https://static.patek.com/images/articles/gallery_thumbnail/300/5990_1A_011_8.jpg",
         "https://static.patek.com/images/articles/face_white/220/5990_1A_011_1.jpg",
@@ -1651,6 +1723,7 @@
       "rating": 3.6,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "watches",
       "images": [
         "https://static.patek.com/images/articles/gallery_thumbnail/300/5980_1R_001_1.jpg",
         "https://static.patek.com/images/articles/face_white/220/5980_1R_001.jpg",
@@ -1666,6 +1739,7 @@
       "rating": 4.1,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "watches",
       "images": [
         "https://static.patek.com/images/articles/gallery_thumbnail/300/5980_1AR_001_1.jpg",
         "https://static.patek.com/images/articles/face_white/220/5980_1AR_001.jpg",
@@ -1681,6 +1755,7 @@
       "rating": 4.4,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "watches",
       "images": [
         "https://static.patek.com/images/articles/gallery_thumbnail/300/5980R_001_1.jpg",
         "https://static.patek.com/images/articles/face_white/220/5980R_001.jpg",
@@ -1696,6 +1771,7 @@
       "rating": 3.7,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "watches",
       "images": [
         "https://static.patek.com/images/articles/gallery_thumbnail/300/5726_1A_014_9.jpg",
         "https://static.patek.com/images/articles/face_white/220/5726_1A_014_1.jpg",
@@ -1711,6 +1787,7 @@
       "rating": 4.3,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "watches",
       "images": [
         "https://static.patek.com/images/articles/gallery_thumbnail/300/5726A_001_8.jpg",
         "https://static.patek.com/images/articles/face_white/220/5726A_001.jpg",
@@ -1726,6 +1803,7 @@
       "rating": 4.2,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "watches",
       "images": [
         "https://static.patek.com/images/articles/gallery_thumbnail/300/5712_1R_001_8.jpg",
         "https://static.patek.com/images/articles/face_white/220/5712_1R_001_1.jpg",
@@ -1741,6 +1819,7 @@
       "rating": 4,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "watches",
       "images": [
         "https://static.patek.com/images/articles/gallery_thumbnail/300/5712_1A_001_9.jpg",
         "https://static.patek.com/images/articles/face_white/220/5712_1A_001_1.jpg",
@@ -1756,6 +1835,7 @@
       "rating": 3.9,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "watches",
       "images": [
         "https://static.patek.com/images/articles/gallery_thumbnail/300/5712R_001_1.jpg",
         "https://static.patek.com/images/articles/face_white/220/5712R_001_1.jpg",
@@ -1771,6 +1851,7 @@
       "rating": 3.8,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "watches",
       "images": [
         "https://static.patek.com/images/articles/gallery_thumbnail/300/5712G_001_1.jpg",
         "https://static.patek.com/images/articles/face_white/220/5712G_001_1.jpg",
@@ -1786,6 +1867,7 @@
       "rating": 4.1,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "watches",
       "images": [
         "https://static.patek.com/images/articles/gallery_thumbnail/300/5811_1G_001_8.jpg",
         "https://static.patek.com/images/articles/face_white/220/5811_1G_001_1.jpg",
@@ -1801,6 +1883,7 @@
       "rating": 4.4,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "watches",
       "images": [
         "https://static.patek.com/images/articles/gallery_thumbnail/300/7118_1450R_001_8.jpg",
         "https://static.patek.com/images/articles/face_white/220/7118_1450R_001_1.jpg",
@@ -1816,6 +1899,7 @@
       "rating": 4.5,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "watches",
       "images": [
         "https://static.patek.com/images/articles/gallery_thumbnail/300/7118_1450G_001_8.jpg",
         "https://static.patek.com/images/articles/face_white/220/7118_1450G_001_001.jpg",
@@ -1831,6 +1915,7 @@
       "rating": 3.7,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "watches",
       "images": [
         "https://static.patek.com/images/articles/gallery_thumbnail/300/7118_1300R_001_8.jpg",
         "https://static.patek.com/images/articles/face_white/220/7118_1300R_001_1.jpg",
@@ -1846,6 +1931,7 @@
       "rating": 3.6,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "watches",
       "images": [
         "https://static.patek.com/images/articles/gallery_thumbnail/300/7118_1200R_010_1.jpg",
         "https://static.patek.com/images/articles/face_white/220/7118_1200R_010_010.jpg",
@@ -1861,6 +1947,7 @@
       "rating": 4,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "watches",
       "images": [
         "https://static.patek.com/images/articles/gallery_thumbnail/300/7118_1200R_001_1.jpg",
         "https://static.patek.com/images/articles/face_white/220/7118_1200R_001_001.jpg",
@@ -1876,6 +1963,7 @@
       "rating": 4.3,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "watches",
       "images": [
         "https://static.patek.com/images/articles/gallery_thumbnail/300/7118_1200A_011_9.jpg",
         "https://static.patek.com/images/articles/face_white/220/7118_1200A_011_1.jpg",
@@ -1891,6 +1979,7 @@
       "rating": 3.8,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "watches",
       "images": [
         "https://static.patek.com/images/articles/gallery_thumbnail/300/7118_1200A_010_9.jpg",
         "https://static.patek.com/images/articles/face_white/220/7118_1200A_010_1.jpg",
@@ -1906,6 +1995,7 @@
       "rating": 4.2,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "watches",
       "images": [
         "https://static.patek.com/images/articles/gallery_thumbnail/300/7118_1200A_001_9.jpg",
         "https://static.patek.com/images/articles/face_white/220/7118_1200A_001_1.jpg",
@@ -1921,6 +2011,7 @@
       "rating": 4,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "watches",
       "images": [
         "https://static.patek.com/images/articles/gallery_thumbnail/300/7118_1R_010_8.jpg",
         "https://static.patek.com/images/articles/face_white/220/7118_1R_010_1.jpg",
@@ -1936,6 +2027,7 @@
       "rating": 4.3,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "watches",
       "images": [
         "https://static.patek.com/images/articles/gallery_thumbnail/300/7118_1R_001_8.jpg",
         "https://static.patek.com/images/articles/face_white/220/7118_1R_001_1.jpg",
@@ -1951,6 +2043,7 @@
       "rating": 3.6,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "watches",
       "images": [
         "https://static.patek.com/images/articles/gallery_thumbnail/300/7118_1A_011_1.jpg",
         "https://static.patek.com/images/articles/face_white/220/7118_1A_011.jpg",
@@ -1966,6 +2059,7 @@
       "rating": 4.1,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "watches",
       "images": [
         "https://static.patek.com/videos/articles/7118_1A_010/PatekPhilippe_7118_1A_010_500.jpg",
         "https://static.patek.com/images/articles/face_white/220/7118_1A_010.jpg",
@@ -1981,6 +2075,7 @@
       "rating": 4.4,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "watches",
       "images": [
         "https://static.patek.com/videos/articles/7118_1A_001/PatekPhilippe_7118_1A_001_500.jpg",
         "https://static.patek.com/images/articles/face_white/220/7118_1A_001.jpg",
@@ -1996,6 +2091,7 @@
       "rating": 3.7,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "watches",
       "images": [
         "https://static.patek.com/images/articles/gallery_thumbnail/300/5261R_001_8.jpg",
         "https://static.patek.com/images/articles/face_white/220/5261R_001_1.jpg",
@@ -2011,6 +2107,7 @@
       "rating": 4.3,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "watches",
       "images": [
         "https://static.patek.com/images/articles/gallery_thumbnail/300/7968_300R_001_8.jpg",
         "https://static.patek.com/images/articles/face_white/220/7968_300R_001_1.jpg",
@@ -2026,6 +2123,7 @@
       "rating": 4.2,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "watches",
       "images": [
         "https://static.patek.com/images/articles/gallery_thumbnail/300/5062_450R_001_1.jpg",
         "https://static.patek.com/images/articles/face_white/220/5062_450R_001_1.jpg",
@@ -2041,6 +2139,7 @@
       "rating": 4,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "watches",
       "images": [
         "https://static.patek.com/videos/articles/5072R_001/PatekPhilippe_5072R_001_500.jpg",
         "https://static.patek.com/images/articles/face_white/220/5072R_001_1.jpg",
@@ -2056,6 +2155,7 @@
       "rating": 3.9,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "watches",
       "images": [
         "https://static.patek.com/images/articles/gallery_thumbnail/300/5268_200R_010_8.jpg",
         "https://static.patek.com/images/articles/face_white/220/5268_200R_010_1.jpg",
@@ -2071,6 +2171,7 @@
       "rating": 3.8,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "watches",
       "images": [
         "https://static.patek.com/videos/articles/5269_200R_001/PP_Aquanaut_2104_Anim_CAL245_03_500.jpg",
         "https://static.patek.com/images/articles/face_white/220/5269_200R_001_1.jpg",
@@ -2086,6 +2187,7 @@
       "rating": 4.1,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "watches",
       "images": [
         "https://static.patek.com/images/articles/gallery_thumbnail/300/5267_200A_011_8.jpg",
         "https://static.patek.com/images/articles/face_white/220/5267_200A_011_1.jpg",
@@ -2101,6 +2203,7 @@
       "rating": 4.4,
       "isWishlisted": false,
       "isAddtoCart": false,
+      "category": "watches",
       "images": [
         "https://static.patek.com/images/articles/gallery_thumbnail/300/5267_200A_010_8.jpg",
         "https://static.patek.com/images/articles/face_white/220/5267_200A_010_1.jpg",

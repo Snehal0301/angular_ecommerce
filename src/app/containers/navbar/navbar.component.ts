@@ -1,5 +1,6 @@
 import { Component, HostListener } from '@angular/core';
 import { FormBuilder, FormGroup, FormControl } from '@angular/forms';
+import { CartService } from 'src/service/cart.service';
 import { ApiService } from 'src/service/testapi.service';
 import { WishlistService } from 'src/service/wishlist.service';
 interface AutoCompleteCompleteEvent {
@@ -33,10 +34,12 @@ export class NavbarComponent {
   constructor(
     private fb: FormBuilder,
     private apiService: ApiService,
-    private wishlistService: WishlistService
+    private wishlistService: WishlistService,
+    private cartService: CartService
   ) {}
 
   wishlist:any;
+  cart:any;
 
   ngOnInit() {
 
@@ -46,6 +49,9 @@ export class NavbarComponent {
 
     this.wishlistService.wishlist$.subscribe((data) => {
       this.wishlist = data;
+    });
+    this.cartService.cart$.subscribe((data) => {
+      this.cart = data;
     });
 
     // this.apiService.getWishlist().subscribe(
