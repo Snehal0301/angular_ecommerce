@@ -3,10 +3,18 @@
     <div class="singleProduct-vertical">
       <img [ngClass]="imageClass(item)" [src]="item" alt="Product" (mouseover)='handleFunction(
           "image",item
-        )' *ngFor="let item of singleProductData.images">
+        )' *ngFor="let item of singleProductData?.images">
     </div>
     <div class="singleProduct-main">
-      <img [src]="imgValue?imgValue:singleProductData.images[0]" alt="Product">
+      <img [src]="imgValue?imgValue:singleProductData?.images[0]" alt="Product">
+      <div
+      class="wishlist-icon"
+        (click)="handleFunction('wishlist')">
+        <!-- <span *ngIf="!singleProductData.isWishlisted">Wishlist</span>
+        <span *ngIf="singleProductData.isWishlisted">Wishlisted</span> -->
+        <i class='bx bx-heart' *ngIf="!singleProductData.isWishlisted"></i>
+        <i class='bx bxs-heart' *ngIf="singleProductData.isWishlisted"></i>
+      </div>
     </div>
   </div>
   <div class="singleProduct-descSection">
@@ -24,17 +32,23 @@
     </div>
     <div class="singleProduct-wrapper">
       <div class="singleProduct-qty">
-        <button class="qty-controls" (click)="handleFunction('qty','-')">-</button>
-        <div class="qty">{{value}}</div>
-        <button class="qty-controls" (click)="handleFunction('qty','+')">+</button>
+        <button class="qty-controls" (click)="handleFunction('qty','-', singleProductData)">-</button>
+        <div class="qty">{{counterValue}}</div>
+        <button class="qty-controls" (click)="handleFunction('qty','+', singleProductData)">+</button>
       </div>
-      <button class="singleProduct-cart" (click)="handleFunction('wishlist')">
-        <span *ngIf="!singleProductData.isWishlisted">Wishlist</span>
+      <!-- <button
+        [ngClass]="{'singleProduct-cart-active': singleProductData.isWishlisted, 'singleProduct-cart': !singleProductData.isWishlisted}"
+        (click)="handleFunction('wishlist')">
+        <span *ngIf="!singleProductData.isWishlisted">Buy Now</span>
         <span *ngIf="singleProductData.isWishlisted">Wishlisted</span>
-      </button>
-      <button class="singleProduct-cart" (click)="handleFunction('cart')">
+      </button> -->
+      <button [ngClass]="{'singleProduct-cart-active': singleProductData.isAddtoCart, 'singleProduct-cart': !singleProductData.isAddtoCart}" 
+      (click)="handleFunction('cart',' ', singleProductData)">
         <span *ngIf="!singleProductData.isAddtoCart">Add to Cart</span>
         <span *ngIf="singleProductData.isAddtoCart">Added to Cart</span>
+      </button>
+      <button class="singleProduct-cart" (click)="handleFunction('buynow')">
+        <span>Buy Now</span>
       </button>
     </div>
     <div class="singleProduct-productDesc">

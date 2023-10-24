@@ -11,7 +11,7 @@
     overflow: scroll;
     position: sticky;
     top: 100px;
-
+    
     .productlist-section {
       background-color: $nav-background;
       border-bottom: 1px solid $grey-border;
@@ -55,16 +55,7 @@
           align-items: center;
           justify-content: space-between;
           border-radius: 8px;
-          cursor: pointer;
           font-size: 14px;
-
-          span {
-
-            &:hover {
-              text-decoration: line-through;
-            }
-          }
-
           i {
             font-size: 10px;
           }
@@ -121,14 +112,19 @@
 
         .sort-title {
           font-weight: 700;
+          padding: 5px 0;
         }
 
         .sort-item {
           cursor: pointer;
+          padding: 5px 8px;
         }
-
+        
         .sort-item-active {
-          color: $clear-color;
+          background-color: $black-color;
+          padding: 5px 8px;
+          border-radius: 8px;
+          color: $nav-background;
         }
       }
 

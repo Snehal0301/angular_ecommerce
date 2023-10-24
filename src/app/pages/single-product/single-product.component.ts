@@ -3,6 +3,8 @@ import { MessageService } from 'primeng/api';
 import { ApiService } from 'src/service/testapi.service';
 import { ActivatedRoute } from '@angular/router';
 import { CommonService } from 'src/service/common.service';
+import { Subscription } from 'rxjs';
+import { CartService } from 'src/service/cart.service';
 
 @Component({
   selector: 'app-single-product',
@@ -11,7 +13,7 @@ import { CommonService } from 'src/service/common.service';
   // providers: [MessageService],
 })
 export class SingleProductComponent {
-  value: number;
+  counterValue: number;
   imgValue: any = '';
   selectedSize: any = '';
   singleProductData: any;
@@ -20,48 +22,59 @@ export class SingleProductComponent {
   isHalfStar: boolean;
   category: any;
 
+  private routeSubscription: Subscription;
+
   constructor(
     private apiService: ApiService,
     // private messageService: MessageService,
     private route: ActivatedRoute,
-    private commonService: CommonService
+    private commonService: CommonService,
+    private cartService: CartService
   ) {
-    this.value = 1;
+    this.counterValue = 1;
     this.id = '';
     this.isHalfStar = false;
     this.category = '';
+
+    this.routeSubscription = this.route.paramMap.subscribe((params) => {
+      const idParam = params.get('id');
+      const catParam = params.get('category');
+      this.category = catParam;
+
+      if (idParam !== null) {
+        this.id = idParam;
+        if (catParam === 'mens') {
+          this.apiService.getSingleMensProduct(this.id).subscribe(
+            (data) => {
+              this.singleProductData = data;
+              this.imgValue = this.singleProductData.images[0];
+            },
+            (error) => {
+              console.error('Error:', error);
+            }
+          );
+        } else if (catParam === 'womens') {
+          this.apiService.getSingleWomensProduct(this.id).subscribe(
+            (data) => {
+              this.singleProductData = data;
+              this.imgValue = this.singleProductData.images[0];
+            },
+            (error) => {
+              console.error('Error:', error);
+            }
+          );
+        }
+      }
+    });
   }
 
   ngOnInit() {
-    const idParam = this.route.snapshot.paramMap.get('id');
-    const catParam = this.route.snapshot.paramMap.get('category');
-    this.category = catParam;
+    window.scroll(0,0)
+  }
 
-    window.scrollTo(0, 0);
-
-    if (idParam !== null) {
-      this.id = idParam;
-      if (catParam === 'mens') {
-        this.apiService.getSingleMensProduct(this.id).subscribe(
-          (data) => {
-            this.singleProductData = data;
-            this.imgValue = this.singleProductData.images[0];
-          },
-          (error) => {
-            console.error('Error:', error);
-          }
-        );
-      } else if (catParam === 'womens') {
-        this.apiService.getSingleWomensProduct(this.id).subscribe(
-          (data) => {
-            this.singleProductData = data;
-            this.imgValue = this.singleProductData.images[0];
-          },
-          (error) => {
-            console.error('Error:', error);
-          }
-        );
-      }
+  ngOnDestroy() {
+    if (this.routeSubscription) {
+      this.routeSubscription.unsubscribe();
     }
   }
 
@@ -75,34 +88,33 @@ export class SingleProductComponent {
       ? 'singleImage-border'
       : 'singleImage-default';
   }
-  handleFunction(type: string, value?: string) {
+  handleFunction(type: string, value?: string, item?:any) {
     if (type === 'size') {
       this.selectedSize = value;
     } else if (type === 'image') {
       this.imgValue = value;
     } else if (type === 'qty') {
       if (value === '-') {
-        if (this.value <= 1) return;
-        this.value--;
+        if (this.counterValue <= 1) return;
+        this.counterValue--;
       }
       if (value === '+') {
-        if (this.value < 1) return;
-        this.value++;
+        if (this.counterValue < 1) return;
+        this.counterValue++;
       }
+      // this.commonService.addToCart(item);
     } else if (type === 'cart') {
-      console.log(this.singleProductData);
       if (this.singleProductData.isAddtoCart) {
         this.commonService.removeList(this.singleProductData, type);
       } else {
         this.commonService.addToList(this.singleProductData, type);
       }
-      // this.messageService.clear();
-      // this.messageService.add({
-      //   key: 'tc',
-      //   severity: 'success',
-      //   summary: 'Success',
-      //   detail: 'Added to cart',
-      // });
-    } else return;
+    } else if (type === 'wishlist') {
+      if (this.singleProductData.isWishlisted) {
+        this.commonService.removeList(this.singleProductData, type);
+      } else {
+        this.commonService.addToList(this.singleProductData, type);
+      }
+    }
   }
 }

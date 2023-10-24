@@ -3,6 +3,7 @@
 @import "primeicons/primeicons.css";
 @import "@coreui/coreui/scss/coreui";
 @import 'css-star-rating/scss/star-rating';
+@import './_variables.scss';
 
 * {
   box-sizing: border-box;
@@ -35,6 +36,11 @@ a {
   i {
     color: #0f0;
   }
+}
+
+::selection {
+  color: $nav-background;
+  background: $black-color;
 }
 
 .rating.color-ok .star-container .star {
@@ -72,6 +78,7 @@ a {
 ::-webkit-scrollbar
 {
 	width: 5px;
+  height: 5px;
 	background-color: transparent;
 }
 

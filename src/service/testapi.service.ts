@@ -6,13 +6,16 @@ import { Observable } from 'rxjs';
   providedIn: 'root',
 })
 export class ApiService {
-  private featureUrl = 'http://localhost:3000/featured';
-  private latestUrl = 'http://localhost:3000/latest';
-  private watchUrl = 'http://localhost:3000/watches';
-  private mensUrl = 'http://localhost:3000/mens';
-  private womensUrl = 'http://localhost:3000/womens';
-  private wishlistUrl = 'http://localhost:3000/wishlist';
-  private cartUrl = 'http://localhost:3000/cart';
+  private baseUrl = 'http://localhost:3004';
+  private featureUrl = `${this.baseUrl}/featured`;
+  private latestUrl = `${this.baseUrl}/latest`;
+  private watchUrl = `${this.baseUrl}/watches`;
+  private mensUrl = `${this.baseUrl}/mens`;
+  private womensUrl = `${this.baseUrl}/womens`;
+  private wishlistUrl = `${this.baseUrl}/wishlist`;
+  private cartUrl = `${this.baseUrl}/cart`;
+  private orderUrl = `${this.baseUrl}/orders`;
+  private addressUrl = `${this.baseUrl}/address`;
 
   constructor(private http: HttpClient) {}
 
@@ -31,39 +34,48 @@ export class ApiService {
     return this.http.get(url);
   }
 
-  // MENS PRODUCT START
   getSingleMensProduct(id: string): Observable<any> {
     const url = this.mensUrl + '/' + id;
     return this.http.get(url);
   }
-  
-  getMensProduct(sort?: string, order?: string): Observable<any> {
+
+  getMensProduct(
+    page?: number,
+    sort?: string,
+    order?: string
+  ): Observable<any> {
     let url = '';
     if (sort || order) {
       url = this.mensUrl + '?_sort=' + sort + '&_order=' + order;
+    } else if (page) {
+      url = this.mensUrl + '?_page=' + page + '&_limit=5';
     } else {
       url = this.mensUrl;
     }
     return this.http.get(url);
   }
-  
+
   updateMensProduct(id: string, updateData: any): Observable<any> {
     let url = this.mensUrl + '/' + id;
     return this.http.patch(url, updateData);
   }
-  // MENS PRODUCT END
 
-  // WOMENS PRODUCT START
-  getWomensProduct(sort?: string, order?: string): Observable<any> {
+  getWomensProduct(
+    page?: number,
+    sort?: string,
+    order?: string
+  ): Observable<any> {
     let url = '';
     if (sort || order) {
       url = this.womensUrl + '?_sort=' + sort + '&_order=' + order;
+    } else if (page) {
+      url = this.womensUrl + '?_page=' + page + '&_limit=5';
     } else {
       url = this.womensUrl;
     }
     return this.http.get(url);
   }
-  
+
   getSingleWomensProduct(id: string): Observable<any> {
     const url = this.womensUrl + '/' + id;
     return this.http.get(url);
@@ -73,35 +85,63 @@ export class ApiService {
     let url = this.womensUrl + '/' + id;
     return this.http.patch(url, updateData);
   }
-  // WOMENS PRODUCT END
-  
-  // WISHLIST START
+
   postWishlist(item: any): Observable<any> {
     return this.http.post(this.wishlistUrl, item);
   }
-  
+
   getWishlist(): Observable<any> {
     return this.http.get(this.wishlistUrl);
   }
-  
+
   deleteWishlist(id: any): Observable<any> {
     let url = this.wishlistUrl + `/${id}`;
     return this.http.delete(url, { observe: 'response' });
   }
-  // WISHLIST END
 
-  // CART START
+  updateWishlist(id: string, updateData: any): Observable<any> {
+    let url = this.wishlistUrl + '/' + id;
+    return this.http.patch(url, updateData);
+  }
+
   postCart(item: any): Observable<any> {
     return this.http.post(this.cartUrl, item);
   }
-  
+
   getCart(): Observable<any> {
     return this.http.get(this.cartUrl);
   }
-  
+
   deleteCart(id: any): Observable<any> {
     let url = this.cartUrl + `/${id}`;
     return this.http.delete(url, { observe: 'response' });
   }
-  // CART END
+  deleteMulti(): Observable<any> {
+    let url = this.cartUrl + `?id=107367bc76f2e&id=332f801566d86`;
+    return this.http.delete(url, { observe: 'response' });
+  }
+
+  updateCart(id: string, updateData: any): Observable<any> {
+    let url = this.cartUrl + '/' + id;
+    return this.http.patch(url, updateData);
+  }
+
+  filterProducts(category: string, params: any): Observable<any> {
+    return this.http.get(`${this.baseUrl}/${category}`, { params });
+  }
+  
+  addOrder(data: any): Observable<any> {
+    return this.http.post(this.orderUrl, data);
+  }
+  getOrder():Observable<any>{
+    return this.http.get(this.orderUrl);
+  }
+
+  getAddress():Observable<any>{
+    return this.http.get(this.addressUrl);
+  }
+  addAddress(data:any):Observable<any>{
+    return this.http.post(this.addressUrl, data);
+  }
+
 }

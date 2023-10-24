@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { forkJoin } from 'rxjs';
 import { ApiService } from 'src/service/testapi.service';
 
 @Component({
@@ -14,13 +15,21 @@ export class FeaturedComponent {
   }
 
   ngOnInit() {
-    this.apiService.getFeaturedData().subscribe(
-      (data) => {
-        this.featuredData = data;
+    // Make two API requests in parallel and combine the data
+    forkJoin([
+      this.apiService.getMensProduct(),
+      this.apiService.getWomensProduct(),
+    ]).subscribe(
+      ([mensData, womensData]) => {
+        this.featuredData = [
+          ...mensData.slice(0, 4),
+          ...womensData.slice(0, 4),
+        ];
       },
       (error) => {
         console.error('Error:', error);
       }
     );
   }
+
 }

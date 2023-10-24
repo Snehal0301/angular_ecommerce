@@ -3,6 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { ReactiveFormsModule } from '@angular/forms'; // Import ReactiveFormsModule
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
+import { InfiniteScrollModule } from 'ngx-infinite-scroll';
+import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -35,6 +37,11 @@ import { BreadcrumbComponent } from './components/breadcrumb/breadcrumb.componen
 import { CheckboxModule } from 'primeng/checkbox';
 import { WishlistService } from 'src/service/wishlist.service';
 import { CommonService } from 'src/service/common.service';
+import { WishlistComponent } from './pages/wishlist/wishlist.component';
+import { CartComponent } from './pages/cart/cart.component';
+import { OrderComponent } from './pages/order/order.component';
+import { CheckoutComponent } from './pages/checkout/checkout.component';
+import { AccordionModule } from 'primeng/accordion';
 
 
 @NgModule({
@@ -52,7 +59,11 @@ import { CommonService } from 'src/service/common.service';
     NotfoundComponent,
     SingleProductComponent,
     ProductlistComponent,
-    BreadcrumbComponent
+    BreadcrumbComponent,
+    WishlistComponent,
+    CartComponent,
+    OrderComponent,
+    CheckoutComponent,
   ],
   imports: [
     BrowserModule,
@@ -72,8 +83,13 @@ import { CommonService } from 'src/service/common.service';
     ToastModule,
     SliderModule,
     CheckboxModule,
+    InfiniteScrollModule,
+    AccordionModule,
   ],
   providers: [MessageService, WishlistService, CommonService],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
+
+platformBrowserDynamic().bootstrapModule(AppModule);
+

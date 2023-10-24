@@ -1,9 +1,23 @@
-import { Observable } from 'rxjs';
+import { Observable, merge } from 'rxjs';
 import { ApiService } from '../service/testapi.service';
 
 export const getAllProductsApi = (
   category: string,
-  apiService: ApiService
+  apiService: ApiService,
+  page:number
+): Observable<any> => {
+  if (category === 'mens') {
+    return apiService.getMensProduct(page);
+  } else if (category === 'womens') {
+    return apiService.getWomensProduct(page);
+  }
+  return new Observable();
+};
+
+export const getFullProductsApi = (
+  category: string,
+  apiService: ApiService,
+  // page:number
 ): Observable<any> => {
   if (category === 'mens') {
     return apiService.getMensProduct();
@@ -11,6 +25,21 @@ export const getAllProductsApi = (
     return apiService.getWomensProduct();
   }
   return new Observable();
+};
+
+export const updateCart = (
+  apiService: ApiService,
+  id: string,
+  updatedData: any,
+): Observable<any> => {
+  return apiService.updateCart(id, updatedData);
+};
+export const getFilteredProducts = (
+  apiService: ApiService,
+  category:string,
+  params: any,
+): Observable<any> => {
+  return apiService.filterProducts(category, params);
 };
 
 export const updateProduct = (
@@ -30,12 +59,13 @@ export const updateProduct = (
 export const sortPriceApi = (
   order: string,
   category: string,
-  apiService: ApiService
+  apiService: ApiService,
+  page:number
 ): Observable<any> => {
   if (category === 'mens') {
-    return apiService.getMensProduct('price', order);
+    return apiService.getMensProduct(page, 'price', order);
   } else if (category === 'womens') {
-    return apiService.getWomensProduct('price', order);
+    return apiService.getWomensProduct(page, 'price', order);
   }
   return new Observable();
 };
@@ -43,12 +73,13 @@ export const sortPriceApi = (
 export const sortRatingApi = (
   order: string,
   category: string,
-  apiService: ApiService
+  apiService: ApiService,
+  page:number
 ): Observable<any> => {
   if (category === 'mens') {
-    return apiService.getMensProduct('rating', order);
+    return apiService.getMensProduct(page, 'rating', order);
   } else if (category === 'womens') {
-    return apiService.getWomensProduct('rating', order);
+    return apiService.getWomensProduct(page, 'rating', order);
   }
   return new Observable();
 };

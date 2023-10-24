@@ -4,6 +4,10 @@ import { HomeComponent } from './pages/home/home.component';
 import { NotfoundComponent } from './pages/notfound/notfound.component';
 import { SingleProductComponent } from './pages/single-product/single-product.component';
 import { ProductlistComponent } from './pages/productlist/productlist.component';
+import { WishlistComponent } from './pages/wishlist/wishlist.component';
+import { CartComponent } from './pages/cart/cart.component';
+import { CheckoutComponent } from './pages/checkout/checkout.component';
+import { AuthGuard } from './guards/auth.guard';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -23,23 +27,9 @@ const routes: Routes = [
       },
     ],
   },
-  // {
-  //   path: 'products',
-  //   children: [
-  //     {
-  //       path: 'mens/:id',
-  //       component: SingleProductComponent,
-  //     },
-  //     {
-  //       path: 'womens/:id',
-  //       component: SingleProductComponent,
-  //     },
-  //     {
-  //       path: 'watches/:id',
-  //       component: SingleProductComponent,
-  //     },
-  //   ],
-  // },
+  { path: 'wishlist', component: WishlistComponent },
+  { path: 'cart', component: CartComponent },
+  { path: 'checkout', component: CheckoutComponent },
   { path: 'notFound', component: NotfoundComponent },
   { path: '**', redirectTo: '/notFound' },
 ];

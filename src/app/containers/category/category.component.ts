@@ -11,7 +11,7 @@ export class CategoryComponent {
     {
       src:'../../../assets/van.png',
       title:'Free Shipping',
-      para:'On all orders over ₹500'
+      para:'On all orders over ₹999'
 
     },
     {
@@ -56,17 +56,17 @@ export class CategoryComponent {
     {
       src:'../../../assets/baner-flat-fashion-7.jpg',
       title:"Bag's",
-      link:"/products/watches"
+      link:"/products/mens"
     },
     {
       src:'../../../assets/skincare.png',
       title:"Skincare",
-      link:"/products/mens"
+      link:"/products/womens"
     },
     {
       src:'../../../assets/watch_category.webp',
       title:"Watch",
-      link:"/products/watches"
+      link:"/products/womens"
     }
   ]
 

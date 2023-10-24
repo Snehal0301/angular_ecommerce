@@ -8,11 +8,15 @@
       <div class="filter-chips" *ngIf="allFilters.size.length || allFilters.rating.length">
         <div class="filter-chip" *ngFor="let item of allFilters.size">
           <span>{{item}}</span>
-          <i class="pi pi-times"></i>
+          <!-- <i class="pi pi-times"></i> -->
+        </div>
+        <div class="filter-chip">
+          <span>{{allFilters.price[0]+' to '+allFilters.price[1]}}</span>
+          <!-- <i class="pi pi-times"></i> -->
         </div>
         <div class="filter-chip" *ngFor="let item of allFilters.rating">
-          <span>{{item}}</span>
-          <i class="pi pi-times"></i>
+          <span>{{item}}★ & above</span>
+          <!-- <i class="pi pi-times"></i> -->
         </div>
       </div>
     </div>
@@ -23,7 +27,7 @@
       </div>
       <div class="filter-values">
         <p class="productlist-clear">clear</p>
-        <p-slider [(ngModel)]="rangeValues" [step]="20" [range]="true"></p-slider>
+        <p-slider [(ngModel)]="rangeValues" [step]="100" [range]="true" [min]="calculateMinMaxPrices(fullProducts)[0]" [max]="calculateMinMaxPrices(fullProducts)[1]"(onSlideEnd)="updateFilters('price',rangeValues)"></p-slider>
         <div>{{rangeValues}}</div>
       </div>
     </div>
@@ -35,8 +39,10 @@
       <div class="filter-values">
         <p class="productlist-clear" (click)="clearFilters('rating')">clear</p>
         <div class="filter" *ngFor="let item of filterContent.rating">
-          <input type="checkbox" class="input-checkbox" [(ngModel)]="ratingCheckboxStates[item]" (change)="updateFilters('rating', item)">
-          <p>{{item}}</p>
+          <!-- <input type="checkbox" class="input-checkbox" [(ngModel)]="ratingSelectStates[item]" (change)="updateFilters('rating', item)"> -->
+            <input type="radio" class="input-checkbox" name="rating" [(ngModel)]="ratingSelectStates" [value]="item"
+              (change)="updateFilters('rating', item)">
+          <p>{{item}}★ & above</p>
         </div>
       </div>
     </div>
@@ -75,7 +81,8 @@
           (click)="handleLayout('grid')"></i>
       </div>
     </div>
-    <div class="productlist-container-items">
+    <div class="productlist-container-items" infinite-scroll (scrolled)="loadMoreProducts()" [infiniteScrollDistance]="1" [infiniteScrollThrottle]="50"
+      [scrollWindow]="true">
       <app-product-grid [data]="products" [gridlayout]="layout" [location]="'productlist'"></app-product-grid>
     </div>
   </div>

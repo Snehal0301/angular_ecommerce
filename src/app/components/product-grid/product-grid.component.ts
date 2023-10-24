@@ -1,181 +1,78 @@
-import { ApiService } from 'src/service/testapi.service';
 import { Component, Input } from '@angular/core';
-import { WishlistService } from 'src/service/wishlist.service';
-import { updateProduct } from 'src/utils/apiService';
-import { CartService } from 'src/service/cart.service';
-import { MessageService } from 'primeng/api';
 import { CommonService } from 'src/service/common.service';
+import { Router } from '@angular/router';
+import { CartService } from 'src/service/cart.service';
 
 @Component({
   selector: 'app-product-grid',
   templateUrl: './product-grid.component.html',
   styleUrls: ['./product-grid.component.scss'],
-  // providers: [MessageService],
 })
 export class ProductGridComponent {
   like: boolean = false;
   toastRender: boolean = false;
+  selectedSize: any = '';
+  qty: number = 1;
   @Input() data: any;
   @Input() gridlayout: any;
   @Input() location: any;
+  @Input() fromCart: boolean;
 
   constructor(
     private commonService: CommonService,
-    // private apiService: ApiService,
-    // private wishlistService: WishlistService,
-    // private cartService: CartService,
-    // private messageService: MessageService
+    private cartService:CartService,
+    private router: Router
   ) {
     this.data;
     this.gridlayout = 'grid';
+    this.fromCart = false;
   }
 
-  handleFunction(type: string, item: any) {
+  ngOnInit() {
+    // this.data.forEach((item: any) => {
+    //   item.qty = 1;
+    //   this.commonService.updateCart(item.id, item);
+    // });
+    console.log(this.data);
+  }
+
+  currentClass(size: string, item: any): string {
+    return size === item.selectedSize
+      ? 'liststyle-size-click'
+      : 'liststyle-size';
+  }
+
+  handleFunction(type: string, item: any, value?: any) {
     if (type === 'wishlist') {
       if (item.isWishlisted) {
-        this.commonService.removeList(item, type);
+        this.commonService.removeList(item, type, this.location);
       } else {
-        this.commonService.addToList(item, type);
+        this.commonService.addToList(item, type, this.location);
       }
     } else if (type === 'cart') {
       if (item.isAddtoCart) {
-        this.commonService.removeList(item, type);
+        item.selectedSize = '';
+        item.qty = 1;
+        this.commonService.removeList(item, type, this.location);
       } else {
-        this.commonService.addToList(item, type);
+        this.commonService.addToList(item, type, this.location);
       }
+    } else if (type === 'size') {
+      // this.selectedSize = value;
+      item.selectedSize = value;
+      this.cartService.updateCart(item.id, item);
+    } else if (type === 'qty') {
+      // this.qty = 1;
+      if (value === '-') {
+        if (item.qty <= 1) return;
+        item.qty--;
+      }
+      if (value === '+') {
+        if (item.qty < 1) return;
+        item.qty++;
+      }
+      // item.qty = this.qty;
+      this.cartService.updateCart(item.id, item);
     }
   }
-
-  // addToList(item: any, type: string): void {
-  //   if (type === 'wishlist') {
-  //     item.isWishlisted = true;
-  //     this.renderToastState(item, type, 'add');
-  //   } else if (type === 'cart') {
-  //     item.isAddtoCart = true;
-  //     this.renderToastState(item, type, 'add');
-  //   }
-  //   this.updateProductFunc(item.category, item.id, item);
-  // }
-
-  // updateProductFunc(category: string, id: string, updatedData: any) {
-  //   updateProduct(category, this.apiService, id, updatedData).subscribe(
-  //     (response) => {
-  //       console.log('product updated successfully', response);
-  //     },
-  //     (error) => {
-  //       console.error('Error in updation:', error);
-  //     }
-  //   );
-  // }
-
-  // removeList(item: any, type: string): void {
-  //   if (type === 'wishlist') {
-  //     item.isWishlisted = false;
-  //     this.renderToastState(item, type, 'remove');
-  //   } else if (type === 'cart') {
-  //     item.isAddtoCart = false;
-  //     this.renderToastState(item, type, 'remove');
-  //   }
-  //   this.updateProductFunc(item.category, item.id, item);
-  // }
-
-  // renderToastState(item: any, type: string, state: string) {
-  //   if (type === 'wishlist') {
-  //     if (state === 'add') {
-  //       this.addToWishlist(item);
-  //     } else if (state === 'remove') {
-  //       this.deleteWishlist(item.id);
-  //     }
-  //   } else if (type === 'cart') {
-  //     if (state === 'add') {
-  //       this.addToCart(item);
-  //     } else if (state === 'remove') {
-  //       this.deleteCart(item.id);
-  //     }
-  //   }
-  // }
-
-  // addToWishlist(item: any) {
-  //   this.wishlistService.addToWishlist(item).then((result) => {
-  //     if (result) {
-  //       this.messageService.clear();
-  //       this.messageService.add({
-  //         key: 'tc',
-  //         severity: 'success',
-  //         summary: 'Added',
-  //         detail: 'Product added to Wishlist',
-  //       });
-  //     } else {
-  //       this.messageService.clear();
-  //       this.messageService.add({
-  //         key: 'tc',
-  //         severity: 'error',
-  //         detail: 'Couldnt add to Wishlist',
-  //       });
-  //     }
-  //   });
-  // }
-
-  // deleteWishlist(id: string) {
-  //   this.wishlistService.deleteFromWishlist(id).then((result) => {
-  //     if (result) {
-  //       this.messageService.clear();
-  //       this.messageService.add({
-  //         key: 'tc',
-  //         severity: 'success',
-  //         summary: 'Removed',
-  //         detail: 'Product removed from Wishlist',
-  //       });
-  //     } else {
-  //       this.messageService.clear();
-  //       this.messageService.add({
-  //         key: 'tc',
-  //         severity: 'error',
-  //         detail: 'Couldnt remove from Wishlist',
-  //       });
-  //     }
-  //   });
-  // }
-
-  // addToCart(item: any) {
-  //   this.cartService.addToCart(item).then((result) => {
-  //     if (result) {
-  //       this.messageService.clear();
-  //       this.messageService.add({
-  //         key: 'tc',
-  //         severity: 'success',
-  //         summary: 'Added',
-  //         detail: 'Product added to Cart',
-  //       });
-  //     } else {
-  //       this.messageService.clear();
-  //       this.messageService.add({
-  //         key: 'tc',
-  //         severity: 'error',
-  //         detail: 'Couldnt add to Wishlist',
-  //       });
-  //     }
-  //   });
-  // }
-
-  // deleteCart(id: string) {
-  //   this.cartService.deleteFromCart(id).then((result) => {
-  //     if (result) {
-  //       this.messageService.clear();
-  //       this.messageService.add({
-  //         key: 'tc',
-  //         severity: 'success',
-  //         summary: 'Removed',
-  //         detail: 'Product removed from Cart',
-  //       });
-  //     } else {
-  //       this.messageService.clear();
-  //       this.messageService.add({
-  //         key: 'tc',
-  //         severity: 'error',
-  //         detail: 'Couldnt remove from Cart',
-  //       });
-  //     }
-  //   });
-  // }
 }
