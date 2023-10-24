@@ -33,7 +33,7 @@ export class RedeempointsService {
       discountPercentage = 15;
     }
 
-    const discount = (discountPercentage / 100) * this.points;
+    const discount = Math.ceil((discountPercentage / 100) * this.points);
     this.points -= discount;
     localStorage.setItem('discountPoints', JSON.stringify(discount));
     return discount;

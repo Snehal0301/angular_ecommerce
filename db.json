@@ -8,39 +8,39 @@
   ],
   "address": [
     {
-      "name": "Snehal Snehal",
-      "mobile": "+919483030796",
-      "pincode": "574146",
-      "locality": "sassa",
-      "address": "Bolloor,Halengadi, Sri Krupa\nSri Krupa",
-      "state": "Arunachal Pradesh",
-      "district": "West Kameng",
-      "landmark": "",
-      "alternatePhone": "",
-      "addressType": "home",
-      "id": 1
-    },
-    {
       "name": "Snehal S",
-      "mobile": "+919483030796",
+      "mobile": "08431913658",
       "pincode": "574146",
-      "locality": "sasasas",
+      "locality": "asasaasa",
       "address": "Bolloor, Halengadi, Surathkal, Mangalore",
       "state": "Arunachal Pradesh",
       "district": "Papum Pare",
       "landmark": "",
       "alternatePhone": "",
       "addressType": "work",
+      "id": 1
+    },
+    {
+      "name": "Snehal S",
+      "mobile": "+919483030796",
+      "pincode": "574146",
+      "locality": "assasass",
+      "address": "Bolloor, Halengadi, Surathkal, Mangalore",
+      "state": "Assam",
+      "district": "Biswanath",
+      "landmark": "",
+      "alternatePhone": "",
+      "addressType": "home",
       "id": 2
     },
     {
       "name": "Snehal S",
-      "mobile": "08431913658",
+      "mobile": "+919483030796",
       "pincode": "574146",
-      "locality": "asasas",
+      "locality": "assasasssss",
       "address": "Bolloor, Halengadi, Surathkal, Mangalore",
-      "state": "Bihar",
-      "district": "Araria",
+      "state": "Arunachal Pradesh",
+      "district": "Papum Pare",
       "landmark": "",
       "alternatePhone": "",
       "addressType": "home",
@@ -48,16 +48,29 @@
     },
     {
       "name": "Snehal S",
-      "mobile": "08431913658",
+      "mobile": "+919483030796",
       "pincode": "574146",
-      "locality": "asasa",
-      "address": "y dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-      "state": "Andhra Pradesh",
-      "district": "East Godavari",
+      "locality": "ashfvgafsa",
+      "address": "Bolloor, Halengadi, Surathkal, Mangalore",
+      "state": "Arunachal Pradesh",
+      "district": "Papum Pare",
       "landmark": "",
       "alternatePhone": "",
       "addressType": "home",
       "id": 4
+    },
+    {
+      "name": "Snehal S",
+      "mobile": "08431913658",
+      "pincode": "574146",
+      "locality": "a",
+      "address": "Bolloor, Halengadi, Surathkal, Mangalore",
+      "state": "Arunachal Pradesh",
+      "district": "West Kameng",
+      "landmark": "",
+      "alternatePhone": "",
+      "addressType": "home",
+      "id": 5
     }
   ],
   "orders": [],
@@ -86,33 +99,7 @@
         "XL"
       ],
       "id": "107367bc76f2e",
-      "selectedSize": "L",
-      "qty": 1
-    },
-    {
-      "name": "Water-repellent field jacket in stretch-cotton twill",
-      "price": 999,
-      "desc": "A regular-fit jacket with a water-repellent finish by BOSS Menswear. For our BETTER BOSS products, we always use at least 60% better raw materials. This product is made from at least 60% recycled polyamide. By using recycled polyamide, we aim to save resources by making use of existing plastic material. Recycled nylon is usually made from pre-consumer spinning or fabric waste and may also come from post-consumer industrial fishing nets. We only use raw materials with a verified chain of custody to ensure the use of certified recycled polyamide",
-      "rating": 4.2,
-      "isWishlisted": false,
-      "isAddtoCart": true,
-      "category": "mens",
-      "images": [
-        "https://images.hugoboss.com/is/image/boss/hbeu50496842_404_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582172000&wid=1200&hei=1818",
-        "https://images.hugoboss.com/is/image/boss/hbeu50496842_404_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582172000&wid=1200&hei=1818",
-        "https://images.hugoboss.com/is/image/boss/hbeu50496842_404_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582172000&wid=1200&hei=1818",
-        "https://images.hugoboss.com/is/image/boss/hbeu50496842_404_340?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582172000&wid=1200&hei=1818",
-        "https://images.hugoboss.com/is/image/boss/hbeu50496842_404_341?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582172000&wid=1200&hei=1818",
-        "https://images.hugoboss.com/is/image/boss/hbeu50496842_404_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582172000&wid=1200&hei=1818"
-      ],
-      "sizes": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
-      "id": "332f801566d86",
-      "selectedSize": "L",
+      "selectedSize": "M",
       "qty": 1
     },
     {
@@ -139,7 +126,110 @@
       ],
       "id": "f18451a5b14f5",
       "qty": 1,
-      "selectedSize": "M"
+      "selectedSize": "S"
+    },
+    {
+      "name": "Slim-fit biker jacket in water-repellent canvas",
+      "price": 999,
+      "desc": "A regular-fit jacket with a water-repellent finish by BOSS Menswear. For our BETTER BOSS products, we always use at least 60% better raw materials. This product is made from at least 60% recycled polyamide. By using recycled polyamide, we aim to save resources by making use of existing plastic material. Recycled nylon is usually made from pre-consumer spinning or fabric waste and may also come from post-consumer industrial fishing nets. We only use raw materials with a verified chain of custody to ensure the use of certified recycled polyamide",
+      "rating": 3.8,
+      "isWishlisted": false,
+      "isAddtoCart": true,
+      "category": "mens",
+      "images": [
+        "https://images.hugoboss.com/is/image/boss/hbeu50492935_280_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582159000&wid=1200&hei=1818",
+        "https://images.hugoboss.com/is/image/boss/hbeu50492935_280_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582159000&wid=1200&hei=1818",
+        "https://images.hugoboss.com/is/image/boss/hbeu50492935_280_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582159000&wid=1200&hei=1818",
+        "https://images.hugoboss.com/is/image/boss/hbeu50492935_280_340?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582159000&wid=1200&hei=1818",
+        "https://images.hugoboss.com/is/image/boss/hbeu50492935_280_341?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582159000&wid=1200&hei=1818",
+        "https://images.hugoboss.com/is/image/boss/hbeu50492935_280_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582159000&wid=1200&hei=1818"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "id": "7db7f7dabda29",
+      "qty": 1,
+      "selectedSize": "L"
+    },
+    {
+      "name": "Water-repellent field jacket in stretch-cotton twill",
+      "price": 999,
+      "desc": "A regular-fit jacket with a water-repellent finish by BOSS Menswear. For our BETTER BOSS products, we always use at least 60% better raw materials. This product is made from at least 60% recycled polyamide. By using recycled polyamide, we aim to save resources by making use of existing plastic material. Recycled nylon is usually made from pre-consumer spinning or fabric waste and may also come from post-consumer industrial fishing nets. We only use raw materials with a verified chain of custody to ensure the use of certified recycled polyamide",
+      "rating": 4.2,
+      "isWishlisted": true,
+      "isAddtoCart": true,
+      "category": "mens",
+      "images": [
+        "https://images.hugoboss.com/is/image/boss/hbeu50496842_404_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582172000&wid=1200&hei=1818",
+        "https://images.hugoboss.com/is/image/boss/hbeu50496842_404_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582172000&wid=1200&hei=1818",
+        "https://images.hugoboss.com/is/image/boss/hbeu50496842_404_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582172000&wid=1200&hei=1818",
+        "https://images.hugoboss.com/is/image/boss/hbeu50496842_404_340?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582172000&wid=1200&hei=1818",
+        "https://images.hugoboss.com/is/image/boss/hbeu50496842_404_341?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582172000&wid=1200&hei=1818",
+        "https://images.hugoboss.com/is/image/boss/hbeu50496842_404_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582172000&wid=1200&hei=1818"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "id": "332f801566d86",
+      "selectedSize": "XL",
+      "qty": 3
+    },
+    {
+      "name": "Virgin-wool crew-neck sweater with block stripes",
+      "price": 999,
+      "desc": "A mock-neck sweater with cropped sleeves and a block stripe by BOSS Womenswear. For our RESPONSIBLE products we always use at least 60% more sustainable raw materials. This product is made with responsibly sourced and certified wool. For us, responsibly sourced means mulesing free, and meeting the standards of the Five Freedoms of animal welfare.",
+      "rating": 4.3,
+      "isWishlisted": false,
+      "isAddtoCart": true,
+      "category": "womens",
+      "images": [
+        "https://images.hugoboss.com/is/image/boss/hbeu50493900_988_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
+        "https://images.hugoboss.com/is/image/boss/hbeu50493900_988_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
+        "https://images.hugoboss.com/is/image/boss/hbeu50493900_988_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
+        "https://images.hugoboss.com/is/image/boss/hbeu50493900_988_340?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",
+        "https://images.hugoboss.com/is/image/boss/hbeu50493900_988_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "id": "bdb87eb8626c7",
+      "selectedSize": "M",
+      "qty": 1
+    },
+    {
+      "name": "Water-repellent slim-fit jacket with logo print",
+      "price": 999,
+      "desc": "A regular-fit jacket with a water-repellent finish by BOSS Menswear. For our BETTER BOSS products, we always use at least 60% better raw materials. This product is made from at least 60% recycled polyamide. By using recycled polyamide, we aim to save resources by making use of existing plastic material. Recycled nylon is usually made from pre-consumer spinning or fabric waste and may also come from post-consumer industrial fishing nets. We only use raw materials with a verified chain of custody to ensure the use of certified recycled polyamide",
+      "rating": 3.5,
+      "isWishlisted": false,
+      "isAddtoCart": true,
+      "category": "mens",
+      "images": [
+        "https://images.hugoboss.com/is/image/boss/hbeu50468719_001_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696929516000&wid=1200&hei=1818",
+        "https://images.hugoboss.com/is/image/boss/hbeu50468719_001_300?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696929516000&wid=1200&hei=1818",
+        "https://images.hugoboss.com/is/image/boss/hbeu50468719_001_360?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696929516000&wid=1200&hei=1818",
+        "https://images.hugoboss.com/is/image/boss/hbeu50468719_001_340?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696929516000&wid=1200&hei=1818",
+        "https://images.hugoboss.com/is/image/boss/hbeu50468719_001_341?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696929516000&wid=1200&hei=1818",
+        "https://images.hugoboss.com/is/image/boss/hbeu50468719_001_100?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696929516000&wid=1200&hei=1818"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "id": "edee18d44e859",
+      "qty": 6,
+      "selectedSize": "XL"
     }
   ],
   "mens": [
@@ -331,7 +421,7 @@
       "desc": "A regular-fit jacket with a water-repellent finish by BOSS Menswear. For our BETTER BOSS products, we always use at least 60% better raw materials. This product is made from at least 60% recycled polyamide. By using recycled polyamide, we aim to save resources by making use of existing plastic material. Recycled nylon is usually made from pre-consumer spinning or fabric waste and may also come from post-consumer industrial fishing nets. We only use raw materials with a verified chain of custody to ensure the use of certified recycled polyamide",
       "rating": 3.8,
       "isWishlisted": false,
-      "isAddtoCart": false,
+      "isAddtoCart": true,
       "category": "mens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50492935_280_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696582159000&wid=1200&hei=1818",
@@ -435,7 +525,7 @@
       "desc": "A regular-fit jacket with a water-repellent finish by BOSS Menswear. For our BETTER BOSS products, we always use at least 60% better raw materials. This product is made from at least 60% recycled polyamide. By using recycled polyamide, we aim to save resources by making use of existing plastic material. Recycled nylon is usually made from pre-consumer spinning or fabric waste and may also come from post-consumer industrial fishing nets. We only use raw materials with a verified chain of custody to ensure the use of certified recycled polyamide",
       "rating": 3.5,
       "isWishlisted": false,
-      "isAddtoCart": false,
+      "isAddtoCart": true,
       "category": "mens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50468719_001_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696929516000&wid=1200&hei=1818",
@@ -452,7 +542,7 @@
         "XL"
       ],
       "id": "edee18d44e859",
-      "qty": 1,
+      "qty": 6,
       "selectedSize": ""
     },
     {
@@ -1003,7 +1093,7 @@
       "desc": "A mock-neck sweater with cropped sleeves and a block stripe by BOSS Womenswear. For our RESPONSIBLE products we always use at least 60% more sustainable raw materials. This product is made with responsibly sourced and certified wool. For us, responsibly sourced means mulesing free, and meeting the standards of the Five Freedoms of animal welfare.",
       "rating": 4.3,
       "isWishlisted": false,
-      "isAddtoCart": false,
+      "isAddtoCart": true,
       "category": "womens",
       "images": [
         "https://images.hugoboss.com/is/image/boss/hbeu50493900_988_350?$re_fullPageZoom$&qlt=85&fit=crop,1&align=1,1&lastModified=1696953901000&wid=1200&hei=1818",

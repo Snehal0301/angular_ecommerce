@@ -112,7 +112,13 @@
             <p class="saved-address-title">Saved Address</p>
             <div class="all-address">
               <div [ngClass]="{'address-item':true, 'address-item-work':item.addressType==='work'}" *ngFor="let item of allAddress">
-                <p class="address-home">{{item.addressType}}</p>
+                <div class="address-header">
+                  <p class="address-home">{{item.addressType}}</p>
+                  <div class="address-controls">
+                    <i class='bx bx-edit-alt'></i>
+                    <i class='bx bx-trash'></i>
+                  </div>
+                </div>
                 <div class="address-section">
                   <p class="address-name">{{item.name}}</p>
                   <p class="address-mobile">{{item.mobile}}</p>

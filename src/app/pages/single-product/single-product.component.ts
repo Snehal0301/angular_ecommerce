@@ -107,6 +107,8 @@ export class SingleProductComponent {
       if (this.singleProductData.isAddtoCart) {
         this.commonService.removeList(this.singleProductData, type);
       } else {
+        this.singleProductData.qty = this.counterValue;
+        this.singleProductData.selectedSize = this.selectedSize;
         this.commonService.addToList(this.singleProductData, type);
       }
     } else if (type === 'wishlist') {

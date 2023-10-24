@@ -60,7 +60,6 @@ export class CommonService {
       }
     } else if (type === 'cart') {
       if (state === 'add') {
-        item.qty = 1;
         this.addToCart(item, location);
       } else if (state === 'remove') {
         this.deleteCart(item.id, location);

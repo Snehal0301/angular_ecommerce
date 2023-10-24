@@ -183,31 +183,38 @@
       }
       .saved-address-wrapper{
         width: 50%;
-        // height: 500px;
         .saved-address-title{
           font-size: 20px;
           font-weight: 600;
         }
         .all-address{
           margin-top: 10px;
+          height: 500px;
           display: flex;
+          flex-direction: column;
           gap: 10px;
-          width: 600px;
-            flex-wrap: nowrap;
-            overflow-x: auto;
-          // flex-wrap: wrap;
-          // height: 100%;
-          // white-space: nowrap;
+          overflow-y: auto;
           .address-item{
-            flex: 0 0 auto;
-            // width: 1000px;
+            cursor: pointer;
             background-color: $black-color;
             color: $nav-background;
             border-radius: 8px;
             padding: 10px;
-            .address-home{
-              font-size: 14px;
-              text-transform: capitalize;
+            .address-header{
+              display: flex;
+              justify-content: space-between;
+              .address-home{
+                font-size: 14px;
+                text-transform: capitalize;
+              }
+              .address-controls{
+                display: flex;
+                gap: 10px;
+                i{
+                  cursor: pointer;
+                  font-size: 20px;
+                }
+              }
             }
             .address-section{
               display: flex;

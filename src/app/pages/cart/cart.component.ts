@@ -101,7 +101,7 @@ export class CartComponent {
       this.isApplied = true;
       this.finalAmount = this.finalTotal(
         this.deliveryAmount,
-        0,
+        this.isChecked ?this.discountPoints:0,
         this.redeemDiscount
       );
     }
@@ -112,7 +112,7 @@ export class CartComponent {
       this.redeemDiscount = 0;
       this.finalAmount = this.finalTotal(
         this.deliveryAmount,
-        0,
+        this.isChecked ?this.discountPoints:0,
         this.redeemDiscount
       );
     }
