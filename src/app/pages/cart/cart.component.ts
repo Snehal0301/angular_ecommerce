@@ -1,5 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { Router } from '@angular/router';
+import { MessageService } from 'primeng/api';
 import { CartService } from 'src/service/cart.service';
 import { CommonService } from 'src/service/common.service';
 import { RedeempointsService } from 'src/service/redeempoints.service';
@@ -35,7 +36,8 @@ export class CartComponent {
     private cartService: CartService,
     private router: Router,
     private commonService: CommonService,
-    private apiService: ApiService
+    private apiService: ApiService,
+    private messageService:MessageService
   ) {
     this.isChecked = false;
     this.isApplied = false;
@@ -89,11 +91,12 @@ export class CartComponent {
     this.isChecked = false;
   }
 
-  deleteAll(){
+  deleteAll() {
     this.cartService.deleteAll(this.cart);
   }
 
   handleApply(item: any) {
+    console.log('clciekd');
     if (Object.keys(item).length === 0) {
     }
     if (this.totalAmount > item.minAmount) {
@@ -101,9 +104,16 @@ export class CartComponent {
       this.isApplied = true;
       this.finalAmount = this.finalTotal(
         this.deliveryAmount,
-        this.isChecked ?this.discountPoints:0,
+        this.isChecked ? this.discountPoints : 0,
         this.redeemDiscount
       );
+      this.messageService.clear();
+      this.messageService.add({
+        key: 'tc',
+        severity: 'success',
+        summary: 'Added',
+        detail: 'Coupon added Successfully',
+      });
     }
   }
 
@@ -112,7 +122,7 @@ export class CartComponent {
       this.redeemDiscount = 0;
       this.finalAmount = this.finalTotal(
         this.deliveryAmount,
-        this.isChecked ?this.discountPoints:0,
+        this.isChecked ? this.discountPoints : 0,
         this.redeemDiscount
       );
     }
@@ -142,7 +152,7 @@ export class CartComponent {
     this.discountPoints = this.pointService.redeemPoints(this.totalAmount);
     this.finalAmount = this.finalTotal(
       this.deliveryAmount,
-      this.isChecked ?this.discountPoints:0,
+      this.isChecked ? this.discountPoints : 0,
       this.redeemDiscount
     );
   }
@@ -152,16 +162,16 @@ export class CartComponent {
     if (
       typeof response.razorpay_payment_id == 'undefined' ||
       response.razorpay_payment_id === null
-      ) {
-        redirect_url = '/cart';
-      } else {
-        this.pointService.addPoints(this.finalAmount)
-        redirect_url = '/';
-      }
-      location.href = redirect_url;
+    ) {
+      redirect_url = '/cart';
+    } else {
+      this.pointService.addPoints(this.finalAmount);
+      redirect_url = '/';
     }
-    
-    payNow() {
+    location.href = redirect_url;
+  }
+
+  payNow() {
     const RazorpayOptions = {
       description: 'Sample Razorpay demo',
       currency: 'INR',
@@ -212,11 +222,11 @@ export class CartComponent {
     redeemPoints?: number,
     couponPoints?: number
   ): number {
-    return (
-      Math.ceil(this.totalAmount +
-      deliveryPoints -
-      (redeemPoints || 0) -
-      (couponPoints || 0)
-    ));
+    return Math.ceil(
+      this.totalAmount +
+        deliveryPoints -
+        (redeemPoints || 0) -
+        (couponPoints || 0)
+    );
   }
 }
