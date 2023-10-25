@@ -19,3 +19,18 @@
     font-family: 'Playfair Display', serif;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .feature-section{
+    .featured-para{
+      font-size: 10px;
+    }
+    .featured-title{
+      font-size: 25px;
+    }
+    .featured-desc{
+      font-size: 12px;
+    }
+  }
+  
+}

@@ -144,4 +144,14 @@ export class ApiService {
     return this.http.post(this.addressUrl, data);
   }
 
+  deleteAddress(id:any): Observable<any>{
+    let url = this.addressUrl + `/${id}`;
+    return this.http.delete(url, { observe: 'response' });
+  }
+
+  updateAddress(id: string, updateData: any): Observable<any> {
+    let url = this.addressUrl + '/' + id;
+    return this.http.patch(url, updateData);
+  }
+
 }

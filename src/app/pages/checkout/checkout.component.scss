@@ -14,7 +14,6 @@
         .checkout-delivery-form {
           display: flex;
           flex-direction: column;
-          // gap: 10px;
           width: 50%;
   
           .section {
@@ -22,9 +21,6 @@
             flex-direction: column;
             margin-bottom: 10px;
   
-            // align-items: center;
-            // gap: 10px;
-            // background-color: red;
             .section-wrapper {
               width: 100%;
               display: flex;
@@ -212,7 +208,17 @@
                 gap: 10px;
                 i{
                   cursor: pointer;
-                  font-size: 20px;
+                  font-size: 18px;
+                  width: 30px;
+                  height: 30px;
+                  display: flex;
+                  align-items: center;
+                  border-radius: 50%;
+                  justify-content: center;
+                  &:hover{
+                    background-color: $nav-background;
+                    color: $black-color;
+                  }
                 }
               }
             }
@@ -235,6 +241,10 @@
             border: 1px solid $black-color;
             background-color: unset;
             color: $black-color;
+          }
+          .address-selected{
+            background-color: green;
+            color: $nav-background;
           }
         }
       }

@@ -5,6 +5,7 @@ import { CommonService } from 'src/service/common.service';
 import { allState } from 'src/utils/coupons';
 import { MessageService } from 'primeng/api';
 import { AddressService } from 'src/service/address.service';
+import { CLASS_NAME } from '@angular/flex-layout';
 
 @Component({
   selector: 'app-checkout',
@@ -21,9 +22,12 @@ export class CheckoutComponent {
   stateValue: any;
   selectDistrict: any;
   enableCheckout: boolean = false;
+  isEditMode: boolean = false;
   form: FormGroup;
   initialFormData: any;
   allAddress:any;
+  selectedAddress:any;
+  editId:any;
   isFormChanged:boolean=false;
 
   constructor(
@@ -35,14 +39,14 @@ export class CheckoutComponent {
   ) {
     this.form = this.fb.group({
       name: ['', Validators.required],
-      mobile: ['', Validators.required],
-      pincode: ['', Validators.required],
+      mobile: ['', [Validators.required, Validators.pattern('^\\d{10}$')]],
+      pincode: ['', [Validators.required, Validators.pattern('^\\d{6}$')]],
       locality: ['', Validators.required],
       address: ['', Validators.required],
       state: '',
       district: '',
       landmark: '',
-      alternatePhone: '',
+      alternatePhone: ['',Validators.pattern('^\\d{10}$')],
       addressType: 'home',
     });
 
@@ -73,57 +77,152 @@ export class CheckoutComponent {
       localStorage.setItem('formData', JSON.stringify(formData));
     });
   }
+
+  ngOnDestroy(){
+    localStorage.removeItem('enableCheckout');
+  }
+
   submitForm() {
     this.form.value.state = this.stateValue;
     this.form.value.district = this.selectDistrict;
     this.enableCheckout = true;
     localStorage.setItem('enableCheckout', JSON.stringify(this.enableCheckout));
-    // localStorage.setItem('formData', JSON.stringify(this.form.value));
-    this.isFormChanged && this.addAddressFunc(this.form.value);
+    let completeAddress = {
+      ...this.form.value,
+      id: this.editId
+    };
+    this.isFormChanged && this.addAddressFunc(completeAddress);
   }
 
   addAddressFunc(item: any) {
-    this.addressService.addAdress(item).then((result) => {
+    if(this.isEditMode){
+      this.editAddresFunc(this.editId, item)
+    }
+    else{
+      item.id = Math.random().toString(16).slice(2);
+      this.addressService.addAdress(item).then((result) => {
+        if (result) {
+          this.isFormChanged = false;
+          this.messageService.clear();
+          this.messageService.add({
+            key: 'tc',
+            severity: 'success',
+            summary: 'Added',
+            detail: 'Address saved Successfully',
+          });
+        } else {
+          this.messageService.clear();
+          this.messageService.add({
+            key: 'tc',
+            severity: 'error',
+            detail: 'Couldnt add to Wishlist',
+          });
+        }
+      });
+    }
+  }
+
+  deleteAddressFunc(id: any) {
+    this.addressService.deleteAddress(id).then((result) => {
       if (result) {
-        this.isFormChanged = false;
         this.messageService.clear();
         this.messageService.add({
           key: 'tc',
           severity: 'success',
           summary: 'Added',
-          detail: 'Address saved Successfully',
+          detail: 'Address deleted Successfully',
         });
       } else {
         this.messageService.clear();
         this.messageService.add({
           key: 'tc',
           severity: 'error',
-          detail: 'Couldnt add to Wishlist',
+          detail: 'Couldnt delete address',
         });
       }
     });
   }
+
+  editAddresFunc(id:string,item:any) {
+    this.addressService.updateAddress(id,item).then(
+      (result) => {
+        if (result) {
+          this.isStateTouched = false;
+          this.isDistrictTouched = false;
+          this.isEditMode = false;
+          this.selectDistrict = '';
+          this.stateValue = '';
+          this.form.reset(this.initialFormData);
+          this.clearForm();
+          this.messageService.clear();
+          this.messageService.add({
+            key: 'tc',
+            severity: 'success',
+            summary: 'Added',
+            detail: 'Address edited Successfully',
+          });
+        } else {
+          this.messageService.clear();
+          this.messageService.add({
+            key: 'tc',
+            severity: 'error',
+            detail: 'Couldnt edit address',
+          });
+        }
+      }
+    )
+  }
+
+  clearForm(){
+    this.isStateTouched = false;
+    this.isDistrictTouched = false;
+    this.isEditMode = false;
+    this.selectDistrict = '';
+    this.stateValue = '';
+    this.form.reset(this.initialFormData);
+  }
+
+  stopPropagation(event: Event) {
+    event.stopPropagation();
+  }
+
   handleFunc(type: string, item?: any) {
     if (type === 'state') {
       this.isStateTouched = true;
       this.isStateOpen = !this.isStateOpen;
-    } else if (type === 'district') {
+    } 
+    else if (type === 'district') {
       this.isDistrictTouched = true;
       item && (this.isDistrictOpen = !this.isDistrictOpen);
-    } else if (type === 'stateSelect') {
+    } 
+    else if (type === 'stateSelect') {
       this.selectState = item;
       this.selectDistrict = '';
       this.stateValue = this.selectState.state;
-    } else if (type === 'districtSelect') {
+    } 
+    else if (type === 'districtSelect') {
       this.selectDistrict = item;
-    } else if (type === 'saveAddress') {
-      this.enableCheckout = true;
-    } else if (type === 'cancel') {
-      this.isStateTouched = false;
-      this.isDistrictTouched = false;
-      this.selectDistrict = '';
-      this.stateValue = '';
-      this.form.reset(this.initialFormData);
+    } 
+    else if (type === 'cancel') {
+      this.clearForm();
+    }
+    else if(type==='selectAddress'){
+      this.selectedAddress = item;
+    }
+    else if(type==='editAddress'){
+      this.isEditMode = true;
+      let { state, district, id, ...rest } = item;
+      this.stateValue = state;
+      this.selectDistrict = district;
+      this.editId = id;
+      this.form.setValue({
+        state: state,
+        district: district,
+        ...rest,
+      });
+    }
+    else if(type==='deleteAddress'){
+      this.deleteAddressFunc(item.id);
     }
   }
 }

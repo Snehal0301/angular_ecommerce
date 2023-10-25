@@ -14,9 +14,12 @@
                   </div>
                 </div>
                 <div class="input-wrapper">
-                  <input required="true" class="checkout-input" type="text" placeholder="10 digit Mobile Number" formControlName="mobile">
-                  <div class="error-msg" *ngIf="form.get('mobile')!.hasError('required') && form.get('mobile')!.touched">
+                  <input required="true" class="checkout-input" type="number" placeholder="10 digit Mobile Number" formControlName="mobile">
+                  <div class="error-msg" *ngIf="(form.get('mobile')!.hasError('required')) && form.get('mobile')!.touched">
                     Please enter mobile
+                  </div>
+                  <div class="error-msg" *ngIf="(form.get('mobile')!.hasError('pattern')) && form.get('mobile')!.touched">
+                    Mobile should be 10 digit
                   </div>
                 </div>
               </div>
@@ -24,9 +27,12 @@
             <div class="section">
               <div class="section-wrapper">
                 <div class="input-wrapper">
-                  <input class="checkout-input" type="text" placeholder="Pincode" formControlName="pincode">
-                  <div class="error-msg" *ngIf="form.get('pincode')!.hasError('required') && form.get('pincode')!.touched">
+                  <input required="true" class="checkout-input" type="number" placeholder="Enter pincode" formControlName="pincode">
+                  <div class="error-msg" *ngIf="(form.get('pincode')!.hasError('required')) && form.get('pincode')!.touched">
                     Please enter pincode
+                  </div>
+                  <div class="error-msg" *ngIf="(form.get('pincode')!.hasError('pattern')) && form.get('pincode')!.touched">
+                    Pincode should be 6 digit
                   </div>
                 </div>
                 <div class="input-wrapper">
@@ -86,7 +92,7 @@
                   <input class="checkout-input" type="text" placeholder="Landmark (Optional)" formControlName="landmark">
                 </div>
                 <div class="input-wrapper">
-                  <input class="checkout-input" type="text" placeholder="Alternate Phone (Optional)" formControlName="alternatePhone">
+                  <input class="checkout-input" type="number" placeholder="Alternate Phone (Optional)" formControlName="alternatePhone">
                 </div>
               </div>
             </div>
@@ -104,19 +110,19 @@
               </div>
             </div>
             <div class="button-wrapper">
-              <button [ngClass]="{'checkout-btn':!form.invalid, 'checkout-btn-disabled':(form.invalid || stateValue==='' || selectDistrict==='' )}" [disabled]="(form.invalid || stateValue==='' || selectDistrict==='' )" type="submit" (click)="handleFunc('saveAddress')">Save and Deliver here</button>
+              <button [ngClass]="{'checkout-btn':!form.invalid, 'checkout-btn-disabled':(form.invalid || stateValue==='' || selectDistrict==='' )}" [disabled]="(form.invalid || stateValue==='' || selectDistrict==='')" type="submit">{{isEditMode ? 'Edit Address' :'Save and Deliver here'}}</button>
               <button class="checkout-clear" type="button" (click)="handleFunc('cancel')">Cancel</button>
             </div>
           </form>
           <div class="saved-address-wrapper" *ngIf="allAddress.length>0">
             <p class="saved-address-title">Saved Address</p>
             <div class="all-address">
-              <div [ngClass]="{'address-item':true, 'address-item-work':item.addressType==='work'}" *ngFor="let item of allAddress">
+              <div [ngClass]="{'address-item':true, 'address-item-work':item.addressType==='work','address-selected': item === selectedAddress}" (click)="handleFunc('selectAddress',item); stopPropagation($event)" *ngFor="let item of allAddress">
                 <div class="address-header">
                   <p class="address-home">{{item.addressType}}</p>
                   <div class="address-controls">
-                    <i class='bx bx-edit-alt'></i>
-                    <i class='bx bx-trash'></i>
+                    <i class='bx bx-edit-alt address-option' (click)="handleFunc('editAddress',item)"></i>
+                    <i class='bx bx-trash address-option' (click)="handleFunc('deleteAddress',item)"></i>
                   </div>
                 </div>
                 <div class="address-section">
@@ -132,7 +138,7 @@
                 </div>
                 <div class="address-section">
                   <p class="address-landmark" *ngIf="item.landmark"><span>Landmark:</span> {{item.landmark}}</p>
-                  <p class="address-alternate" *ngIf="item.alternate"><span>Alternate Phone:</span> {{item.alternate}}</p>
+                  <p class="address-alternate" *ngIf="item.alternatePhone"><span>Alternate Phone:</span> {{item.alternatePhone}}</p>
                 </div>
               </div>
             </div>
